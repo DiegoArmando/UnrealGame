@@ -1,0 +1,791 @@
+﻿[2015.11.07-20.15.29:109][  0]Log file open, 11/07/15 15:15:29
+[2015.11.07-20.15.29:109][  0]LogInit:Display: Running engine for game: Project3
+[2015.11.07-20.15.29:109][  0]LogInit:Display: RandInit(-370180751) SRandInit(-370180751).
+[2015.11.07-20.15.29:109][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.11.07-20.15.29:109][  0]LogStats: Stats thread started at 0.057647
+[2015.11.07-20.15.29:109][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.07-20.15.29:109][  0]LogInit: API Version: 2672455
+[2015.11.07-20.15.29:109][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.07-20.15.29:109][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.07-20.15.29:109][  0]LogInit: Build Configuration: Development
+[2015.11.07-20.15.29:109][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.07-20.15.29:109][  0]LogInit: Command line:  
+[2015.11.07-20.15.29:109][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.07-20.15.29:109][  0]LogInit: Rocket: 1
+[2015.11.07-20.15.29:121][  0]LogInit: Using libcurl 7.41.0
+[2015.11.07-20.15.29:121][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.07-20.15.29:121][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.07-20.15.29:121][  0]LogInit:  - other features:
+[2015.11.07-20.15.29:121][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.07-20.15.29:121][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.07-20.15.29:121][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.07-20.15.29:121][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.07-20.15.29:121][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.07-20.15.29:121][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.07-20.15.29:121][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.07-20.15.29:121][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.07-20.15.29:121][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.07-20.15.29:121][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.07-20.15.29:134][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.07-20.15.29:147][  0]LogInit: Object subsystem initialized
+[2015.11.07-20.15.29:149][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.07-20.15.29:149][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.07-20.15.29:162][  0]LogInit: Computer: ARBERJ-PC
+[2015.11.07-20.15.29:162][  0]LogInit: User: arberj
+[2015.11.07-20.15.29:162][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.11.07-20.15.29:162][  0]LogInit: High frequency timer resolution =2.825712 MHz
+[2015.11.07-20.15.29:163][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2015.11.07-20.15.29:163][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.07-20.15.29:163][  0]LogMemory: Process Physical Memory: 53.96 MB used, 53.96 MB peak
+[2015.11.07-20.15.29:163][  0]LogMemory: Process Virtual Memory: 58.55 MB used, 58.55 MB peak
+[2015.11.07-20.15.29:163][  0]LogMemory: Physical Memory: 5321.16 MB used, 7888.80 MB total
+[2015.11.07-20.15.29:163][  0]LogMemory: Virtual Memory: 335.94 MB used, 8388608.00 MB total
+[2015.11.07-20.15.29:207][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.07-20.15.30:202][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.11.07-20.15.30:202][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.11.07-20.15.30:213][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA NVS 5200M (Feature Level 11_0)
+[2015.11.07-20.15.30:214][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 0 output[s]
+[2015.11.07-20.15.30:214][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.07-20.15.30:219][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.07-20.15.30:219][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2015.11.07-20.15.30:237][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.07-20.15.30:248][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/arberj/Documents/Project 3/Project3/Intermediate/Shaders/WorkingDirectory/2108/).
+[2015.11.07-20.15.30:248][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/arberj/Documents/Project 3/Project3/Intermediate/Shaders/tmp/F63D0DAD4762B14D6BE3E3BF495EB482/'.
+[2015.11.07-20.15.30:248][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.07-20.15.31:799][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.07-20.15.31:806][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.07-20.15.31:811][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.07-20.15.31:817][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.07-20.15.31:822][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.07-20.15.31:826][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.07-20.15.31:829][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.07-20.15.31:834][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.07-20.15.31:837][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.07-20.15.31:841][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.07-20.15.31:845][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.07-20.15.31:851][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.07-20.15.31:852][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.07-20.15.31:868][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.07-20.15.31:872][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.07-20.15.31:875][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.07-20.15.31:879][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.07-20.15.31:879][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.07-20.15.31:993][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.07-20.15.32:044][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/arberj/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.07-20.15.32:044][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/arberj/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.07-20.15.32:044][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/arberj/Documents/Project 3/Project3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.07-20.15.32:044][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.07-20.15.32:045][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/arberj/Documents/Project 3/Project3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.07-20.15.32:045][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.07-20.15.32:225][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.07-20.15.32:236][  0]LogDerivedDataCache: Using Local data cache path C:/Users/arberj/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.07-20.15.32:483][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.07-20.15.32:484][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.07-20.15.32:512][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.07-20.15.32:512][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.07-20.15.32:940][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.07-20.15.33:824][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.07-20.15.33:916][  0]LogAssetRegistry: FAssetRegistry took 0.0100 seconds to start up
+[2015.11.07-20.15.34:164][  0]SourceControl: Info Source control is disabled
+[2015.11.07-20.15.34:182][  0]SourceControl: Info Source control is disabled
+[2015.11.07-20.15.34:195][  0]SourceControl: Info Source control is disabled
+[2015.11.07-20.15.34:208][  0]SourceControl: Info Source control is disabled
+[2015.11.07-20.15.34:408][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.07-20.15.34:524][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.11.07-20.15.34:524][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.11.07-20.15.34:602][  0]LogEngine: Initializing Engine...
+[2015.11.07-20.15.34:605][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.07-20.15.34:606][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.07-20.15.34:797][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.07-20.15.34:801][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.07-20.15.34:812][  0]LogInit: FAudioDevice initialized.
+[2015.11.07-20.15.34:837][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/arberj/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.07-20.15.34:844][  0]LogInit: Texture streaming: Enabled
+[2015.11.07-20.15.34:853][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.07-20.15.34:853][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.07-20.15.34:853][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 15bf5e1443dad17f262fdca36d7425fc|df19e4b5cb6e4aa587bfa517cbe8205c|c3bf5bbd-5bb1-433f-b3a7-e6e7acfa0a68
+[2015.11.07-20.15.34:853][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.07-20.15.34:883][  0]LogInit: Transaction tracking system initialized
+[2015.11.07-20.15.34:926][  0]BlueprintLog: New page: Editor Load
+[2015.11.07-20.15.35:042][  0]LocalizationService: Info Localization service is disabled
+[2015.11.07-20.15.35:399][  0]LogConsoleResponse:Display: 
+[2015.11.07-20.15.35:575][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.07-20.15.35:728][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arberj/Documents/Project 3/Project3/Content/' took 0.02s
+[2015.11.07-20.15.35:728][  0]SourceControl: Info Source control is disabled
+[2015.11.07-20.15.35:729][  0]Cmd: MAP LOAD FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.07-20.15.35:729][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.11.07-20.15.35:729][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.07-20.15.35:795][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.97ms to complete.
+[2015.11.07-20.15.35:795][  0]LogFileHelpers: Loading map 'PuzzleExampleMap' took 0.066
+[2015.11.07-20.15.35:963][  0]LogCollectionManager: Loaded 0 collections in 0.003700 seconds
+[2015.11.07-20.15.35:988][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arberj/Documents/Project 3/Project3/Saved/Collections/' took 0.02s
+[2015.11.07-20.15.35:988][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arberj/Documents/Project 3/Project3/Content/Developers/arberj/Collections/' took 0.01s
+[2015.11.07-20.15.35:988][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arberj/Documents/Project 3/Project3/Content/Collections/' took 0.01s
+[2015.11.07-20.15.35:988][  0]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 1867 classes and 333 folders.
+[2015.11.07-20.15.35:996][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2015.11.07-20.15.36:005][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.07-20.15.36:063][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.07-20.15.36:068][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.11.07-20.15.36:148][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.07-20.15.36:153][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.07-20.15.36:179][  0]LogLoad: Full Startup: 7.77 seconds (BP compile: 0.00 seconds)
+[2015.11.07-20.15.36:241][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.11.07-20.15.36:440][  2]LogRenderer: Reallocating scene render targets to support 820x380 (Frame:2).
+[2015.11.07-20.15.36:666][  2]LogAssetRegistry: Asset discovery search completed in 2.7591 seconds
+[2015.11.07-20.15.36:666][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2015.11.07-20.15.36:666][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
+[2015.11.07-20.22.19:096][251]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.07-20.22.20:852][251]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 107 classes and 0 folders.
+[2015.11.07-20.23.28:304][726]LogLinker:Warning: Can't find file '/Game/level_1'
+[2015.11.07-20.23.28:304][726]LogLinker: Can't find file '/Game/level_1'
+[2015.11.07-20.23.28:304][726]LogProperty:Warning: ObjectProperty /Script/Engine.SimpleMemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/level_1.level_C',MemberName="ReceiveBeginPlay"))'
+[2015.11.07-20.23.28:305][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_798.EdGraphPin_26747''
+[2015.11.07-20.23.28:305][726]LogLinker: Can't find file '/Game/level_1'
+[2015.11.07-20.23.28:305][726]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/level_1.level_C',MemberName="ReceiveBeginPlay")'
+[2015.11.07-20.23.28:308][726]LogLinker: Can't find file '/Game/level_1'
+[2015.11.07-20.23.28:308][726]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/level_1.level_C',MemberName="ReceiveTick")'
+[2015.11.07-20.23.28:310][726]LogLinker: Can't find file '/Game/level_1'
+[2015.11.07-20.23.28:311][726]LogProperty:Warning: ObjectProperty /Script/Engine.SimpleMemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/level_1.level_C',MemberName="BndEvt__Sphere_Blueprint_53_K2Node_ActorBoundEvent_0_ActorBeginOverlapSignature__DelegateSignature"))'
+[2015.11.07-20.23.28:311][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2627.EdGraphPin_23479''
+[2015.11.07-20.23.28:325][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_466.EdGraphPin_28900''
+[2015.11.07-20.23.28:325][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4906.EdGraphPin_29628''
+[2015.11.07-20.23.28:326][726]LogLinker: Can't find file '/Game/level_1'
+[2015.11.07-20.23.28:326][726]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'Sphere_Blueprint_C'/Game/level_1.level_1:PersistentLevel.Sphere_Blueprint_53''
+[2015.11.07-20.23.28:327][726]LogLinker:Warning: Can't find file '/Game/Sphere_Blueprint'
+[2015.11.07-20.23.28:328][726]LogLinker: Can't find file '/Game/Sphere_Blueprint'
+[2015.11.07-20.23.28:328][726]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/Sphere_Blueprint.Sphere_Blueprint_C')'
+[2015.11.07-20.23.28:328][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1304.EdGraphPin_23485''
+[2015.11.07-20.23.28:328][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2464.EdGraphPin_23954''
+[2015.11.07-20.23.28:328][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4623.EdGraphPin_28895''
+[2015.11.07-20.23.28:329][726]LogLinker: Can't find file '/Game/level_1'
+[2015.11.07-20.23.28:330][726]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'Sphere_Blueprint_C'/Game/level_1.level_1:PersistentLevel.Sphere_Blueprint_53''
+[2015.11.07-20.23.28:332][726]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Code.K2Node_CallFunction_2551 or K2Node_CallFunction /Temp/Untitled_0.NewWorld:PersistentLevel.Untitled.EventGraph.K2Node_CallFunction_2551
+[2015.11.07-20.23.28:332][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2551.EdGraphPin_23241''
+[2015.11.07-20.23.28:332][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2804.EdGraphPin_4678''
+[2015.11.07-20.23.28:333][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_785.EdGraphPin_26579''
+[2015.11.07-20.23.28:335][726]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Code.K2Node_CallFunction_2552 or K2Node_CallFunction /Temp/Untitled_0.NewWorld:PersistentLevel.Untitled.EventGraph.K2Node_CallFunction_2552
+[2015.11.07-20.23.28:335][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2552.EdGraphPin_23246''
+[2015.11.07-20.23.28:335][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Literal_39.EdGraphPin_4456''
+[2015.11.07-20.23.28:337][726]LogLinker: Can't find file '/Game/Sphere_Blueprint'
+[2015.11.07-20.23.28:337][726]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/Sphere_Blueprint.Sphere_Blueprint_C')'
+[2015.11.07-20.23.28:337][726]LogLinker: Can't find file '/Game/level_1'
+[2015.11.07-20.23.28:337][726]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'Sphere_Blueprint_C'/Game/level_1.level_1:PersistentLevel.Sphere_Blueprint_53''
+[2015.11.07-20.23.28:339][726]LogLinker: Can't find file '/Game/level_1'
+[2015.11.07-20.23.28:339][726]LogProperty:Warning: ObjectProperty /Script/Engine.SimpleMemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/level_1.level_C',MemberName="BndEvt__Port_Blueprint_34_K2Node_ActorBoundEvent_6_ActorBeginOverlapSignature__DelegateSignature"))'
+[2015.11.07-20.23.28:339][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_466.EdGraphPin_28897''
+[2015.11.07-20.23.28:340][726]LogLinker: Can't find file '/Game/level_1'
+[2015.11.07-20.23.28:340][726]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'Port_Blueprint_C'/Game/level_1.level_1:PersistentLevel.Port_Blueprint_34''
+[2015.11.07-20.23.28:341][726]LogLinker: Can't find file '/Game/Sphere_Blueprint'
+[2015.11.07-20.23.28:341][726]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/Sphere_Blueprint.Sphere_Blueprint_C')'
+[2015.11.07-20.23.28:342][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1285.EdGraphPin_23245''
+[2015.11.07-20.23.28:342][726]LogLinker: Can't find file '/Game/level_1'
+[2015.11.07-20.23.28:342][726]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'Sphere_Blueprint_C'/Game/level_1.level_1:PersistentLevel.Sphere_Blueprint_53''
+[2015.11.07-20.23.28:343][726]LogLinker: Can't find file '/Game/Sphere_Blueprint'
+[2015.11.07-20.23.28:343][726]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/Sphere_Blueprint.Sphere_Blueprint_C')'
+[2015.11.07-20.23.28:343][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1288.EdGraphPin_23251''
+[2015.11.07-20.23.28:343][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1352.EdGraphPin_23884''
+[2015.11.07-20.23.28:344][726]LogLinker: Can't find file '/Game/level_1'
+[2015.11.07-20.23.28:344][726]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'Sphere_Blueprint_C'/Game/level_1.level_1:PersistentLevel.Sphere_Blueprint_53''
+[2015.11.07-20.23.28:346][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2464.EdGraphPin_23953''
+[2015.11.07-20.23.28:346][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1285.EdGraphPin_23244''
+[2015.11.07-20.23.28:349][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2917.EdGraphPin_24298''
+[2015.11.07-20.23.28:350][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1288.EdGraphPin_23250''
+[2015.11.07-20.23.28:353][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_648.EdGraphPin_23704''
+[2015.11.07-20.23.28:353][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1304.EdGraphPin_23484''
+[2015.11.07-20.23.28:354][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_648.EdGraphPin_23702''
+[2015.11.07-20.23.28:357][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2464.EdGraphPin_23952''
+[2015.11.07-20.23.28:359][726]LogLinker: Can't find file '/Game/level_1'
+[2015.11.07-20.23.28:359][726]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/level_1.level_C')'
+[2015.11.07-20.23.28:359][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2917.EdGraphPin_24301''
+[2015.11.07-20.23.28:361][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2917.EdGraphPin_24300''
+[2015.11.07-20.23.28:366][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4951.EdGraphPin_29752''
+[2015.11.07-20.23.28:368][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3328.EdGraphPin_25490''
+[2015.11.07-20.23.28:371][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3330.EdGraphPin_25498''
+[2015.11.07-20.23.28:372][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3328.EdGraphPin_25491''
+[2015.11.07-20.23.28:374][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3330.EdGraphPin_25497''
+[2015.11.07-20.23.28:379][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4306.EdGraphPin_28050''
+[2015.11.07-20.23.28:381][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ComponentBoundEvent_7.EdGraphPin_26582''
+[2015.11.07-20.23.28:381][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3801.EdGraphPin_26628''
+[2015.11.07-20.23.28:382][726]LogLinker: Can't find file '/Game/level_1'
+[2015.11.07-20.23.28:382][726]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/level_1.level_C')'
+[2015.11.07-20.23.28:385][726]LogLinker: Can't find file '/Game/level_1'
+[2015.11.07-20.23.28:385][726]LogProperty:Warning: ObjectProperty /Script/Engine.SimpleMemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/level_1.level_C',MemberName="BndEvt__Secs_reader_K2Node_ComponentBoundEvent_6_OnEditableTextBoxChangedEvent__DelegateSignature"))'
+[2015.11.07-20.23.28:388][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3803.EdGraphPin_26631''
+[2015.11.07-20.23.28:391][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4192.EdGraphPin_27792''
+[2015.11.07-20.23.28:393][726]LogLinker: Can't find file '/Game/level_1'
+[2015.11.07-20.23.28:393][726]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/level_1.level_C')'
+[2015.11.07-20.23.28:395][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1889.EdGraphPin_27793''
+[2015.11.07-20.23.28:396][726]LogLinker: Can't find file '/Game/level_1'
+[2015.11.07-20.23.28:396][726]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/level_1.level_C')'
+[2015.11.07-20.23.28:397][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4306.EdGraphPin_28052''
+[2015.11.07-20.23.28:397][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4307.EdGraphPin_28057''
+[2015.11.07-20.23.28:404][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_2019.EdGraphPin_28903''
+[2015.11.07-20.23.28:404][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_466.EdGraphPin_28898''
+[2015.11.07-20.23.28:407][726]LogLinker:Warning: Can't find file '/Game/Port_Blueprint'
+[2015.11.07-20.23.28:407][726]LogLinker: Can't find file '/Game/Port_Blueprint'
+[2015.11.07-20.23.28:408][726]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/Port_Blueprint.Port_Blueprint_C')'
+[2015.11.07-20.23.28:408][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_2019.EdGraphPin_28904''
+[2015.11.07-20.23.28:409][726]LogLinker: Can't find file '/Game/Port_Blueprint'
+[2015.11.07-20.23.28:409][726]LogProperty:Warning: ClassProperty /Script/BlueprintGraph.K2Node_DynamicCast:TargetType: unresolved reference to 'BlueprintGeneratedClass'/Game/Port_Blueprint.Port_Blueprint_C''
+[2015.11.07-20.23.28:412][726]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4951.EdGraphPin_29753''
+[2015.11.07-20.23.28:422][726]LogBlueprint:Warning: [Untitled] CreatePinForVariable: 'speed' variable not found. Base class was probably changed.
+[2015.11.07-20.23.28:422][726]LogBlueprint:Warning: [Untitled] CreatePinForVariable: 'speed' variable not found. Base class was probably changed.
+[2015.11.07-20.23.28:426][726]LogBlueprint:Warning: [Untitled] CreatePinForVariable: 'Secs' variable not found. Base class was probably changed.
+[2015.11.07-20.23.28:426][726]LogBlueprint:Warning: [Untitled] CreatePinForVariable: 'Secs' variable not found. Base class was probably changed.
+[2015.11.07-20.23.28:428][726]LogBlueprint:Warning: [Untitled] CreatePinForVariable: 'Secs' variable not found. Base class was probably changed.
+[2015.11.07-20.23.28:428][726]LogBlueprint:Warning: [Untitled] CreatePinForVariable: 'Secs' variable not found. Base class was probably changed.
+[2015.11.07-20.23.28:429][726]LogBlueprint:Warning: [Untitled] CreatePinForVariable: 'Secs_reader' variable not found. Base class was probably changed.
+[2015.11.07-20.23.50:723][531]LogEditorTransaction: Undo Delete current selection
+[2015.11.07-20.24.44:908][537]BlueprintLog: New page: Compile Untitled
+[2015.11.07-20.24.44:953][537]LogBlueprint:Warning: [compiler Untitled] Warning Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.11.07-20.24.44:953][537]LogBlueprint:Warning: [compiler Untitled] Warning Could not find a variable named "Secs_reader" in 'Untitled_C'.
+Make sure 'Untitled_C' has been compiled for  Get Secs_reader 
+[2015.11.07-20.24.44:953][537]LogBlueprint:Warning: [compiler Untitled] Warning Could not find a variable named "Secs" in 'Untitled_C'.
+Make sure 'Untitled_C' has been compiled for  Set Secs 
+[2015.11.07-20.24.44:954][537]LogBlueprint:Warning: [compiler Untitled] Warning Could not find a variable named "Secs" in 'Untitled_C'.
+Make sure 'Untitled_C' has been compiled for  Set Secs 
+[2015.11.07-20.24.44:954][537]LogBlueprint:Warning: [compiler Untitled] Warning InputAction Event references unknown Action 'Time' for  InputAction Time 
+[2015.11.07-20.24.44:955][537]LogBlueprint:Warning: [compiler Untitled] Warning InputAction Event references unknown Action 'Reset' for  InputAction Reset 
+[2015.11.07-20.24.44:955][537]LogBlueprint:Warning: [compiler Untitled] Warning Could not find a variable named "speed" in 'Untitled_C'.
+Make sure 'Untitled_C' has been compiled for  Set speed 
+[2015.11.07-20.24.44:956][537]LogBlueprint:Warning: [compiler Untitled] Warning Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.11.07-20.24.44:960][537]LogBlueprint:Error: [compiler Untitled] Error This blueprint (self) is not a StaticMeshActor, therefore ' Target ' must have a connection.
+[2015.11.07-20.24.44:962][537]LogBlueprint:Error: [compiler Untitled] Error Dependency cycle detected, preventing node  Set Physics Linear Velocity  from being scheduled
+[2015.11.07-20.24.44:962][537]LogBlueprint:Error: [compiler Untitled] Error Dependency cycle detected, preventing node  Delay  from being scheduled
+[2015.11.07-20.24.44:962][537]LogBlueprint:Warning: [compiler Untitled] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.24.44:962][537]LogBlueprint:Warning: [compiler Untitled] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.24.44:962][537]LogBlueprint:Error: [compiler Untitled] Error The property associated with  Speed  could not be found
+[2015.11.07-20.24.44:962][537]LogBlueprint:Warning: [compiler Untitled] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.24.44:963][537]LogBlueprint:Warning: [compiler Untitled] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.24.44:963][537]LogBlueprint:Error: [compiler Untitled] Error The property associated with  Secs  could not be found
+[2015.11.07-20.24.44:963][537]LogBlueprint:Error: [compiler Untitled] Error The property associated with  Secs Reader  could not be found
+[2015.11.07-20.24.44:963][537]LogBlueprint:Error: [compiler Untitled] Error Variable node  Get StaticMeshComponent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2015.11.07-20.24.44:964][537]LogBlueprint:Error: [compiler Untitled] Error The property associated with  Secs  could not be found
+[2015.11.07-20.24.45:240][537]LogBlueprint:Warning: [compiler Untitled] Warning [0556.81] Compile of Untitled failed. 8 Fatal Issue(s) 12 Warning(s) [in 332 ms]
+[2015.11.07-20.24.45:240][537]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.11.07-20.24.45:241][537]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Secs_reader" in 'Untitled_C'.
+Make sure 'Untitled_C' has been compiled for  Get Secs_reader 
+[2015.11.07-20.24.45:241][537]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Secs" in 'Untitled_C'.
+Make sure 'Untitled_C' has been compiled for  Set Secs 
+[2015.11.07-20.24.45:241][537]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Secs" in 'Untitled_C'.
+Make sure 'Untitled_C' has been compiled for  Set Secs 
+[2015.11.07-20.24.45:241][537]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Time' for  InputAction Time 
+[2015.11.07-20.24.45:241][537]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Reset' for  InputAction Reset 
+[2015.11.07-20.24.45:241][537]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "speed" in 'Untitled_C'.
+Make sure 'Untitled_C' has been compiled for  Set speed 
+[2015.11.07-20.24.45:241][537]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.11.07-20.24.45:241][537]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a StaticMeshActor, therefore ' Target ' must have a connection.
+[2015.11.07-20.24.45:241][537]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Set Physics Linear Velocity  from being scheduled
+[2015.11.07-20.24.45:241][537]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Delay  from being scheduled
+[2015.11.07-20.24.45:241][537]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.24.45:241][537]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.24.45:241][537]BlueprintEditorCompileResults:Error: Error The property associated with  Speed  could not be found
+[2015.11.07-20.24.45:241][537]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.24.45:241][537]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.24.45:241][537]BlueprintEditorCompileResults:Error: Error The property associated with  Secs  could not be found
+[2015.11.07-20.24.45:241][537]BlueprintEditorCompileResults:Error: Error The property associated with  Secs Reader  could not be found
+[2015.11.07-20.24.45:242][537]BlueprintEditorCompileResults:Error: Error Variable node  Get StaticMeshComponent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2015.11.07-20.24.45:242][537]BlueprintEditorCompileResults:Error: Error The property associated with  Secs  could not be found
+[2015.11.07-20.24.45:242][537]BlueprintEditorCompileResults:Warning: Warning [0556.81] Compile of Untitled failed. 8 Fatal Issue(s) 12 Warning(s) [in 332 ms]
+[2015.11.07-20.25.01:625][597]LogBlueprint:Warning: [compiler portal] Warning Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.11.07-20.25.01:625][597]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "Secs_reader" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Get Secs_reader 
+[2015.11.07-20.25.01:625][597]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "Secs" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set Secs 
+[2015.11.07-20.25.01:626][597]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "Secs" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set Secs 
+[2015.11.07-20.25.01:626][597]LogBlueprint:Warning: [compiler portal] Warning InputAction Event references unknown Action 'Time' for  InputAction Time 
+[2015.11.07-20.25.01:627][597]LogBlueprint:Warning: [compiler portal] Warning InputAction Event references unknown Action 'Reset' for  InputAction Reset 
+[2015.11.07-20.25.01:627][597]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "speed" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set speed 
+[2015.11.07-20.25.01:628][597]LogBlueprint:Warning: [compiler portal] Warning Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.11.07-20.25.01:631][597]LogBlueprint:Error: [compiler portal] Error This blueprint (self) is not a StaticMeshActor, therefore ' Target ' must have a connection.
+[2015.11.07-20.25.01:633][597]LogBlueprint:Error: [compiler portal] Error Dependency cycle detected, preventing node  Set Physics Linear Velocity  from being scheduled
+[2015.11.07-20.25.01:633][597]LogBlueprint:Error: [compiler portal] Error Dependency cycle detected, preventing node  Delay  from being scheduled
+[2015.11.07-20.25.01:633][597]LogBlueprint:Warning: [compiler portal] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.25.01:633][597]LogBlueprint:Warning: [compiler portal] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.25.01:634][597]LogBlueprint:Error: [compiler portal] Error The property associated with  Speed  could not be found
+[2015.11.07-20.25.01:634][597]LogBlueprint:Warning: [compiler portal] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.25.01:634][597]LogBlueprint:Warning: [compiler portal] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.25.01:634][597]LogBlueprint:Error: [compiler portal] Error The property associated with  Secs  could not be found
+[2015.11.07-20.25.01:635][597]LogBlueprint:Error: [compiler portal] Error The property associated with  Secs Reader  could not be found
+[2015.11.07-20.25.01:635][597]LogBlueprint:Error: [compiler portal] Error Variable node  Get StaticMeshComponent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2015.11.07-20.25.01:635][597]LogBlueprint:Error: [compiler portal] Error The property associated with  Secs  could not be found
+[2015.11.07-20.25.01:833][597]LogBlueprint:Warning: [compiler portal] Warning [0573.40] Compile of portal failed. 8 Fatal Issue(s) 12 Warning(s) [in 238 ms]
+[2015.11.07-20.25.01:834][597]LogBlueprint:Warning: [compiler portal] Warning [0573.40] Compile of portal failed. 8 Fatal Issue(s) 13 Warning(s) [in 0 ms]
+[2015.11.07-20.25.01:834][597]LogBlueprint:Warning: [compiler portal] Warning [0573.40] Compile of portal failed. 8 Fatal Issue(s) 14 Warning(s) [in 0 ms]
+[2015.11.07-20.25.01:834][597]LogBlueprint:Warning: [compiler portal] Warning [0573.40] Compile of portal failed. 8 Fatal Issue(s) 15 Warning(s) [in 0 ms]
+[2015.11.07-20.25.01:900][597]LogBlueprint:Warning: [compiler portal] Warning [0573.47] Compile of portal failed. 8 Fatal Issue(s) 16 Warning(s) [in 65 ms]
+[2015.11.07-20.25.01:904][597]LogBlueprint:Warning: [compiler portal] Warning [0573.47] Compile of portal failed. 8 Fatal Issue(s) 17 Warning(s) [in 4 ms]
+[2015.11.07-20.25.01:905][597]LogBlueprint:Warning: [compiler portal] Warning [0573.48] Compile of portal failed. 8 Fatal Issue(s) 18 Warning(s) [in 0 ms]
+[2015.11.07-20.25.01:921][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/portal" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Maps/portal.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.07-20.25.02:039][597]LogBlueprint:Warning: [compiler portal] Warning Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.11.07-20.25.02:039][597]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "Secs_reader" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Get Secs_reader 
+[2015.11.07-20.25.02:039][597]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "Secs" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set Secs 
+[2015.11.07-20.25.02:041][597]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "Secs" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set Secs 
+[2015.11.07-20.25.02:041][597]LogBlueprint:Warning: [compiler portal] Warning InputAction Event references unknown Action 'Time' for  InputAction Time 
+[2015.11.07-20.25.02:041][597]LogBlueprint:Warning: [compiler portal] Warning InputAction Event references unknown Action 'Reset' for  InputAction Reset 
+[2015.11.07-20.25.02:041][597]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "speed" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set speed 
+[2015.11.07-20.25.02:043][597]LogBlueprint:Warning: [compiler portal] Warning Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.11.07-20.25.02:047][597]LogBlueprint:Error: [compiler portal] Error This blueprint (self) is not a StaticMeshActor, therefore ' Target ' must have a connection.
+[2015.11.07-20.25.02:050][597]LogBlueprint:Error: [compiler portal] Error Dependency cycle detected, preventing node  Set Physics Linear Velocity  from being scheduled
+[2015.11.07-20.25.02:050][597]LogBlueprint:Error: [compiler portal] Error Dependency cycle detected, preventing node  Delay  from being scheduled
+[2015.11.07-20.25.02:050][597]LogBlueprint:Warning: [compiler portal] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.25.02:051][597]LogBlueprint:Warning: [compiler portal] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.25.02:051][597]LogBlueprint:Error: [compiler portal] Error The property associated with  Speed  could not be found
+[2015.11.07-20.25.02:052][597]LogBlueprint:Warning: [compiler portal] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.25.02:052][597]LogBlueprint:Warning: [compiler portal] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.25.02:053][597]LogBlueprint:Error: [compiler portal] Error The property associated with  Secs  could not be found
+[2015.11.07-20.25.02:053][597]LogBlueprint:Error: [compiler portal] Error The property associated with  Secs Reader  could not be found
+[2015.11.07-20.25.02:053][597]LogBlueprint:Error: [compiler portal] Error Variable node  Get StaticMeshComponent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2015.11.07-20.25.02:054][597]LogBlueprint:Error: [compiler portal] Error The property associated with  Secs  could not be found
+[2015.11.07-20.25.02:200][597]LogBlueprint:Warning: [compiler portal] Warning [0573.77] Compile of portal failed. 8 Fatal Issue(s) 12 Warning(s) [in 190 ms]
+[2015.11.07-20.25.02:201][597]LogBlueprint:Warning: [compiler portal] Warning [0573.77] Compile of portal failed. 8 Fatal Issue(s) 13 Warning(s) [in 0 ms]
+[2015.11.07-20.25.02:201][597]LogBlueprint:Warning: [compiler portal] Warning [0573.77] Compile of portal failed. 8 Fatal Issue(s) 14 Warning(s) [in 0 ms]
+[2015.11.07-20.25.02:201][597]LogBlueprint:Warning: [compiler portal] Warning [0573.77] Compile of portal failed. 8 Fatal Issue(s) 15 Warning(s) [in 0 ms]
+[2015.11.07-20.25.02:206][597]LogBlueprint:Warning: [compiler portal] Warning [0573.78] Compile of portal failed. 8 Fatal Issue(s) 16 Warning(s) [in 4 ms]
+[2015.11.07-20.25.02:206][597]LogBlueprint:Warning: [compiler portal] Warning [0573.78] Compile of portal failed. 8 Fatal Issue(s) 17 Warning(s) [in 0 ms]
+[2015.11.07-20.25.02:360][597]LogSavePackage: Save=371.891754ms
+[2015.11.07-20.25.02:360][597]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/portalD0881D9B40DA12E3E19D9392A46085D6.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Maps/portal.umap'
+[2015.11.07-20.25.02:366][597]LogSavePackage: Total save time: 378.775332ms
+[2015.11.07-20.25.02:366][597]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Maps/portal.umap
+[2015.11.07-20.25.02:426][597]LogFileHelpers: Saving map 'portal' took 1.374
+[2015.11.07-20.25.08:746][679]LogEditorViewport: Clicking Background
+[2015.11.07-20.25.21:471][142]LogActorFactory: Actor Factory created TimeSphere
+[2015.11.07-20.25.22:739][219]LogActorFactory: Actor Factory created TimeSphere
+[2015.11.07-20.25.27:535][441]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/portal.portal:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/portal.portal:PersistentLevel.portal' with GeneratedClass '/Game/Maps/portal.portal_C' with ClassGeneratedBy '/Game/Maps/portal.portal:PersistentLevel.portal'
+[2015.11.07-20.25.27:536][441]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.07-20.25.27:550][441]LogPlayLevel: [PlayLevel] Compiling portal before play...
+[2015.11.07-20.25.27:589][441]LogBlueprint:Warning: [compiler portal] Warning Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.11.07-20.25.27:589][441]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "Secs_reader" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Get Secs_reader 
+[2015.11.07-20.25.27:589][441]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "Secs" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set Secs 
+[2015.11.07-20.25.27:590][441]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "Secs" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set Secs 
+[2015.11.07-20.25.27:590][441]LogBlueprint:Warning: [compiler portal] Warning InputAction Event references unknown Action 'Time' for  InputAction Time 
+[2015.11.07-20.25.27:590][441]LogBlueprint:Warning: [compiler portal] Warning InputAction Event references unknown Action 'Reset' for  InputAction Reset 
+[2015.11.07-20.25.27:591][441]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "speed" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set speed 
+[2015.11.07-20.25.27:591][441]LogBlueprint:Warning: [compiler portal] Warning Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.11.07-20.25.27:593][441]LogBlueprint:Error: [compiler portal] Error This blueprint (self) is not a StaticMeshActor, therefore ' Target ' must have a connection.
+[2015.11.07-20.25.27:593][441]LogBlueprint:Error: [compiler portal] Error Dependency cycle detected, preventing node  Set Physics Linear Velocity  from being scheduled
+[2015.11.07-20.25.27:593][441]LogBlueprint:Error: [compiler portal] Error Dependency cycle detected, preventing node  Delay  from being scheduled
+[2015.11.07-20.25.27:593][441]LogBlueprint:Warning: [compiler portal] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.25.27:594][441]LogBlueprint:Warning: [compiler portal] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.25.27:594][441]LogBlueprint:Error: [compiler portal] Error The property associated with  Speed  could not be found
+[2015.11.07-20.25.27:594][441]LogBlueprint:Warning: [compiler portal] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.25.27:594][441]LogBlueprint:Warning: [compiler portal] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.25.27:595][441]LogBlueprint:Error: [compiler portal] Error The property associated with  Secs  could not be found
+[2015.11.07-20.25.27:595][441]LogBlueprint:Error: [compiler portal] Error The property associated with  Secs Reader  could not be found
+[2015.11.07-20.25.27:595][441]LogBlueprint:Error: [compiler portal] Error Variable node  Get StaticMeshComponent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2015.11.07-20.25.27:596][441]LogBlueprint:Error: [compiler portal] Error The property associated with  Secs  could not be found
+[2015.11.07-20.25.27:761][441]LogBlueprint:Warning: [compiler portal] Warning [0599.33] Compile of portal failed. 8 Fatal Issue(s) 12 Warning(s) [in 196 ms]
+[2015.11.07-20.25.27:761][441]LogBlueprint:Warning: [compiler portal] Warning [0599.33] Compile of portal failed. 8 Fatal Issue(s) 13 Warning(s) [in 0 ms]
+[2015.11.07-20.25.27:761][441]LogBlueprint:Warning: [compiler portal] Warning [0599.33] Compile of portal failed. 8 Fatal Issue(s) 14 Warning(s) [in 0 ms]
+[2015.11.07-20.25.27:761][441]LogBlueprint:Warning: [compiler portal] Warning [0599.33] Compile of portal failed. 8 Fatal Issue(s) 15 Warning(s) [in 0 ms]
+[2015.11.07-20.25.27:768][441]LogBlueprint:Warning: [compiler portal] Warning [0599.34] Compile of portal failed. 8 Fatal Issue(s) 16 Warning(s) [in 6 ms]
+[2015.11.07-20.25.27:768][441]LogBlueprint:Warning: [compiler portal] Warning [0599.34] Compile of portal failed. 8 Fatal Issue(s) 17 Warning(s) [in 0 ms]
+[2015.11.07-20.25.27:769][441]LogPlayLevel: PlayLevel: Blueprint regeneration took 233 ms (1 blueprints)
+[2015.11.07-20.25.27:845][441]BlueprintLog: Info Blueprint portal failed to compile
+[2015.11.07-20.25.41:298][  5]LogActorFactory: Actor Factory created Cylinder
+[2015.11.07-20.25.42:264][ 56]LogActorFactory: Actor Factory created Cylinder
+[2015.11.07-20.26.16:952][726]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/portal.portal:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/portal.portal:PersistentLevel.portal' with GeneratedClass '/Game/Maps/portal.portal_C' with ClassGeneratedBy '/Game/Maps/portal.portal:PersistentLevel.portal'
+[2015.11.07-20.26.16:952][726]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.07-20.26.16:959][726]LogPlayLevel: [PlayLevel] Compiling portal before play...
+[2015.11.07-20.26.16:999][726]LogBlueprint:Warning: [compiler portal] Warning Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.11.07-20.26.16:999][726]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "Secs_reader" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Get Secs_reader 
+[2015.11.07-20.26.16:999][726]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "Secs" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set Secs 
+[2015.11.07-20.26.17:000][726]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "Secs" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set Secs 
+[2015.11.07-20.26.17:000][726]LogBlueprint:Warning: [compiler portal] Warning InputAction Event references unknown Action 'Time' for  InputAction Time 
+[2015.11.07-20.26.17:000][726]LogBlueprint:Warning: [compiler portal] Warning InputAction Event references unknown Action 'Reset' for  InputAction Reset 
+[2015.11.07-20.26.17:000][726]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "speed" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set speed 
+[2015.11.07-20.26.17:001][726]LogBlueprint:Warning: [compiler portal] Warning Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.11.07-20.26.17:002][726]LogBlueprint:Error: [compiler portal] Error This blueprint (self) is not a StaticMeshActor, therefore ' Target ' must have a connection.
+[2015.11.07-20.26.17:003][726]LogBlueprint:Error: [compiler portal] Error Dependency cycle detected, preventing node  Set Physics Linear Velocity  from being scheduled
+[2015.11.07-20.26.17:003][726]LogBlueprint:Error: [compiler portal] Error Dependency cycle detected, preventing node  Delay  from being scheduled
+[2015.11.07-20.26.17:003][726]LogBlueprint:Warning: [compiler portal] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.26.17:004][726]LogBlueprint:Warning: [compiler portal] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.26.17:004][726]LogBlueprint:Error: [compiler portal] Error The property associated with  Speed  could not be found
+[2015.11.07-20.26.17:004][726]LogBlueprint:Warning: [compiler portal] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.26.17:004][726]LogBlueprint:Warning: [compiler portal] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.26.17:005][726]LogBlueprint:Error: [compiler portal] Error The property associated with  Secs  could not be found
+[2015.11.07-20.26.17:005][726]LogBlueprint:Error: [compiler portal] Error The property associated with  Secs Reader  could not be found
+[2015.11.07-20.26.17:005][726]LogBlueprint:Error: [compiler portal] Error Variable node  Get StaticMeshComponent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2015.11.07-20.26.17:006][726]LogBlueprint:Error: [compiler portal] Error The property associated with  Secs  could not be found
+[2015.11.07-20.26.17:179][726]LogBlueprint:Warning: [compiler portal] Warning [0648.75] Compile of portal failed. 8 Fatal Issue(s) 12 Warning(s) [in 205 ms]
+[2015.11.07-20.26.17:179][726]LogBlueprint:Warning: [compiler portal] Warning [0648.75] Compile of portal failed. 8 Fatal Issue(s) 13 Warning(s) [in 0 ms]
+[2015.11.07-20.26.17:179][726]LogBlueprint:Warning: [compiler portal] Warning [0648.75] Compile of portal failed. 8 Fatal Issue(s) 14 Warning(s) [in 0 ms]
+[2015.11.07-20.26.17:180][726]LogBlueprint:Warning: [compiler portal] Warning [0648.75] Compile of portal failed. 8 Fatal Issue(s) 15 Warning(s) [in 0 ms]
+[2015.11.07-20.26.17:187][726]LogBlueprint:Warning: [compiler portal] Warning [0648.75] Compile of portal failed. 8 Fatal Issue(s) 16 Warning(s) [in 6 ms]
+[2015.11.07-20.26.17:187][726]LogBlueprint:Warning: [compiler portal] Warning [0648.75] Compile of portal failed. 8 Fatal Issue(s) 17 Warning(s) [in 0 ms]
+[2015.11.07-20.26.17:187][726]LogPlayLevel: PlayLevel: Blueprint regeneration took 235 ms (1 blueprints)
+[2015.11.07-20.26.17:268][726]BlueprintLog: Info Blueprint portal failed to compile
+[2015.11.07-20.26.41:598][692]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/Maps/portal.portal:PersistentLevel.Cylinder_7.StaticMeshComponent0 Cylinder'.
+[2015.11.07-20.26.41:598][692]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/Maps/portal.portal:PersistentLevel.Cylinder_7.StaticMeshComponent0 Cylinder'.
+[2015.11.07-20.26.41:598][692]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/Maps/portal.portal:PersistentLevel.Cylinder_7.StaticMeshComponent0 Cylinder'.
+[2015.11.07-20.26.41:598][692]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/Maps/portal.portal:PersistentLevel.Cylinder_7.StaticMeshComponent0 Cylinder'.
+[2015.11.07-20.26.41:598][692]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/Maps/portal.portal:PersistentLevel.Cylinder_7.StaticMeshComponent0 Cylinder'.
+[2015.11.07-20.26.43:304][781]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/Maps/portal.portal:PersistentLevel.Cylinder_7.StaticMeshComponent0 Cylinder'.
+[2015.11.07-20.26.43:305][781]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/Maps/portal.portal:PersistentLevel.Cylinder_7.StaticMeshComponent0 Cylinder'.
+[2015.11.07-20.26.43:305][781]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/Maps/portal.portal:PersistentLevel.Cylinder_7.StaticMeshComponent0 Cylinder'.
+[2015.11.07-20.26.43:305][781]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/Maps/portal.portal:PersistentLevel.Cylinder_7.StaticMeshComponent0 Cylinder'.
+[2015.11.07-20.26.43:305][781]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/Maps/portal.portal:PersistentLevel.Cylinder_7.StaticMeshComponent0 Cylinder'.
+[2015.11.07-20.26.44:034][821]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/Maps/portal.portal:PersistentLevel.Cylinder_7.StaticMeshComponent0 Cylinder'.
+[2015.11.07-20.26.44:034][821]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/Maps/portal.portal:PersistentLevel.Cylinder_7.StaticMeshComponent0 Cylinder'.
+[2015.11.07-20.26.44:034][821]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/Maps/portal.portal:PersistentLevel.Cylinder_7.StaticMeshComponent0 Cylinder'.
+[2015.11.07-20.26.44:034][821]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/Maps/portal.portal:PersistentLevel.Cylinder_7.StaticMeshComponent0 Cylinder'.
+[2015.11.07-20.26.44:035][821]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/Maps/portal.portal:PersistentLevel.Cylinder_7.StaticMeshComponent0 Cylinder'.
+[2015.11.07-20.26.44:665][856]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/Maps/portal.portal:PersistentLevel.Cylinder_7.StaticMeshComponent0 Cylinder'.
+[2015.11.07-20.26.44:666][856]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/Maps/portal.portal:PersistentLevel.Cylinder_7.StaticMeshComponent0 Cylinder'.
+[2015.11.07-20.26.44:666][856]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/Maps/portal.portal:PersistentLevel.Cylinder_7.StaticMeshComponent0 Cylinder'.
+[2015.11.07-20.26.44:666][856]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/Maps/portal.portal:PersistentLevel.Cylinder_7.StaticMeshComponent0 Cylinder'.
+[2015.11.07-20.26.44:666][856]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/Maps/portal.portal:PersistentLevel.Cylinder_7.StaticMeshComponent0 Cylinder'.
+[2015.11.07-20.26.53:037][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/portal" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Maps/portal.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.07-20.26.53:187][281]LogBlueprint:Warning: [compiler portal] Warning Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.11.07-20.26.53:187][281]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "Secs_reader" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Get Secs_reader 
+[2015.11.07-20.26.53:187][281]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "Secs" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set Secs 
+[2015.11.07-20.26.53:188][281]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "Secs" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set Secs 
+[2015.11.07-20.26.53:188][281]LogBlueprint:Warning: [compiler portal] Warning InputAction Event references unknown Action 'Time' for  InputAction Time 
+[2015.11.07-20.26.53:188][281]LogBlueprint:Warning: [compiler portal] Warning InputAction Event references unknown Action 'Reset' for  InputAction Reset 
+[2015.11.07-20.26.53:189][281]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "speed" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set speed 
+[2015.11.07-20.26.53:189][281]LogBlueprint:Warning: [compiler portal] Warning Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.11.07-20.26.53:190][281]LogBlueprint:Error: [compiler portal] Error This blueprint (self) is not a StaticMeshActor, therefore ' Target ' must have a connection.
+[2015.11.07-20.26.53:191][281]LogBlueprint:Error: [compiler portal] Error Dependency cycle detected, preventing node  Set Physics Linear Velocity  from being scheduled
+[2015.11.07-20.26.53:191][281]LogBlueprint:Error: [compiler portal] Error Dependency cycle detected, preventing node  Delay  from being scheduled
+[2015.11.07-20.26.53:191][281]LogBlueprint:Warning: [compiler portal] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.26.53:191][281]LogBlueprint:Warning: [compiler portal] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.26.53:192][281]LogBlueprint:Error: [compiler portal] Error The property associated with  Speed  could not be found
+[2015.11.07-20.26.53:192][281]LogBlueprint:Warning: [compiler portal] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.26.53:192][281]LogBlueprint:Warning: [compiler portal] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.07-20.26.53:192][281]LogBlueprint:Error: [compiler portal] Error The property associated with  Secs  could not be found
+[2015.11.07-20.26.53:193][281]LogBlueprint:Error: [compiler portal] Error The property associated with  Secs Reader  could not be found
+[2015.11.07-20.26.53:193][281]LogBlueprint:Error: [compiler portal] Error Variable node  Get StaticMeshComponent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2015.11.07-20.26.53:193][281]LogBlueprint:Error: [compiler portal] Error The property associated with  Secs  could not be found
+[2015.11.07-20.26.53:355][281]LogBlueprint:Warning: [compiler portal] Warning [0684.92] Compile of portal failed. 8 Fatal Issue(s) 12 Warning(s) [in 194 ms]
+[2015.11.07-20.26.53:356][281]LogBlueprint:Warning: [compiler portal] Warning [0684.92] Compile of portal failed. 8 Fatal Issue(s) 13 Warning(s) [in 0 ms]
+[2015.11.07-20.26.53:356][281]LogBlueprint:Warning: [compiler portal] Warning [0684.92] Compile of portal failed. 8 Fatal Issue(s) 14 Warning(s) [in 0 ms]
+[2015.11.07-20.26.53:356][281]LogBlueprint:Warning: [compiler portal] Warning [0684.92] Compile of portal failed. 8 Fatal Issue(s) 15 Warning(s) [in 0 ms]
+[2015.11.07-20.26.53:361][281]LogBlueprint:Warning: [compiler portal] Warning [0684.93] Compile of portal failed. 8 Fatal Issue(s) 16 Warning(s) [in 4 ms]
+[2015.11.07-20.26.53:361][281]LogBlueprint:Warning: [compiler portal] Warning [0684.93] Compile of portal failed. 8 Fatal Issue(s) 17 Warning(s) [in 0 ms]
+[2015.11.07-20.26.53:504][281]LogSavePackage: Save=365.700409ms
+[2015.11.07-20.26.53:504][281]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/portal2D2535854E3EFC7E43225680B2E4FC32.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Maps/portal.umap'
+[2015.11.07-20.26.53:508][281]LogSavePackage: Total save time: 384.799652ms
+[2015.11.07-20.26.53:508][281]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Maps/portal.umap
+[2015.11.07-20.28.09:631][942]BlueprintLog: New page: Compile portal
+[2015.11.07-20.28.09:669][942]LogBlueprint:Warning: [compiler portal] Warning Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.11.07-20.28.09:669][942]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "Secs_reader" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Get Secs_reader 
+[2015.11.07-20.28.09:670][942]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "Secs" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set Secs 
+[2015.11.07-20.28.09:670][942]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "Secs" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set Secs 
+[2015.11.07-20.28.09:670][942]LogBlueprint:Warning: [compiler portal] Warning InputAction Event references unknown Action 'Time' for  InputAction Time 
+[2015.11.07-20.28.09:671][942]LogBlueprint:Warning: [compiler portal] Warning InputAction Event references unknown Action 'Reset' for  InputAction Reset 
+[2015.11.07-20.28.09:671][942]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "speed" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set speed 
+[2015.11.07-20.28.09:671][942]LogBlueprint:Warning: [compiler portal] Warning Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.11.07-20.28.09:672][942]LogBlueprint:Error: [compiler portal] Error This blueprint (self) is not a StaticMeshActor, therefore ' Target ' must have a connection.
+[2015.11.07-20.28.09:673][942]LogBlueprint:Error: [compiler portal] Error Dependency cycle detected, preventing node  Set Physics Linear Velocity  from being scheduled
+[2015.11.07-20.28.09:673][942]LogBlueprint:Error: [compiler portal] Error Dependency cycle detected, preventing node  Delay  from being scheduled
+[2015.11.07-20.28.09:673][942]LogBlueprint:Error: [compiler portal] Error The property associated with  Speed  could not be found
+[2015.11.07-20.28.09:674][942]LogBlueprint:Error: [compiler portal] Error The property associated with  Secs  could not be found
+[2015.11.07-20.28.09:674][942]LogBlueprint:Error: [compiler portal] Error The property associated with  Secs Reader  could not be found
+[2015.11.07-20.28.09:674][942]LogBlueprint:Error: [compiler portal] Error Variable node  Get StaticMeshComponent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2015.11.07-20.28.09:674][942]LogBlueprint:Error: [compiler portal] Error The property associated with  Secs  could not be found
+[2015.11.07-20.28.09:867][942]LogBlueprint:Warning: [compiler portal] Warning [0761.43] Compile of portal failed. 8 Fatal Issue(s) 8 Warning(s) [in 235 ms]
+[2015.11.07-20.28.09:867][942]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.11.07-20.28.09:867][942]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Secs_reader" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Get Secs_reader 
+[2015.11.07-20.28.09:867][942]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Secs" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set Secs 
+[2015.11.07-20.28.09:867][942]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Secs" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set Secs 
+[2015.11.07-20.28.09:867][942]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Time' for  InputAction Time 
+[2015.11.07-20.28.09:867][942]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Reset' for  InputAction Reset 
+[2015.11.07-20.28.09:868][942]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "speed" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set speed 
+[2015.11.07-20.28.09:868][942]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.11.07-20.28.09:868][942]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a StaticMeshActor, therefore ' Target ' must have a connection.
+[2015.11.07-20.28.09:868][942]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Set Physics Linear Velocity  from being scheduled
+[2015.11.07-20.28.09:868][942]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Delay  from being scheduled
+[2015.11.07-20.28.09:868][942]BlueprintEditorCompileResults:Error: Error The property associated with  Speed  could not be found
+[2015.11.07-20.28.09:868][942]BlueprintEditorCompileResults:Error: Error The property associated with  Secs  could not be found
+[2015.11.07-20.28.09:868][942]BlueprintEditorCompileResults:Error: Error The property associated with  Secs Reader  could not be found
+[2015.11.07-20.28.09:868][942]BlueprintEditorCompileResults:Error: Error Variable node  Get StaticMeshComponent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2015.11.07-20.28.09:868][942]BlueprintEditorCompileResults:Error: Error The property associated with  Secs  could not be found
+[2015.11.07-20.28.09:868][942]BlueprintEditorCompileResults:Warning: Warning [0761.43] Compile of portal failed. 8 Fatal Issue(s) 8 Warning(s) [in 235 ms]
+[2015.11.07-20.28.28:740][447]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.28.46:018][903]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.28.46:036][903]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.28.46:054][903]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.28.46:168][903]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.28.51:606][ 51]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.29.01:874][357]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.29.01:892][357]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.29.01:909][357]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.29.01:997][357]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.29.09:294][514]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.29.09:442][514]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.29.11:637][562]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.29.15:124][657]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.29.21:633][834]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.29.22:332][852]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.29.23:873][902]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.29.38:278][249]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.29.40:351][301]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.30.04:432][ 26]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.30.04:518][ 26]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.30.05:824][ 67]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.30.11:687][197]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.30.24:717][271]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.30.24:766][271]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.30.24:948][271]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.30.26:595][319]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'portal', cached variable property's owner is '/Game/Maps/portal.SKEL_portal_C'
+[2015.11.07-20.34.15:711][496]AssetReimport: New page: Outstanding source content changes 10:34:15 AM
+[2015.11.07-20.35.17:291][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/portal" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Maps/portal.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.07-20.35.17:405][717]LogBlueprint:Warning: [compiler portal] Warning Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.11.07-20.35.17:406][717]LogBlueprint:Warning: [compiler portal] Warning InputAction Event references unknown Action 'Time' for  InputAction Time 
+[2015.11.07-20.35.17:406][717]LogBlueprint:Warning: [compiler portal] Warning InputAction Event references unknown Action 'Reset' for  InputAction Reset 
+[2015.11.07-20.35.17:406][717]LogBlueprint:Warning: [compiler portal] Warning Could not find a variable named "speed" in 'portal_C'.
+Make sure 'portal_C' has been compiled for  Set speed 
+[2015.11.07-20.35.17:407][717]LogBlueprint:Warning: [compiler portal] Warning Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.11.07-20.35.17:407][717]LogBlueprint:Error: [compiler portal] Error This blueprint (self) is not a StaticMeshActor, therefore ' Target ' must have a connection.
+[2015.11.07-20.35.17:408][717]LogBlueprint:Error: [compiler portal] Error Dependency cycle detected, preventing node  Set Physics Linear Velocity  from being scheduled
+[2015.11.07-20.35.17:408][717]LogBlueprint:Error: [compiler portal] Error The property associated with  Speed  could not be found
+[2015.11.07-20.35.17:409][717]LogBlueprint:Error: [compiler portal] Error Variable node  Get StaticMeshComponent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2015.11.07-20.35.17:582][717]LogBlueprint:Warning: [compiler portal] Warning [1189.13] Compile of portal failed. 4 Fatal Issue(s) 5 Warning(s) [in 199 ms]
+[2015.11.07-20.35.17:583][717]LogBlueprint:Warning: [compiler portal] Warning [1189.13] Compile of portal failed. 4 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2015.11.07-20.35.17:583][717]LogBlueprint:Warning: [compiler portal] Warning [1189.13] Compile of portal failed. 4 Fatal Issue(s) 7 Warning(s) [in 0 ms]
+[2015.11.07-20.35.17:583][717]LogBlueprint:Warning: [compiler portal] Warning [1189.13] Compile of portal failed. 4 Fatal Issue(s) 8 Warning(s) [in 0 ms]
+[2015.11.07-20.35.17:589][717]LogBlueprint:Warning: [compiler portal] Warning [1189.14] Compile of portal failed. 4 Fatal Issue(s) 9 Warning(s) [in 5 ms]
+[2015.11.07-20.35.17:589][717]LogBlueprint:Warning: [compiler portal] Warning [1189.14] Compile of portal failed. 4 Fatal Issue(s) 10 Warning(s) [in 0 ms]
+[2015.11.07-20.35.17:723][717]LogSavePackage: Save=360.016510ms
+[2015.11.07-20.35.17:723][717]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/portalA159E31344DF151C51C8EB860E3163D8.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Maps/portal.umap'
+[2015.11.07-20.35.17:730][717]LogSavePackage: Total save time: 367.369708ms
+[2015.11.07-20.35.17:730][717]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Maps/portal.umap
+[2015.11.07-20.35.17:806][717]LogFileHelpers: Saving map 'portal' took 0.607
+[2015.11.07-20.35.18:385][718]Cmd: QUIT_EDITOR
+[2015.11.07-20.35.18:901][718]LogExit: Preparing to exit.
+[2015.11.07-20.35.19:694][718]LogExit: Editor shut down
+[2015.11.07-20.35.19:696][718]LogExit: Transaction tracking system shut down
+[2015.11.07-20.35.19:697][718]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023FBE160
+[2015.11.07-20.35.19:697][718]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014384AE0
+[2015.11.07-20.35.19:697][718]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000141AF380
+[2015.11.07-20.35.19:697][718]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000276D6AC0
+[2015.11.07-20.35.19:701][718]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002EDD54E0
+[2015.11.07-20.35.19:702][718]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002EDD4180
+[2015.11.07-20.35.20:105][718]LogExit: Object subsystem successfully closed.
+[2015.11.07-20.35.20:123][718]LogD3D11RHI: Shutdown
+[2015.11.07-20.35.20:123][718]LogD3D11RHI: CleanupD3DDevice
+[2015.11.07-20.35.20:265][718]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.07-20.35.20:296][718]LogModuleManager: Shutting down and abandoning module BlueprintGraph (197)
+[2015.11.07-20.35.20:297][718]LogModuleManager: Shutting down and abandoning module CrashTracker (196)
+[2015.11.07-20.35.20:297][718]LogModuleManager: Shutting down and abandoning module SceneOutliner (195)
+[2015.11.07-20.35.20:297][718]LogModuleManager: Shutting down and abandoning module SuperSearch (194)
+[2015.11.07-20.35.20:297][718]LogModuleManager: Shutting down and abandoning module WidgetCarousel (193)
+[2015.11.07-20.35.20:297][718]LogModuleManager: Shutting down and abandoning module AddContentDialog (192)
+[2015.11.07-20.35.20:298][718]LogModuleManager: Shutting down and abandoning module EditorWidgets (191)
+[2015.11.07-20.35.20:298][718]LogModuleManager: Shutting down and abandoning module CollectionManager (190)
+[2015.11.07-20.35.20:298][718]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.11.07-20.35.20:298][718]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.11.07-20.35.20:299][718]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.11.07-20.35.20:299][718]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.11.07-20.35.20:299][718]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.11.07-20.35.20:299][718]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.11.07-20.35.20:299][718]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.11.07-20.35.20:299][718]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.11.07-20.35.20:299][718]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.11.07-20.35.20:299][718]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.11.07-20.35.20:299][718]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.11.07-20.35.20:299][718]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.11.07-20.35.20:299][718]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.11.07-20.35.20:299][718]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.11.07-20.35.20:299][718]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.11.07-20.35.20:299][718]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.11.07-20.35.20:299][718]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.11.07-20.35.20:299][718]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.11.07-20.35.20:452][718]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.11.07-20.35.20:453][718]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.11.07-20.35.20:469][718]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.11.07-20.35.20:469][718]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.11.07-20.35.20:469][718]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.11.07-20.35.20:469][718]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.11.07-20.35.20:469][718]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.11.07-20.35.20:469][718]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.11.07-20.35.20:469][718]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.11.07-20.35.20:469][718]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.11.07-20.35.20:482][718]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.11.07-20.35.20:483][718]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.11.07-20.35.20:484][718]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.11.07-20.35.20:605][718]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.11.07-20.35.20:606][718]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.11.07-20.35.20:606][718]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.07-20.35.20:712][718]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.07-20.35.20:712][718]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.07-20.35.20:712][718]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.07-20.35.20:718][718]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.07-20.35.20:718][718]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.07-20.35.20:720][718]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.07-20.35.20:720][718]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.07-20.35.20:720][718]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.07-20.35.20:720][718]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.07-20.35.20:720][718]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.07-20.35.20:720][718]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.07-20.35.20:720][718]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.07-20.35.20:720][718]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.07-20.35.20:720][718]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.07-20.35.20:720][718]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.07-20.35.20:720][718]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.07-20.35.20:721][718]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.07-20.35.20:721][718]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.07-20.35.20:721][718]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.07-20.35.20:724][718]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.07-20.35.20:724][718]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.07-20.35.20:724][718]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.07-20.35.20:724][718]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.07-20.35.20:724][718]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.07-20.35.20:724][718]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.07-20.35.20:724][718]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.07-20.35.20:724][718]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.07-20.35.20:724][718]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.07-20.35.20:724][718]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.07-20.35.20:724][718]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.07-20.35.20:829][718]LogDerivedDataCache: Shutdown
+[2015.11.07-20.35.20:829][718]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.07-20.35.20:829][718]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.07-20.35.20:829][718]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.07-20.35.20:829][718]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.07-20.35.20:829][718]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.07-20.35.20:829][718]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.07-20.35.20:829][718]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.07-20.35.20:829][718]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.07-20.35.20:829][718]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.07-20.35.20:829][718]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.07-20.35.20:829][718]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.07-20.35.20:829][718]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.07-20.35.20:829][718]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.07-20.35.20:829][718]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.07-20.35.20:829][718]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.07-20.35.20:829][718]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.07-20.35.20:829][718]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.07-20.35.20:829][718]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.07-20.35.20:829][718]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.07-20.35.20:829][718]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.07-20.35.20:830][718]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.07-20.35.20:830][718]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.07-20.35.20:830][718]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.07-20.35.20:830][718]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.07-20.35.20:830][718]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.07-20.35.20:830][718]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.07-20.35.20:830][718]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.07-20.35.20:830][718]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.07-20.35.20:830][718]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.07-20.35.20:830][718]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.07-20.35.20:830][718]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.07-20.35.20:830][718]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.07-20.35.20:830][718]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.07-20.35.20:830][718]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.07-20.35.20:830][718]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.07-20.35.20:830][718]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.07-20.35.22:839][718]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.07-20.35.22:839][718]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.07-20.35.22:839][718]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.07-20.35.22:839][718]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.07-20.35.22:839][718]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.07-20.35.22:839][718]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.07-20.35.22:841][718]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.07-20.35.22:841][718]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.07-20.35.22:841][718]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.07-20.35.22:841][718]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.07-20.35.22:841][718]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.07-20.35.22:841][718]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.07-20.35.22:841][718]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.07-20.35.22:841][718]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.07-20.35.22:841][718]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.07-20.35.22:841][718]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.07-20.35.22:842][718]LogExit: Exiting.
+[2015.11.07-20.35.23:094][718]Log file closed, 11/07/15 15:35:23
