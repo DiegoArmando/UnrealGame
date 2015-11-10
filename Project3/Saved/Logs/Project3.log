@@ -1,339 +1,149 @@
-﻿[2015.11.10-04.16.34:009][  0]Log file open, 11/09/15 23:16:34
-[2015.11.10-04.16.34:009][  0]LogInit:Display: Running engine for game: Project3
-[2015.11.10-04.16.34:009][  0]LogInit:Display: RandInit(-332776450) SRandInit(-332776449).
-[2015.11.10-04.16.34:009][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
-[2015.11.10-04.16.34:010][  0]LogStats: Stats thread started at 0.123675
-[2015.11.10-04.16.34:010][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.11.10-04.16.34:010][  0]LogInit: API Version: 2672455
-[2015.11.10-04.16.34:010][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
-[2015.11.10-04.16.34:010][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.11.10-04.16.34:010][  0]LogInit: Build Configuration: Development
-[2015.11.10-04.16.34:010][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2015.11.10-04.16.34:010][  0]LogInit: Command line: 
-[2015.11.10-04.16.34:010][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
-[2015.11.10-04.16.34:010][  0]LogInit: Rocket: 1
-[2015.11.10-04.16.34:032][  0]LogInit: Using libcurl 7.41.0
-[2015.11.10-04.16.34:033][  0]LogInit:  - built for x86_64-pc-win32
-[2015.11.10-04.16.34:033][  0]LogInit:  - supports SSL with WinSSL
-[2015.11.10-04.16.34:033][  0]LogInit:  - other features:
-[2015.11.10-04.16.34:033][  0]LogInit:      CURL_VERSION_SSL
-[2015.11.10-04.16.34:033][  0]LogInit:      CURL_VERSION_IPV6
-[2015.11.10-04.16.34:033][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.11.10-04.16.34:033][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.11.10-04.16.34:033][  0]LogInit:      CURL_VERSION_IDN
-[2015.11.10-04.16.34:033][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.11.10-04.16.34:033][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.11.10-04.16.34:033][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.11.10-04.16.34:033][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.11.10-04.16.34:033][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.11.10-04.16.34:066][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.11.10-04.16.34:098][  0]LogInit: Object subsystem initialized
-[2015.11.10-04.16.34:109][  0]LogInit: Selected Device Profile: [Windows]
-[2015.11.10-04.16.34:109][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.11.10-04.16.34:136][  0]LogInit: Computer: ARBERJ-PC
-[2015.11.10-04.16.34:136][  0]LogInit: User: arberj
-[2015.11.10-04.16.34:136][  0]LogInit: CPU Page size=4096, Cores=2
-[2015.11.10-04.16.34:136][  0]LogInit: High frequency timer resolution =2.825703 MHz
-[2015.11.10-04.16.34:136][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
-[2015.11.10-04.16.34:136][  0]LogMemory: Platform Memory Stats for Windows
-[2015.11.10-04.16.34:136][  0]LogMemory: Process Physical Memory: 54.74 MB used, 54.74 MB peak
-[2015.11.10-04.16.34:136][  0]LogMemory: Process Virtual Memory: 58.52 MB used, 58.52 MB peak
-[2015.11.10-04.16.34:136][  0]LogMemory: Physical Memory: 5201.71 MB used, 7888.80 MB total
-[2015.11.10-04.16.34:136][  0]LogMemory: Virtual Memory: 339.72 MB used, 8388608.00 MB total
-[2015.11.10-04.16.34:216][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2015.11.10-04.16.36:270][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
-[2015.11.10-04.16.36:270][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
-[2015.11.10-04.16.36:298][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA NVS 5200M (Feature Level 11_0)
-[2015.11.10-04.16.36:298][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 0 output[s]
-[2015.11.10-04.16.36:298][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.11.10-04.16.36:313][  0]LogD3D11RHI: !Direct3DDevice
-[2015.11.10-04.16.36:313][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
-[2015.11.10-04.16.36:346][  0]LogD3D11RHI: Async texture creation enabled
-[2015.11.10-04.16.36:365][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/arberj/Documents/Project 3/Project3/Intermediate/Shaders/WorkingDirectory/3644/).
-[2015.11.10-04.16.36:365][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/arberj/Documents/Project 3/Project3/Intermediate/Shaders/tmp/5DA142E946C698048653DA95E7173AD6/'.
-[2015.11.10-04.16.36:365][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.11.10-04.16.39:239][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2015.11.10-04.16.39:248][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.11.10-04.16.39:256][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.11.10-04.16.39:265][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.11.10-04.16.39:274][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.11.10-04.16.39:280][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.11.10-04.16.39:286][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.11.10-04.16.39:291][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.11.10-04.16.39:297][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.11.10-04.16.39:303][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.11.10-04.16.39:309][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.11.10-04.16.39:316][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.11.10-04.16.39:317][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2015.11.10-04.16.39:337][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.11.10-04.16.39:342][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.11.10-04.16.39:348][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.11.10-04.16.39:354][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.11.10-04.16.39:354][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.11.10-04.16.39:496][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.11.10-04.16.41:438][  0]LogDerivedDataCache: Loaded boot cache 1.94s 41MB C:/Users/arberj/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.11.10-04.16.41:438][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/arberj/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2015.11.10-04.16.41:438][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/arberj/Documents/Project 3/Project3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.11.10-04.16.41:438][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.11.10-04.16.41:439][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/arberj/Documents/Project 3/Project3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.11.10-04.16.41:439][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.11.10-04.16.41:893][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.11.10-04.16.41:905][  0]LogDerivedDataCache: Using Local data cache path C:/Users/arberj/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.11.10-04.16.42:362][  0]LogInit: Selected Device Profile: [Windows]
-[2015.11.10-04.16.42:363][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.11.10-04.16.42:419][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.11.10-04.16.42:419][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.11.10-04.16.43:229][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.11.10-04.16.44:724][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.11.10-04.16.44:895][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
-[2015.11.10-04.16.45:411][  0]SourceControl: Info Source control is disabled
-[2015.11.10-04.16.45:572][  0]SourceControl: Info Source control is disabled
-[2015.11.10-04.16.45:595][  0]SourceControl: Info Source control is disabled
-[2015.11.10-04.16.45:624][  0]SourceControl: Info Source control is disabled
-[2015.11.10-04.16.45:959][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.10-04.16.46:160][  0]LogObj: 28361 objects as part of root set at end of initial load.
-[2015.11.10-04.16.46:160][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
-[2015.11.10-04.16.46:279][  0]LogEngine: Initializing Engine...
-[2015.11.10-04.16.46:286][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
-[2015.11.10-04.16.46:287][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2015.11.10-04.16.46:579][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.11.10-04.16.46:587][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.11.10-04.16.46:609][  0]LogInit: FAudioDevice initialized.
-[2015.11.10-04.16.46:645][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/arberj/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.11.10-04.16.46:653][  0]LogInit: Texture streaming: Enabled
-[2015.11.10-04.16.46:664][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.11.10-04.16.46:664][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.11.10-04.16.46:664][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 15bf5e1443dad17f262fdca36d7425fc|df19e4b5cb6e4aa587bfa517cbe8205c|c3bf5bbd-5bb1-433f-b3a7-e6e7acfa0a68
-[2015.11.10-04.16.46:664][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.11.10-04.16.46:742][  0]LogInit: Transaction tracking system initialized
-[2015.11.10-04.16.46:802][  0]BlueprintLog: New page: Editor Load
-[2015.11.10-04.16.46:963][  0]LocalizationService: Info Localization service is disabled
-[2015.11.10-04.16.47:502][  0]LogConsoleResponse:Display: 
-[2015.11.10-04.16.47:788][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.11.10-04.16.47:896][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arberj/Documents/Project 3/Project3/Content/' took 0.01s
-[2015.11.10-04.16.47:896][  0]SourceControl: Info Source control is disabled
-[2015.11.10-04.16.47:896][  0]Cmd: MAP LOAD FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.11.10-04.16.47:897][  0]LightingResults: New page: Lighting Build
-[2015.11.10-04.16.47:902][  0]MapCheck: New page: Map Check
-[2015.11.10-04.16.47:902][  0]LightingResults: New page: Lighting Build
-[2015.11.10-04.16.47:932][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023FEA160
-[2015.11.10-04.16.48:696][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
-[2015.11.10-04.16.48:703][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0016.16] Compile of PuzzleBlockGrid successful, but with 1 Warning(s) [in 20 ms]
-[2015.11.10-04.16.48:704][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0016.16] Compile of PuzzleBlockGrid successful, but with 2 Warning(s) [in 0 ms]
-[2015.11.10-04.16.48:704][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0016.16] Compile of PuzzleBlockGrid successful, but with 3 Warning(s) [in 0 ms]
-[2015.11.10-04.16.48:734][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
-[2015.11.10-04.16.48:740][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0016.19] Compile of PuzzleBlockGrid successful, but with 1 Warning(s) [in 18 ms]
-[2015.11.10-04.16.48:740][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0016.19] Compile of PuzzleBlockGrid successful, but with 2 Warning(s) [in 0 ms]
-[2015.11.10-04.16.48:740][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0016.19] Compile of PuzzleBlockGrid successful, but with 3 Warning(s) [in 0 ms]
-[2015.11.10-04.16.49:551][  0]LogAIModule: Creating AISystem for world PuzzleExampleMap
-[2015.11.10-04.16.49:562][  0]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
-[2015.11.10-04.16.49:562][  0]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
-[2015.11.10-04.16.49:562][  0]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
-[2015.11.10-04.16.49:562][  0]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
-[2015.11.10-04.16.49:563][  0]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
-[2015.11.10-04.16.49:563][  0]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
-[2015.11.10-04.16.49:564][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Spring_Edge_Blueprint_C_0.StaticMeshComponent0)
-[2015.11.10-04.16.49:568][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.11.10-04.16.49:569][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.11.10-04.16.49:667][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 97.775ms to complete.
-[2015.11.10-04.16.49:667][  0]LogFileHelpers: Loading map 'PuzzleExampleMap' took 1.770
-[2015.11.10-04.16.49:814][  0]LogCollectionManager: Loaded 0 collections in 0.004737 seconds
-[2015.11.10-04.16.49:862][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arberj/Documents/Project 3/Project3/Saved/Collections/' took 0.01s
-[2015.11.10-04.16.49:862][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arberj/Documents/Project 3/Project3/Content/Developers/arberj/Collections/' took 0.01s
-[2015.11.10-04.16.49:862][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arberj/Documents/Project 3/Project3/Content/Collections/' took 0.01s
-[2015.11.10-04.16.49:862][  0]LogContentBrowser: Native class hierarchy populated in 0.0163 seconds. Added 1867 classes and 333 folders.
-[2015.11.10-04.16.49:871][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
-[2015.11.10-04.16.49:885][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2015.11.10-04.16.49:958][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2015.11.10-04.16.49:966][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2015.11.10-04.16.50:070][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.11.10-04.16.50:077][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.11.10-04.16.50:162][  0]LogLoad: Full Startup: 17.62 seconds (BP compile: 0.47 seconds)
-[2015.11.10-04.16.50:248][  0]LogContentStreaming: Texture pool size now 400 MB
-[2015.11.10-04.16.50:432][  1]LogRenderer: Reallocating scene render targets to support 828x388 (Frame:2).
-[2015.11.10-04.16.51:376][  8]LogAssetRegistry: Asset discovery search completed in 6.4901 seconds
-[2015.11.10-04.16.51:376][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2015.11.10-04.16.51:376][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
-[2015.11.10-04.17.02:687][389]LogAIModule: Creating AISystem for world Level_1
-[2015.11.10-04.17.02:781][389]Cmd: MAP LOAD FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Blueprints/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.11.10-04.17.02:781][389]LightingResults: New page: Lighting Build
-[2015.11.10-04.17.02:831][389]LoadErrors: New page: Loading map: Level_1.umap
-[2015.11.10-04.17.02:833][389]MapCheck: New page: Map Check
-[2015.11.10-04.17.02:833][389]LightingResults: New page: Lighting Build
-[2015.11.10-04.17.02:883][389]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001488D120
-[2015.11.10-04.17.03:028][389]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.11.10-04.17.03:164][389]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.11.10-04.17.03:285][389]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 120.264ms to complete.
-[2015.11.10-04.17.03:285][389]LogFileHelpers: Loading map 'Level_1' took 0.506
-[2015.11.10-04.17.27:324][383]LightingResults: New page: Lighting Build
-[2015.11.10-04.17.27:325][383]MapCheck: New page: Map Check
-[2015.11.10-04.17.27:325][383]LightingResults: New page: Lighting Build
-[2015.11.10-04.17.27:365][383]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001488DC60
-[2015.11.10-04.17.27:369][383]LogAIModule: Creating AISystem for world NewWorld
-[2015.11.10-04.17.27:501][383]LoadErrors: New page: New Map
-[2015.11.10-04.17.27:522][383]LogAIModule: Creating AISystem for world Level_1
-[2015.11.10-04.17.31:625][491]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.10-04.17.33:201][491]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 107 classes and 0 folders.
-[2015.11.10-04.17.34:224][491]LogActor:Warning: GameNetworkManager /Engine/Transient.World_3:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.11.10-04.18.28:334][488]LogAIModule: Creating AISystem for world PuzzleExampleMap
-[2015.11.10-04.18.28:445][488]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015BD44A0
-[2015.11.10-04.18.28:447][488]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000322A4540
-[2015.11.10-04.18.28:449][488]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003213ACA0
-[2015.11.10-04.18.28:471][488]Cmd: MAP LOAD FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.11.10-04.18.28:471][488]LightingResults: New page: Lighting Build
-[2015.11.10-04.18.28:525][488]LoadErrors: New page: Loading map: PuzzleExampleMap.umap
-[2015.11.10-04.18.28:525][488]MapCheck: New page: Map Check
-[2015.11.10-04.18.28:525][488]LightingResults: New page: Lighting Build
-[2015.11.10-04.18.28:613][488]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015A95F80
-[2015.11.10-04.18.28:627][488]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
-[2015.11.10-04.18.28:627][488]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
-[2015.11.10-04.18.28:629][488]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
-[2015.11.10-04.18.28:629][488]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
-[2015.11.10-04.18.28:630][488]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
-[2015.11.10-04.18.28:630][488]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
-[2015.11.10-04.18.28:630][488]LogPrimitiveComponent: Zero scaling not supported (/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Spring_Edge_Blueprint_C_0.StaticMeshComponent0)
-[2015.11.10-04.18.28:869][488]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.11.10-04.18.28:985][488]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.11.10-04.18.29:121][488]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 135.53ms to complete.
-[2015.11.10-04.18.29:123][488]LogFileHelpers: Loading map 'PuzzleExampleMap' took 0.655
-[2015.11.10-04.19.25:525][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.11.10-04.19.25:650][757]LogSavePackage: Save=24.098074ms
-[2015.11.10-04.19.25:650][757]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Level10E1DBC2C431E05E1E97CFDBA708C792C.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Level1.umap'
-[2015.11.10-04.19.25:657][757]LogSavePackage: Total save time: 34.753121ms
-[2015.11.10-04.19.25:657][757]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Level1.umap
-[2015.11.10-04.19.25:657][757]LogFileHelpers: Saving map 'Level1' took 0.286
-[2015.11.10-04.19.25:669][757]Cmd: MAP LOAD FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.11.10-04.19.25:669][757]LightingResults: New page: Lighting Build
-[2015.11.10-04.19.25:722][757]LoadErrors: New page: Loading map: Level1.umap
-[2015.11.10-04.19.25:724][757]MapCheck: New page: Map Check
-[2015.11.10-04.19.25:724][757]LightingResults: New page: Lighting Build
-[2015.11.10-04.19.25:813][757]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A112E80
-[2015.11.10-04.19.26:059][757]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.11.10-04.19.26:060][757]LogAIModule: Creating AISystem for world Level1
-[2015.11.10-04.19.26:175][757]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.11.10-04.19.26:309][757]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 132.806ms to complete.
-[2015.11.10-04.19.26:310][757]LogFileHelpers: Loading map 'Level1' took 0.644
-[2015.11.10-04.19.47:578][342]LogAIModule: Creating AISystem for world Level2
-[2015.11.10-04.19.47:679][342]Cmd: MAP LOAD FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.11.10-04.19.47:680][342]LightingResults: New page: Lighting Build
-[2015.11.10-04.19.47:729][342]LoadErrors: New page: Loading map: Level2.umap
-[2015.11.10-04.19.47:730][342]MapCheck: New page: Map Check
-[2015.11.10-04.19.47:730][342]LightingResults: New page: Lighting Build
-[2015.11.10-04.19.47:811][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032091DA0
-[2015.11.10-04.19.48:098][342]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.11.10-04.19.48:216][342]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.11.10-04.19.48:358][342]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 141.241ms to complete.
-[2015.11.10-04.19.48:359][342]LogFileHelpers: Loading map 'Level2' took 0.683
-[2015.11.10-04.19.50:367][392]LogAIModule: Creating AISystem for world Level3
-[2015.11.10-04.19.50:479][392]Cmd: MAP LOAD FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.11.10-04.19.50:479][392]LightingResults: New page: Lighting Build
-[2015.11.10-04.19.50:535][392]LoadErrors: New page: Loading map: Level3.umap
-[2015.11.10-04.19.50:536][392]MapCheck: New page: Map Check
-[2015.11.10-04.19.50:536][392]LightingResults: New page: Lighting Build
-[2015.11.10-04.19.50:618][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032091580
-[2015.11.10-04.19.50:977][392]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.11.10-04.19.51:099][392]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.11.10-04.19.51:238][392]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 138.497ms to complete.
-[2015.11.10-04.19.51:241][392]LogFileHelpers: Loading map 'Level3' took 0.766
-[2015.11.10-04.20.26:302][ 38]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.11.10-04.20.26:359][ 38]LightingResults: New page: Lighting Build
-[2015.11.10-04.20.26:410][ 38]LoadErrors: New page: Loading map: Template_Default.umap
-[2015.11.10-04.20.26:411][ 38]MapCheck: New page: Map Check
-[2015.11.10-04.20.26:411][ 38]LightingResults: New page: Lighting Build
-[2015.11.10-04.20.26:500][ 38]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012D43060
-[2015.11.10-04.20.26:579][ 38]LogAIModule: Creating AISystem for world Untitled_2
-[2015.11.10-04.20.26:902][ 38]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.11.10-04.20.26:929][ 38]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.11.10-04.20.27:055][ 38]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 125.658ms to complete.
-[2015.11.10-04.20.27:055][ 38]LogFileHelpers: Loading map 'Template_Default' took 0.759
-[2015.11.10-04.20.35:116][317]LogAIModule: Creating AISystem for world Level3
-[2015.11.10-04.20.35:236][317]Cmd: MAP LOAD FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.11.10-04.20.35:236][317]LightingResults: New page: Lighting Build
-[2015.11.10-04.20.35:286][317]LoadErrors: New page: Loading map: Level3.umap
-[2015.11.10-04.20.35:286][317]MapCheck: New page: Map Check
-[2015.11.10-04.20.35:287][317]LightingResults: New page: Lighting Build
-[2015.11.10-04.20.35:379][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012CDCA40
-[2015.11.10-04.20.35:774][317]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.11.10-04.20.35:871][317]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.11.10-04.20.35:987][317]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 116.097ms to complete.
-[2015.11.10-04.20.35:991][317]LogFileHelpers: Loading map 'Level3' took 0.757
-[2015.11.10-04.22.25:873][562]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
-[2015.11.10-04.22.53:299][882]Cmd: TRANSACTION UNDO
-[2015.11.10-04.22.53:299][882]LogEditorTransaction: Undo Scale Actors
-[2015.11.10-04.22.53:908][901]Cmd: TRANSACTION UNDO
-[2015.11.10-04.22.53:908][901]LogEditorTransaction: Undo Scale Actors
-[2015.11.10-04.22.54:535][924]Cmd: TRANSACTION UNDO
-[2015.11.10-04.22.54:535][924]LogEditorTransaction: Undo Scale Actors
-[2015.11.10-04.22.55:149][947]Cmd: TRANSACTION UNDO
-[2015.11.10-04.22.55:149][947]LogEditorTransaction: Undo Scale Actors
-[2015.11.10-04.22.56:473][997]Cmd: TRANSACTION UNDO
-[2015.11.10-04.22.56:473][997]LogEditorTransaction: Undo Move Actors
-[2015.11.10-04.23.02:645][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.11.10-04.23.05:520][380]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
-[2015.11.10-04.23.17:113][917]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.11.10-04.23.22:630][183]Cmd: TRANSACTION UNDO
-[2015.11.10-04.23.22:630][183]LogEditorTransaction: Undo Move Actors
-[2015.11.10-04.23.28:025][424]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
-[2015.11.10-04.23.30:917][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.11.10-04.23.33:844][698]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
-[2015.11.10-04.23.35:650][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.11.10-04.23.39:519][938]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
-[2015.11.10-04.23.42:176][ 43]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.11.10-04.23.45:094][182]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
-[2015.11.10-04.23.46:688][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.11.10-04.23.55:325][667]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
-[2015.11.10-04.23.57:247][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.11.10-04.24.01:518][934]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
-[2015.11.10-04.24.03:474][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.11.10-04.24.07:650][202]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
-[2015.11.10-04.24.09:530][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.11.10-04.24.13:853][500]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
-[2015.11.10-04.24.16:239][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.11.10-04.24.21:478][843]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
-[2015.11.10-04.24.23:988][956]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.11.10-04.24.26:207][ 62]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
-[2015.11.10-04.25.35:198][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Maps/Level3" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.11.10-04.25.35:730][894]LogSavePackage: Save=382.200470ms
-[2015.11.10-04.25.35:730][894]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Level3FA5F8DAC407F2AB0724B06B9C6912149.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level3.umap'
-[2015.11.10-04.25.35:741][894]LogSavePackage: Total save time: 440.218240ms
-[2015.11.10-04.25.35:741][894]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level3.umap
-[2015.11.10-04.25.36:531][921]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
-[2015.11.10-04.25.39:956][ 72]Cmd: DELETE
-[2015.11.10-04.25.39:956][ 72]Cmd: ACTOR DELETE
-[2015.11.10-04.25.40:062][ 72]LogEditorActor: Deleted Actor: BP_Ball_C
-[2015.11.10-04.25.40:170][ 72]LogEditorActor: Deleted 1 Actors (0.114 secs)
-[2015.11.10-04.25.57:540][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2015.11.10-04.26.00:413][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.11.10-04.26.01:352][  7]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeMesh)
-[2015.11.10-04.26.15:695][715]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
-[2015.11.10-04.26.29:612][368]LogEditorViewport: Clicking on Actor (LMB): Rolling_Blueprint_C (Rolling_Blueprint)
-[2015.11.10-04.26.35:565][640]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
-[2015.11.10-04.27.08:221][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Maps/Level3" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.11.10-04.27.08:572][237]LogSavePackage: Save=259.778534ms
-[2015.11.10-04.27.08:572][237]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Level34C22664F4C19459D2A126B8A2BE90DC0.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level3.umap'
-[2015.11.10-04.27.08:577][237]LogSavePackage: Total save time: 283.204217ms
-[2015.11.10-04.27.08:577][237]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level3.umap
-[2015.11.10-04.27.20:707][590]LogAIModule: Creating AISystem for world PuzzleExampleMap
-[2015.11.10-04.27.24:868][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Maps/Level1" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.11.10-04.27.25:383][590]LogSavePackage: Save=407.351013ms
-[2015.11.10-04.27.25:383][590]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Level1DD8CB95A43515729611F06A2C8F63EFB.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level1.umap'
-[2015.11.10-04.27.25:387][590]LogSavePackage: Total save time: 414.113939ms
-[2015.11.10-04.27.25:387][590]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level1.umap
-[2015.11.10-04.27.25:388][590]LogFileHelpers: Saving map 'Level1' took 0.671
-[2015.11.10-04.27.25:391][590]Cmd: MAP LOAD FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.11.10-04.27.25:392][590]LightingResults: New page: Lighting Build
-[2015.11.10-04.27.25:434][590]LoadErrors: New page: Loading map: PuzzleExampleMap.umap
-[2015.11.10-04.27.25:458][590]MapCheck: New page: Map Check
-[2015.11.10-04.27.25:458][590]LightingResults: New page: Lighting Build
-[2015.11.10-04.27.25:539][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014BF2160
-[2015.11.10-04.27.33:129][590]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
-[2015.11.10-04.27.33:129][590]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
-[2015.11.10-04.27.33:129][590]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
-[2015.11.10-04.27.33:130][590]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
-[2015.11.10-04.27.33:130][590]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
-[2015.11.10-04.27.33:130][590]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
-[2015.11.10-04.27.33:130][590]LogPrimitiveComponent: Zero scaling not supported (/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Spring_Edge_Blueprint_C_0.StaticMeshComponent0)
-[2015.11.10-04.27.33:597][590]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.11.10-04.27.33:706][590]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.11.10-04.27.33:825][590]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 118.862ms to complete.
-[2015.11.10-04.27.33:827][590]LogFileHelp
+﻿[2015.11.10-20.47.13:467][  0]Log file open, 11/10/15 15:47:13
+[2015.11.10-20.47.13:468][  0]LogInit:Display: Running engine for game: Project3
+[2015.11.10-20.47.13:468][  0]LogInit:Display: RandInit(1987666504) SRandInit(1987666506).
+[2015.11.10-20.47.13:468][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.11.10-20.47.13:468][  0]LogStats: Stats thread started at 0.142785
+[2015.11.10-20.47.13:468][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.10-20.47.13:468][  0]LogInit: API Version: 2672455
+[2015.11.10-20.47.13:468][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.10-20.47.13:468][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.10-20.47.13:468][  0]LogInit: Build Configuration: Development
+[2015.11.10-20.47.13:468][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.10-20.47.13:468][  0]LogInit: Command line: 
+[2015.11.10-20.47.13:468][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.10-20.47.13:468][  0]LogInit: Rocket: 1
+[2015.11.10-20.47.13:501][  0]LogInit: Using libcurl 7.41.0
+[2015.11.10-20.47.13:501][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.10-20.47.13:501][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.10-20.47.13:501][  0]LogInit:  - other features:
+[2015.11.10-20.47.13:501][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.10-20.47.13:501][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.10-20.47.13:501][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.10-20.47.13:501][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.10-20.47.13:501][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.10-20.47.13:501][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.10-20.47.13:501][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.10-20.47.13:501][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.10-20.47.13:501][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.10-20.47.13:501][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.10-20.47.13:520][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.10-20.47.13:540][  0]LogInit: Object subsystem initialized
+[2015.11.10-20.47.13:543][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.10-20.47.13:543][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.10-20.47.13:571][  0]LogInit: Computer: ARBERJ-PC
+[2015.11.10-20.47.13:571][  0]LogInit: User: arberj
+[2015.11.10-20.47.13:571][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.11.10-20.47.13:571][  0]LogInit: High frequency timer resolution =2.825673 MHz
+[2015.11.10-20.47.13:571][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2015.11.10-20.47.13:571][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.10-20.47.13:571][  0]LogMemory: Process Physical Memory: 54.15 MB used, 54.15 MB peak
+[2015.11.10-20.47.13:571][  0]LogMemory: Process Virtual Memory: 58.44 MB used, 58.44 MB peak
+[2015.11.10-20.47.13:571][  0]LogMemory: Physical Memory: 4234.45 MB used, 7888.80 MB total
+[2015.11.10-20.47.13:571][  0]LogMemory: Virtual Memory: 339.72 MB used, 8388608.00 MB total
+[2015.11.10-20.47.13:636][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.10-20.47.15:503][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.11.10-20.47.15:503][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.11.10-20.47.15:529][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA NVS 5200M (Feature Level 11_0)
+[2015.11.10-20.47.15:529][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 0 output[s]
+[2015.11.10-20.47.15:529][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.10-20.47.15:542][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.10-20.47.15:542][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2015.11.10-20.47.15:575][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.10-20.47.15:594][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/arberj/Documents/Project 3/Project3/Intermediate/Shaders/WorkingDirectory/8296/).
+[2015.11.10-20.47.15:594][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/arberj/Documents/Project 3/Project3/Intermediate/Shaders/tmp/8AC911F742794611D3AA419DB6EDFFBE/'.
+[2015.11.10-20.47.15:594][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.10-20.47.18:709][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.10-20.47.18:721][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.10-20.47.18:734][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.10-20.47.18:748][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.10-20.47.18:758][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.10-20.47.18:767][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.10-20.47.18:775][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.10-20.47.18:783][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.10-20.47.18:791][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.10-20.47.18:798][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.10-20.47.18:805][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.10-20.47.18:812][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.10-20.47.18:813][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.10-20.47.18:836][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.10-20.47.18:843][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.10-20.47.18:849][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.10-20.47.18:857][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.10-20.47.18:857][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.10-20.47.19:032][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.10-20.47.19:114][  0]LogDerivedDataCache: Loaded boot cache 0.08s 41MB C:/Users/arberj/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.10-20.47.19:114][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/arberj/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.10-20.47.19:115][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/arberj/Documents/Project 3/Project3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.10-20.47.19:115][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.10-20.47.19:115][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/arberj/Documents/Project 3/Project3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.10-20.47.19:115][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.10-20.47.19:468][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.10-20.47.19:481][  0]LogDerivedDataCache: Using Local data cache path C:/Users/arberj/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.10-20.47.19:981][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.10-20.47.19:982][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.10-20.47.20:050][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.10-20.47.20:050][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.10-20.47.21:066][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.10-20.47.22:949][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.10-20.47.23:100][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2015.11.10-20.47.23:574][  0]SourceControl: Info Source control is disabled
+[2015.11.10-20.47.23:612][  0]SourceControl: Info Source control is disabled
+[2015.11.10-20.47.23:644][  0]SourceControl: Info Source control is disabled
+[2015.11.10-20.47.23:672][  0]SourceControl: Info Source control is disabled
+[2015.11.10-20.47.24:033][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.10-20.47.24:200][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.11.10-20.47.24:201][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.11.10-20.47.24:308][  0]LogEngine: Initializing Engine...
+[2015.11.10-20.47.24:312][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.10-20.47.24:313][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.10-20.47.24:573][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.10-20.47.24:581][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-20.47.24:637][  0]LogInit: FAudioDevice initialized.
+[2015.11.10-20.47.24:672][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/arberj/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.10-20.47.24:680][  0]LogInit: Texture streaming: Enabled
+[2015.11.10-20.47.24:690][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.10-20.47.24:690][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.10-20.47.24:691][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 15bf5e1443dad17f262fdca36d7425fc|df19e4b5cb6e4aa587bfa517cbe8205c|c3bf5bbd-5bb1-433f-b3a7-e6e7acfa0a68
+[2015.11.10-20.47.24:691][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.10-20.47.24:739][  0]LogInit: Transaction tracking system initialized
+[2015.11.10-20.47.24:801][  0]BlueprintLog: New page: Editor Load
+[2015.11.10-20.47.24:968][  0]LocalizationService: Info Localization service is disabled
+[2015.11.10-20.47.25:494][  0]LogConsoleResponse:Display: 
+[2015.11.10-20.47.25:750][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.10-20.47.25:852][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arberj/Documents/Project 3/Project3/Content/' took 0.01s
+[2015.11.10-20.47.25:852][  0]SourceControl: Info Source control is disabled
+[2015.11.10-20.47.44:562][  0]Cmd: MAP LOAD FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.10-20.47.44:563][  0]LightingResults: New page: Lighting Build
+[2015.11.10-20.47.44:573][  0]MapCheck: New page: Map Check
+[2015.11.10-20.47.44:573][  0]LightingResults: New page: Lighting Build
+[2015.11.10-20.47.44:621][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024B0DD00
+[2015.11.10-20.47.45:834][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2015.11.10-20.47.45:842][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0033.89] Compile of PuzzleBlockGrid successful, but with 1 Warning(s) [in 22 ms]
+[2015.11.10-20.47.45:842][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0033.89] Compile of PuzzleBlockGrid successful, but with 2 Warning(s) [in 0 ms]
+[2015.11.10-20.47.45:842][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0033.89] Compile of PuzzleBlockGrid successful, but with 3 Warning(s) [in 0 ms]
+[2015.11.10-20.47.45:874][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2015.11.10-20.47.45:881][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0033.93] Compile of PuzzleBlockGrid successful, but with 1 Warning(s) [in 21 ms]
+[2015.11.10-20.47.45:881][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0033.93] Compile of PuzzleBlockGrid successful, but with 2 Warning(s) [in 0 ms]
+[2015.11.10-20.47.45:882][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0033.93] Compile of PuzzleBlockGrid successful, but with 3 Warning(s) [in 0 ms]
+[2015.11.10-20.47.47:590][  0]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.10-20.47.47:613][  0]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-20.47.47:614][  0]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-20.47.47:615][  0]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-20.47.47:615][  0]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-20.47.47:616][  0]PIE:Warning: Warning Invalid Simulate Options: Body (Up_Tractor_Beam_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-20.47.47:616][  0]PIE:Warning: Warning Invalid Simulate Options: Body (Up_Tractor_Beam_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-20.47.47:617][  0]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-20.47.47:618][  0]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-20.47.47:618][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Spring_Edge_Blueprint_C_0.StaticMeshComponent0)
+[2015.11.10-20.47.47:627][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.10-20.47.47:629][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.10-20.47.47:767][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 138.409ms to complete.
+[2015.11.10-20.47.47:767][  0]LogFileHelpers: Loading map 'PuzzleExampleMap' took 3.205
+[2015.11.10-20.47.47:936][  0]LogCollectionManager: Loaded 0 collections in 0.005780 seconds
+[2015.11.10-20.47.47:988][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arberj/Documents/Project 3/Project3/Saved/Collections/' took 0.01s
+[2015.11.10-20.47.47:988][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arberj/Documents/Project 3/Project3/Content/Developers/arberj/Collections/' took 0.01s
+[2015.11.10-20.47.47:988][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arberj/Documents/Project 3/Project3/Content/Collections/' took 0.01s
+[2015.11.10-20.47.47:988][  0]LogContentBrowser: Native class hierarchy populated in 0.0176 seconds. Added 1867 classes and 333 folders.
+[2015.11.10-20.47.47:999][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2015.11.10-20.47.48:018][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2015.11.10-20.47.48:114][  0]LogContentBrowse
