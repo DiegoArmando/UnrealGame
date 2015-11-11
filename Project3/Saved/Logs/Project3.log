@@ -1,123 +1,949 @@
-﻿[2015.11.11-10.14.29:984][  0]Log file open, 11/11/15 05:14:29
-[2015.11.11-10.14.29:984][  0]LogInit:Display: Running engine for game: Project3
-[2015.11.11-10.14.29:984][  0]LogInit:Display: RandInit(-1179975137) SRandInit(-1179975135).
-[2015.11.11-10.14.29:984][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
-[2015.11.11-10.14.29:984][  0]LogStats: Stats thread started at 0.059746
-[2015.11.11-10.14.29:984][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.11.11-10.14.29:984][  0]LogInit: API Version: 2672455
-[2015.11.11-10.14.29:984][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
-[2015.11.11-10.14.29:984][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.11.11-10.14.29:984][  0]LogInit: Build Configuration: Development
-[2015.11.11-10.14.29:984][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2015.11.11-10.14.29:984][  0]LogInit: Command line:  
-[2015.11.11-10.14.29:984][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
-[2015.11.11-10.14.29:984][  0]LogInit: Rocket: 1
-[2015.11.11-10.14.29:998][  0]LogInit: Using libcurl 7.41.0
-[2015.11.11-10.14.29:998][  0]LogInit:  - built for x86_64-pc-win32
-[2015.11.11-10.14.29:998][  0]LogInit:  - supports SSL with WinSSL
-[2015.11.11-10.14.29:998][  0]LogInit:  - other features:
-[2015.11.11-10.14.29:998][  0]LogInit:      CURL_VERSION_SSL
-[2015.11.11-10.14.29:998][  0]LogInit:      CURL_VERSION_IPV6
-[2015.11.11-10.14.29:998][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.11.11-10.14.29:998][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.11.11-10.14.29:998][  0]LogInit:      CURL_VERSION_IDN
-[2015.11.11-10.14.29:998][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.11.11-10.14.29:998][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.11.11-10.14.29:998][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.11.11-10.14.29:998][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.11.11-10.14.29:998][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.11.11-10.14.30:007][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.11.11-10.14.30:016][  0]LogInit: Object subsystem initialized
-[2015.11.11-10.14.30:018][  0]LogInit: Selected Device Profile: [Windows]
-[2015.11.11-10.14.30:018][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.11.11-10.14.30:031][  0]LogInit: Computer: GODOT
-[2015.11.11-10.14.30:031][  0]LogInit: User: Matte
-[2015.11.11-10.14.30:031][  0]LogInit: CPU Page size=4096, Cores=2
-[2015.11.11-10.14.30:031][  0]LogInit: High frequency timer resolution =2.825620 MHz
-[2015.11.11-10.14.30:031][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
-[2015.11.11-10.14.30:031][  0]LogMemory: Platform Memory Stats for Windows
-[2015.11.11-10.14.30:031][  0]LogMemory: Process Physical Memory: 52.66 MB used, 52.66 MB peak
-[2015.11.11-10.14.30:031][  0]LogMemory: Process Virtual Memory: 55.41 MB used, 55.41 MB peak
-[2015.11.11-10.14.30:031][  0]LogMemory: Physical Memory: 6364.61 MB used, 7888.79 MB total
-[2015.11.11-10.14.30:031][  0]LogMemory: Virtual Memory: 351.02 MB used, 134217728.00 MB total
-[2015.11.11-10.14.30:064][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2015.11.11-10.14.30:965][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA NVS 5200M (Feature Level 11_0)
-[2015.11.11-10.14.30:965][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
-[2015.11.11-10.14.30:979][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA NVS 5200M (Feature Level 11_0)
-[2015.11.11-10.14.30:979][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 0 output[s]
-[2015.11.11-10.14.30:981][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.11.11-10.14.30:981][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 0 output[s]
-[2015.11.11-10.14.30:981][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.11.11-10.14.30:988][  0]LogD3D11RHI: !Direct3DDevice
-[2015.11.11-10.14.30:988][  0]LogRHI: Texture pool is 680 MB (70% of 971 MB)
-[2015.11.11-10.14.31:015][  0]LogD3D11RHI: Async texture creation enabled
-[2015.11.11-10.14.31:034][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Intermediate/Shaders/WorkingDirectory/15072/).
-[2015.11.11-10.14.31:034][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Intermediate/Shaders/tmp/94C73FF446915EDF77FF9DB25F19A8CF/'.
-[2015.11.11-10.14.31:034][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.11.11-10.14.33:512][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2015.11.11-10.14.33:530][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.11.11-10.14.33:539][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.11.11-10.14.33:550][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.11.11-10.14.33:561][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.11.11-10.14.33:569][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.11.11-10.14.33:577][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.11.11-10.14.33:589][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.11.11-10.14.33:599][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.11.11-10.14.33:605][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.11.11-10.14.33:613][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.11.11-10.14.33:622][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.11.11-10.14.33:626][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2015.11.11-10.14.33:663][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.11.11-10.14.33:669][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.11.11-10.14.33:677][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.11.11-10.14.33:685][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.11.11-10.14.33:685][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.11.11-10.14.33:934][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.11.11-10.14.34:854][  0]LogDerivedDataCache: Loaded boot cache 0.92s 41MB C:/Users/Matte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.11.11-10.14.34:855][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2015.11.11-10.14.34:855][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.11.11-10.14.34:855][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.11.11-10.14.34:855][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.11.11-10.14.34:855][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.11.11-10.14.35:021][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.11.11-10.14.35:033][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matte/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.11.11-10.14.35:319][  0]LogInit: Selected Device Profile: [Windows]
-[2015.11.11-10.14.35:323][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.11.11-10.14.35:488][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.11.11-10.14.35:488][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.11.11-10.14.35:854][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.11.11-10.14.37:254][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.11.11-10.14.37:398][  0]LogAssetRegistry: FAssetRegistry took 0.0122 seconds to start up
-[2015.11.11-10.14.37:681][  0]SourceControl: Info Source control is disabled
-[2015.11.11-10.14.37:882][  0]SourceControl: Info Source control is disabled
-[2015.11.11-10.14.37:900][  0]SourceControl: Info Source control is disabled
-[2015.11.11-10.14.37:917][  0]SourceControl: Info Source control is disabled
-[2015.11.11-10.14.38:174][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.11-10.14.38:352][  0]LogObj: 28361 objects as part of root set at end of initial load.
-[2015.11.11-10.14.38:352][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
-[2015.11.11-10.14.38:669][  0]LogEngine: Initializing Engine...
-[2015.11.11-10.14.38:672][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
-[2015.11.11-10.14.38:673][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2015.11.11-10.14.38:870][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.11.11-10.14.38:887][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.11.11-10.14.39:232][  0]LogInit: FAudioDevice initialized.
-[2015.11.11-10.14.39:537][  0]LogDerivedDataCache: Saved boot cache 0.31s 41MB C:/Users/Matte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.11.11-10.14.39:544][  0]LogInit: Texture streaming: Enabled
-[2015.11.11-10.14.39:554][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.11.11-10.14.39:554][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.11.11-10.14.39:554][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d77fba27455c49f2de675a911e4dc7a4|415d0ecd5d73416fb0ef2061d328b6f8|dd6616a4-5d84-4ec3-ae2d-4aad4178368e
-[2015.11.11-10.14.39:554][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.11.11-10.14.40:073][  0]LogInit: Transaction tracking system initialized
-[2015.11.11-10.14.40:248][  0]BlueprintLog: New page: Editor Load
-[2015.11.11-10.14.41:282][  0]LocalizationService: Info Localization service is disabled
-[2015.11.11-10.14.43:227][  0]LogConsoleResponse:Display: 
-[2015.11.11-10.14.43:427][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.11.11-10.14.46:663][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/' took 0.01s
-[2015.11.11-10.14.46:669][  0]SourceControl: Info Source control is disabled
-[2015.11.11-10.14.46:669][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.11.11-10.14.46:670][  0]LightingResults: New page: Lighting Build
-[2015.11.11-10.14.46:673][  0]MapCheck: New page: Map Check
-[2015.11.11-10.14.46:673][  0]LightingResults: New page: Lighting Build
-[2015.11.11-10.14.46:696][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B826FFC400
-[2015.11.11-10.14.47:693][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
-[2015.11.11-10.14.47:696][  0]LogBlueprint:Warning: [compiler PuzzleBlock
+﻿[2015.11.11-10.38.35:434][  0]Log file open, 11/11/15 05:38:35
+[2015.11.11-10.38.35:434][  0]LogInit:Display: Running engine for game: Project3
+[2015.11.11-10.38.35:434][  0]LogInit:Display: RandInit(-1392894064) SRandInit(-1392894064).
+[2015.11.11-10.38.35:434][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.11.11-10.38.35:434][  0]LogStats: Stats thread started at 0.079762
+[2015.11.11-10.38.35:434][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.11-10.38.35:434][  0]LogInit: API Version: 2672455
+[2015.11.11-10.38.35:434][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.11-10.38.35:434][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.11-10.38.35:434][  0]LogInit: Build Configuration: Development
+[2015.11.11-10.38.35:434][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.11-10.38.35:434][  0]LogInit: Command line:  
+[2015.11.11-10.38.35:434][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.11-10.38.35:434][  0]LogInit: Rocket: 1
+[2015.11.11-10.38.35:472][  0]LogInit: Using libcurl 7.41.0
+[2015.11.11-10.38.35:472][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.11-10.38.35:472][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.11-10.38.35:472][  0]LogInit:  - other features:
+[2015.11.11-10.38.35:472][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.11-10.38.35:472][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.11-10.38.35:472][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.11-10.38.35:472][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.11-10.38.35:472][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.11-10.38.35:472][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.11-10.38.35:473][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.11-10.38.35:473][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.11-10.38.35:473][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.11-10.38.35:473][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.11-10.38.35:584][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.11-10.38.35:599][  0]LogInit: Object subsystem initialized
+[2015.11.11-10.38.35:601][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.11-10.38.35:601][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.11-10.38.35:633][  0]LogInit: Computer: GODOT
+[2015.11.11-10.38.35:633][  0]LogInit: User: Matte
+[2015.11.11-10.38.35:633][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.11.11-10.38.35:633][  0]LogInit: High frequency timer resolution =2.825620 MHz
+[2015.11.11-10.38.35:633][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2015.11.11-10.38.35:633][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.11-10.38.35:633][  0]LogMemory: Process Physical Memory: 52.64 MB used, 52.64 MB peak
+[2015.11.11-10.38.35:633][  0]LogMemory: Process Virtual Memory: 55.41 MB used, 55.41 MB peak
+[2015.11.11-10.38.35:633][  0]LogMemory: Physical Memory: 6970.66 MB used, 7888.79 MB total
+[2015.11.11-10.38.35:633][  0]LogMemory: Virtual Memory: 351.02 MB used, 134217728.00 MB total
+[2015.11.11-10.38.35:801][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.11-10.38.36:985][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA NVS 5200M (Feature Level 11_0)
+[2015.11.11-10.38.36:985][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2015.11.11-10.38.37:007][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA NVS 5200M (Feature Level 11_0)
+[2015.11.11-10.38.37:007][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 0 output[s]
+[2015.11.11-10.38.37:008][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.11-10.38.37:008][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 0 output[s]
+[2015.11.11-10.38.37:008][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.11-10.38.37:025][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.11-10.38.37:026][  0]LogRHI: Texture pool is 680 MB (70% of 971 MB)
+[2015.11.11-10.38.37:044][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.11-10.38.37:068][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Intermediate/Shaders/WorkingDirectory/19196/).
+[2015.11.11-10.38.37:068][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Intermediate/Shaders/tmp/6E5AD2EC44BA8C6714233EABD51440AB/'.
+[2015.11.11-10.38.37:068][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.11-10.39.10:290][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.11-10.39.10:347][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.11-10.39.10:701][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.11-10.39.10:901][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.11-10.39.11:152][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.11-10.39.11:711][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.11-10.39.11:836][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.11-10.39.12:047][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.11-10.39.12:172][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.11-10.39.12:251][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.11-10.39.12:587][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.11-10.39.12:657][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.11-10.39.12:747][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.11-10.39.13:182][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.11-10.39.13:344][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.11-10.39.13:589][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.11-10.39.14:050][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.11-10.39.14:050][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.11-10.39.23:344][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.11-10.39.26:463][  0]LogDerivedDataCache: Loaded boot cache 3.12s 41MB C:/Users/Matte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.11-10.39.26:463][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.11-10.39.26:463][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.11-10.39.26:463][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.11-10.39.26:463][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.11-10.39.26:463][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.11-10.39.26:722][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.11-10.39.26:734][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matte/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.11-10.39.35:707][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.11-10.39.35:711][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.11-10.39.35:995][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.11-10.39.35:995][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.11-10.39.37:215][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.11-10.40.00:550][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.11-10.40.01:096][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2015.11.11-10.40.02:152][  0]SourceControl: Info Source control is disabled
+[2015.11.11-10.40.03:185][  0]SourceControl: Info Source control is disabled
+[2015.11.11-10.40.03:230][  0]SourceControl: Info Source control is disabled
+[2015.11.11-10.40.03:301][  0]SourceControl: Info Source control is disabled
+[2015.11.11-10.40.04:514][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.11-10.40.04:991][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.11.11-10.40.04:991][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.11.11-10.40.05:378][  0]LogEngine: Initializing Engine...
+[2015.11.11-10.40.05:391][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.11-10.40.05:460][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.11-10.40.05:954][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.11-10.40.05:975][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-10.40.06:007][  0]LogInit: FAudioDevice initialized.
+[2015.11.11-10.40.06:079][  0]LogDerivedDataCache: Saved boot cache 0.07s 41MB C:/Users/Matte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.11-10.40.06:104][  0]LogInit: Texture streaming: Enabled
+[2015.11.11-10.40.06:156][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.11-10.40.06:158][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.11-10.40.06:158][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d77fba27455c49f2de675a911e4dc7a4|415d0ecd5d73416fb0ef2061d328b6f8|dd6616a4-5d84-4ec3-ae2d-4aad4178368e
+[2015.11.11-10.40.06:169][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.11-10.40.06:573][  0]LogInit: Transaction tracking system initialized
+[2015.11.11-10.40.07:444][  0]BlueprintLog: New page: Editor Load
+[2015.11.11-10.40.12:120][  0]LocalizationService: Info Localization service is disabled
+[2015.11.11-10.40.14:637][  0]LogConsoleResponse:Display: 
+[2015.11.11-10.40.18:780][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.11-10.40.20:396][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/' took 0.12s
+[2015.11.11-10.40.20:949][  0]SourceControl: Info Source control is disabled
+[2015.11.11-10.40.20:949][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.11-10.40.21:104][  0]LightingResults: New page: Lighting Build
+[2015.11.11-10.40.21:108][  0]MapCheck: New page: Map Check
+[2015.11.11-10.40.21:108][  0]LightingResults: New page: Lighting Build
+[2015.11.11-10.40.21:146][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000ED3C474400
+[2015.11.11-10.40.23:570][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2015.11.11-10.40.23:574][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0109.55] Compile of PuzzleBlockGrid successful, but with 1 Warning(s) [in 12 ms]
+[2015.11.11-10.40.23:575][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0109.55] Compile of PuzzleBlockGrid successful, but with 2 Warning(s) [in 0 ms]
+[2015.11.11-10.40.23:575][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0109.55] Compile of PuzzleBlockGrid successful, but with 3 Warning(s) [in 0 ms]
+[2015.11.11-10.40.23:593][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2015.11.11-10.40.23:597][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0109.58] Compile of PuzzleBlockGrid successful, but with 1 Warning(s) [in 13 ms]
+[2015.11.11-10.40.23:597][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0109.58] Compile of PuzzleBlockGrid successful, but with 2 Warning(s) [in 0 ms]
+[2015.11.11-10.40.23:598][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0109.58] Compile of PuzzleBlockGrid successful, but with 3 Warning(s) [in 0 ms]
+[2015.11.11-10.40.25:301][  0]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.11-10.40.25:431][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.11-10.40.25:471][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.11-10.40.25:549][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.603ms to complete.
+[2015.11.11-10.40.25:549][  0]LogFileHelpers: Loading map 'PuzzleExampleMap' took 4.600
+[2015.11.11-10.40.26:429][  0]LogCollectionManager: Loaded 0 collections in 0.004212 seconds
+[2015.11.11-10.40.26:479][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Collections/' took 0.01s
+[2015.11.11-10.40.26:479][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Developers/Matte/Collections/' took 0.01s
+[2015.11.11-10.40.26:479][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Collections/' took 0.01s
+[2015.11.11-10.40.26:479][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 1867 classes and 333 folders.
+[2015.11.11-10.40.26:486][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2015.11.11-10.40.26:517][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.11.11-10.40.28:368][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.11.11-10.40.28:459][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0027 seconds. Added 1 classes and 2 folders.
+[2015.11.11-10.40.28:762][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.11-10.40.28:846][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.11-10.40.28:872][  0]LogLoad: Full Startup: 114.85 seconds (BP compile: 0.52 seconds)
+[2015.11.11-10.40.29:607][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.11.11-10.40.30:496][  0]LogRenderer: Reallocating scene render targets to support 736x436 (Frame:2).
+[2015.11.11-10.40.32:923][  8]LogAssetRegistry: Asset discovery search completed in 31.8375 seconds
+[2015.11.11-10.40.32:966][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.11-10.40.32:971][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.047728 seconds (updated 0 objects)
+[2015.11.11-10.47.04:773][880]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Matte/Documents/GameDev/Unreal/Tractor_Emitter.fbx)
+[2015.11.11-10.47.05:081][880]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.11-10.47.05:081][880]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.11.11-10.47.05:081][880]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.11.11-10.47.05:081][880]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.11.11-10.47.05:081][880]LogFbx: ItemName: Material, ItemCount : 1
+[2015.11.11-10.47.05:081][880]LogFbx: ItemName: Model, ItemCount : 1
+[2015.11.11-10.47.05:091][880]LogFbx: Loading FBX Scene from ../../../../../../Users/Matte/Documents/GameDev/Unreal/Tractor_Emitter.fbx
+[2015.11.11-10.47.05:137][880]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.11-10.47.12:168][880]LogFbx: Loading FBX Scene from ../../../../../../Users/Matte/Documents/GameDev/Unreal/Tractor_Emitter.fbx
+[2015.11.11-10.47.12:182][880]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.11-10.47.12:237][880]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/rampShader1'
+[2015.11.11-10.47.12:237][880]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/rampShader1'
+[2015.11.11-10.47.12:342][880]LogMaterial: Missing cached shader map for material rampShader1, compiling. 
+[2015.11.11-10.47.12:591][880]LogFbx:Warning: Triangulating static mesh pCylinder1
+[2015.11.11-10.47.13:173][880]LogStaticMesh: Building static mesh Tractor_Emitter...
+[2015.11.11-10.47.13:351][880]LogStaticMesh: Built static mesh [0.178660.2s] /Game/Geometry/Meshes/Tractor_Emitter.Tractor_Emitter
+[2015.11.11-10.47.13:580][880]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.11.11-10.47.33:698][425]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.11-10.47.35:970][425]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0096 seconds. Added 107 classes and 0 folders.
+[2015.11.11-10.47.43:936][502]LogRenderer: Reallocating scene render targets to support 824x436 (Frame:2059).
+[2015.11.11-10.48.17:302][201]BlueprintLog: New page: Compile BP_TractorBeam
+[2015.11.11-10.48.18:166][201]BlueprintEditorCompileResults: Info [0584.13] Compile of BP_TractorBeam successful! [in 848 ms]
+[2015.11.11-10.50.05:109][ 78]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Matte/Documents/GameDev/Unreal/Time_Portal.fbx)
+[2015.11.11-10.50.05:130][ 78]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.11-10.50.05:130][ 78]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.11.11-10.50.05:130][ 78]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.11.11-10.50.05:130][ 78]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.11.11-10.50.05:130][ 78]LogFbx: ItemName: Material, ItemCount : 1
+[2015.11.11-10.50.05:130][ 78]LogFbx: ItemName: Texture, ItemCount : 2
+[2015.11.11-10.50.05:130][ 78]LogFbx: ItemName: Video, ItemCount : 2
+[2015.11.11-10.50.05:130][ 78]LogFbx: ItemName: Model, ItemCount : 1
+[2015.11.11-10.50.05:130][ 78]LogFbx: ItemName: AnimationCurveNode, ItemCount : 3
+[2015.11.11-10.50.05:130][ 78]LogFbx: ItemName: AnimationCurve, ItemCount : 5
+[2015.11.11-10.50.05:146][ 78]LogFbx: Loading FBX Scene from ../../../../../../Users/Matte/Documents/GameDev/Unreal/Time_Portal.fbx
+[2015.11.11-10.50.05:276][ 78]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.11-10.50.07:506][ 78]LogFbx: Loading FBX Scene from ../../../../../../Users/Matte/Documents/GameDev/Unreal/Time_Portal.fbx
+[2015.11.11-10.50.07:537][ 78]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.11-10.50.07:550][ 78]LogFbx: =================================================
+[2015.11.11-10.50.07:550][ 78]LogFbx: Dumping Node START [pCylinder1] 
+[2015.11.11-10.50.07:550][ 78]LogFbx: 	Total Deformer Count 1027547136.
+[2015.11.11-10.50.07:562][ 78]LogFbx: 	Attribute () Type (4).
+[2015.11.11-10.50.07:562][ 78]LogFbx: 		[Node Attribute Child 1] pCylinder1 (Type Mesh).
+[2015.11.11-10.50.07:563][ 78]LogFbx: Dumping Node END [pCylinder1]
+[2015.11.11-10.50.07:563][ 78]LogFbx: =================================================
+[2015.11.11-10.50.07:563][ 78]LogFbx: Dumping Node START [pCylinder1] 
+[2015.11.11-10.50.07:563][ 78]LogFbx: 	Total Deformer Count 1027547136.
+[2015.11.11-10.50.07:563][ 78]LogFbx: 	Attribute () Type (4).
+[2015.11.11-10.50.07:563][ 78]LogFbx: 		[Node Attribute Child 1] pCylinder1 (Type Mesh).
+[2015.11.11-10.50.07:563][ 78]LogFbx: Dumping Node END [pCylinder1]
+[2015.11.11-10.50.07:653][ 78]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Waves'
+[2015.11.11-10.50.07:654][ 78]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Waves'
+[2015.11.11-10.50.07:658][ 78]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Temporal_Ripples'
+[2015.11.11-10.50.07:658][ 78]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Temporal_Ripples'
+[2015.11.11-10.50.07:658][ 78]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Geometry/Meshes/Temporal_Ripples.Temporal_Ripples'
+[2015.11.11-10.50.07:662][ 78]LogStreaming:Warning: Failed to read file 'D:/Users/Alex/Documents/maya/projects/default/sourceimages/Temporal_Ripples.png' error.
+[2015.11.11-10.50.07:662][ 78]LogStreaming:Warning: Failed to read file '../../../../../../Users/Matte/Documents/GameDev/Unreal/..\projects\default\sourceimages\Temporal_Ripples.png' error.
+[2015.11.11-10.50.07:662][ 78]LogStreaming:Warning: Failed to read file '../../../../../../Users/Matte/Documents/GameDev/Unreal/Temporal_Ripples.png' error.
+[2015.11.11-10.50.07:662][ 78]LogFbxMaterialImport:Warning: Unable to find TEXTure file Temporal_Ripples.png. Tried:
+ - D:/Users/Alex/Documents/maya/projects/default/sourceimages/Temporal_Ripples.png
+ - ../../../../../../Users/Matte/Documents/GameDev/Unreal/..\projects\default\sourceimages\Temporal_Ripples.png
+ - ../../../../../../Users/Matte/Documents/GameDev/Unreal/Temporal_Ripples.png
+[2015.11.11-10.50.07:663][ 78]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/save_01'
+[2015.11.11-10.50.07:663][ 78]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/save_01'
+[2015.11.11-10.50.07:663][ 78]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Geometry/Meshes/save_01.save_01'
+[2015.11.11-10.50.07:667][ 78]LogStreaming:Warning: Failed to read file 'D:/Users/Alex/Documents/maya/projects/default/sourceimages/Water Texture/save.01.tif' error.
+[2015.11.11-10.50.07:667][ 78]LogStreaming:Warning: Failed to read file '../../../../../../Users/Matte/Documents/GameDev/Unreal/..\projects\default\sourceimages\Water Texture\save.01.tif' error.
+[2015.11.11-10.50.07:667][ 78]LogStreaming:Warning: Failed to read file '../../../../../../Users/Matte/Documents/GameDev/Unreal/save.01.tif' error.
+[2015.11.11-10.50.07:667][ 78]LogFbxMaterialImport:Warning: Unable to find TEXTure file save.01.tif. Tried:
+ - D:/Users/Alex/Documents/maya/projects/default/sourceimages/Water Texture/save.01.tif
+ - ../../../../../../Users/Matte/Documents/GameDev/Unreal/..\projects\default\sourceimages\Water Texture\save.01.tif
+ - ../../../../../../Users/Matte/Documents/GameDev/Unreal/save.01.tif
+[2015.11.11-10.50.07:674][ 78]LogMaterial: Missing cached shader map for material Waves, compiling. 
+[2015.11.11-10.50.07:689][ 78]LogFbx: Triangulating skeletal mesh pCylinder1
+[2015.11.11-10.50.08:183][ 78]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2015.11.11-10.50.08:235][ 78]LogSkeletalMesh: Chunk 0: 779 rigid vertices, 0 soft vertices, 1 active bones
+[2015.11.11-10.50.08:236][ 78]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 1408 triangles
+[2015.11.11-10.50.08:253][ 78]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Time_Portal_PhysicsAsset'
+[2015.11.11-10.50.08:253][ 78]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Time_Portal_PhysicsAsset'
+[2015.11.11-10.50.08:253][ 78]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/Time_Portal_PhysicsAsset.Time_Portal_PhysicsAsset'
+[2015.11.11-10.50.08:374][ 78]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Time_Portal_Skeleton'
+[2015.11.11-10.50.08:375][ 78]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Time_Portal_Skeleton'
+[2015.11.11-10.50.08:375][ 78]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/Time_Portal_Skeleton.Time_Portal_Skeleton'
+[2015.11.11-10.50.08:406][ 78]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.11.11-10.50.08:406][ 78]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
+[2015.11.11-10.50.08:605][ 79]LogMaterial:Warning: Material /Game/Geometry/Meshes/Waves.Waves needed to have new flag set bUsedWithSkeletalMesh !
+[2015.11.11-10.50.08:629][ 79]LogMaterial: Missing cached shader map for material Waves, compiling. 
+[2015.11.11-10.50.08:678][ 79]LogMaterial: 0.000134 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-10.53.15:651][324]LogSavePackage: Save=401.079773ms
+[2015.11.11-10.53.15:652][324]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/PuzzleExampleMap_Auto1FB8D53A64F751F2F815B5D9647BD65B8.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto1.umap'
+[2015.11.11-10.53.15:671][324]LogSavePackage: Total save time: 611.660447ms
+[2015.11.11-10.53.15:671][324]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto1.umap
+[2015.11.11-10.53.15:682][324]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.794
+[2015.11.11-10.53.15:682][324]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.794
+[2015.11.11-10.53.15:691][324]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PuzzleBP/Blueprints/BP_TractorBeam] ([1] browsable assets)...
+[2015.11.11-10.53.15:728][324]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PuzzleBP/Blueprints/BP_TractorBeam.BP_TractorBeam]
+[2015.11.11-10.53.15:728][324]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Blueprints/BP_TractorBeam]
+[2015.11.11-10.53.16:129][324]LogSavePackage: Save=358.450195ms
+[2015.11.11-10.53.16:129][324]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/BP_TractorBeam_Auto1260CD6224E0B83F05A146E812E464BB0.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/PuzzleBP/Blueprints/BP_TractorBeam_Auto1.uasset'
+[2015.11.11-10.53.16:157][324]LogSavePackage: Total save time: 426.230703ms
+[2015.11.11-10.53.16:157][324]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/PuzzleBP/Blueprints/BP_TractorBeam_Auto1.uasset
+[2015.11.11-10.53.16:168][324]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/Tractor_Emitter] ([1] browsable assets)...
+[2015.11.11-10.53.16:188][324]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/Tractor_Emitter.Tractor_Emitter]
+[2015.11.11-10.53.16:188][324]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Tractor_Emitter]
+[2015.11.11-10.53.16:207][324]LogSavePackage: Save=16.290937ms
+[2015.11.11-10.53.16:207][324]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Tractor_Emitter_Auto1B97224AA440DA382D7F60A9727F8189D.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Geometry/Meshes/Tractor_Emitter_Auto1.uasset'
+[2015.11.11-10.53.16:208][324]LogSavePackage: Total save time: 17.679308ms
+[2015.11.11-10.53.16:208][324]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Geometry/Meshes/Tractor_Emitter_Auto1.uasset
+[2015.11.11-10.53.16:213][324]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/rampShader1] ([1] browsable assets)...
+[2015.11.11-10.53.16:237][324]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Geometry/Meshes/rampShader1.rampShader1]
+[2015.11.11-10.53.16:237][324]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/rampShader1]
+[2015.11.11-10.53.16:277][324]LogSavePackage: Save=38.219578ms
+[2015.11.11-10.53.16:277][324]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/rampShader1_Auto11AC2868C402EEB77D5585DA213899A51.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Geometry/Meshes/rampShader1_Auto1.uasset'
+[2015.11.11-10.53.16:280][324]LogSavePackage: Total save time: 41.058600ms
+[2015.11.11-10.53.16:280][324]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Geometry/Meshes/rampShader1_Auto1.uasset
+[2015.11.11-10.53.16:297][324]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/Time_Portal] ([1] browsable assets)...
+[2015.11.11-10.53.16:345][324]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Geometry/Meshes/Time_Portal.Time_Portal]
+[2015.11.11-10.53.16:345][324]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Time_Portal]
+[2015.11.11-10.53.16:412][324]LogSavePackage: Save=62.933800ms
+[2015.11.11-10.53.16:412][324]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Time_Portal_Auto1DEEFAC8841551A1713EECB8262F3A768.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Geometry/Meshes/Time_Portal_Auto1.uasset'
+[2015.11.11-10.53.16:414][324]LogSavePackage: Total save time: 64.800292ms
+[2015.11.11-10.53.16:414][324]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Geometry/Meshes/Time_Portal_Auto1.uasset
+[2015.11.11-10.53.16:420][324]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/Waves] ([1] browsable assets)...
+[2015.11.11-10.53.16:449][324]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Geometry/Meshes/Waves.Waves]
+[2015.11.11-10.53.16:449][324]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Waves]
+[2015.11.11-10.53.16:489][324]LogSavePackage: Save=37.244568ms
+[2015.11.11-10.53.16:489][324]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Waves_Auto190C337854F4858A21D87329FA93BA549.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Geometry/Meshes/Waves_Auto1.uasset'
+[2015.11.11-10.53.16:494][324]LogSavePackage: Total save time: 42.773977ms
+[2015.11.11-10.53.16:494][324]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Geometry/Meshes/Waves_Auto1.uasset
+[2015.11.11-10.53.16:505][324]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Geometry/Meshes/Time_Portal_PhysicsAsset] ([1] browsable assets)...
+[2015.11.11-10.53.16:509][324]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Time_Portal_PhysicsAsset]
+[2015.11.11-10.53.16:533][324]LogSavePackage: Save=17.818745ms
+[2015.11.11-10.53.16:533][324]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Time_Portal_PhysicsAsset_Auto14E19A0AC46637C005F907F876318E9D4.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Geometry/Meshes/Time_Portal_PhysicsAsset_Auto1.uasset'
+[2015.11.11-10.53.16:534][324]LogSavePackage: Total save time: 20.533193ms
+[2015.11.11-10.53.16:534][324]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Geometry/Meshes/Time_Portal_PhysicsAsset_Auto1.uasset
+[2015.11.11-10.53.16:541][324]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Geometry/Meshes/Time_Portal_Skeleton] ([1] browsable assets)...
+[2015.11.11-10.53.16:541][324]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Time_Portal_Skeleton]
+[2015.11.11-10.53.16:554][324]LogSavePackage: Save=8.254472ms
+[2015.11.11-10.53.16:554][324]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Time_Portal_Skeleton_Auto154E1482247968EE8EF613D9943FB5A88.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Geometry/Meshes/Time_Portal_Skeleton_Auto1.uasset'
+[2015.11.11-10.53.16:557][324]LogSavePackage: Total save time: 11.360340ms
+[2015.11.11-10.53.16:557][324]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Geometry/Meshes/Time_Portal_Skeleton_Auto1.uasset
+[2015.11.11-10.53.16:557][324]LogFileHelpers: Auto-saving content packages took 0.871
+[2015.11.11-10.56.32:428][687]BlueprintLog: New page: Compile Test_Port_Blueprint
+[2015.11.11-10.56.32:695][687]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000ED4FDDF1A0
+[2015.11.11-10.56.32:737][687]BlueprintEditorCompileResults: Info [1078.72] Compile of Test_Port_Blueprint successful! [in 309 ms]
+[2015.11.11-10.56.33:472][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test_Port_Blueprint" FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Test_Port_Blueprint.uasset" SILENT=true
+[2015.11.11-10.56.33:660][700]LogSavePackage: Save=161.627884ms
+[2015.11.11-10.56.33:660][700]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Test_Port_Blueprint721419B74C9E57F9EF10FC854437174B.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Test_Port_Blueprint.uasset'
+[2015.11.11-10.56.33:664][700]LogSavePackage: Total save time: 188.250013ms
+[2015.11.11-10.56.33:664][700]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Test_Port_Blueprint.uasset
+[2015.11.11-10.56.41:161][  3]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-10.56.41:210][  3]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-10.56.41:254][  3]PIE: New page: PIE session: PuzzleExampleMap (Nov 11, 2015, 12:56:41 AM)
+[2015.11.11-10.56.41:272][  3]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2015.11.11-10.56.41:388][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.115631s)
+[2015.11.11-10.56.41:401][  3]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.11-10.56.41:402][  3]LogPlayLevel: PIE: World Init took: (0.013508s)
+[2015.11.11-10.56.41:402][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.129779s)
+[2015.11.11-10.56.41:495][  3]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-10.56.41:544][  3]LogInit: FAudioDevice initialized.
+[2015.11.11-10.56.41:748][  3]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.11-10.56.41:878][  3]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.11.11-05.56.41
+[2015.11.11-10.56.41:878][  3]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-10.56.41:894][  3]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-10.56.41:917][  3]LogWorld: Bringing up level for play took: 0.043928
+[2015.11.11-10.56.42:137][  3]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=150.000 Y=-350.000 Z=130.000] for [PuzzleBlock_C]
+[2015.11.11-10.56.42:139][  3]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=150.000 Y=-50.000 Z=130.000] for [PuzzleBlock_C]
+[2015.11.11-10.56.42:139][  3]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=150.000 Y=250.000 Z=130.000] for [PuzzleBlock_C]
+[2015.11.11-10.56.42:165][  3]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.439
+[2015.11.11-10.56.42:165][  3]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-10.56.49:815][398]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-10.56.50:298][398]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-10.56.50:562][399]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000ED2DEA0720
+[2015.11.11-10.57.47:369][192]LogMaterial: Missing cached shader map for material Waves, compiling. 
+[2015.11.11-10.57.47:693][192]LogMaterial: Missing cached shader map for material Waves, compiling. 
+[2015.11.11-10.57.47:711][192]LogMaterial: 0.000036 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-10.57.47:746][192]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2015.11.11-10.57.55:757][432]LogMaterialEditor: Saving and Compiling material Waves
+[2015.11.11-10.57.58:394][432]LogMaterial: Missing cached shader map for material Waves, compiling. 
+[2015.11.11-10.57.58:445][432]LogMaterial: 0.000034 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-10.57.58:522][432]LogMaterial: Missing cached shader map for material Waves, compiling. 
+[2015.11.11-10.57.58:576][432]LogMaterial: Missing cached shader map for material Waves, compiling. 
+[2015.11.11-10.57.58:606][432]LogMaterial: 0.001148 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-10.58.28:269][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Waves" FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Waves.uasset" SILENT=true
+[2015.11.11-10.58.28:290][432]LogSavePackage: Save=18.629187ms
+[2015.11.11-10.58.28:290][432]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/WavesDB546FEA4A576686C136D69415C16DC4.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Waves.uasset'
+[2015.11.11-10.58.28:298][432]LogSavePackage: Total save time: 26.878349ms
+[2015.11.11-10.58.28:298][432]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Waves.uasset
+[2015.11.11-10.58.28:369][432]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.11.11-10.58.28:369][432]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.11-10.58.28:370][432]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.11.11-10.58.33:491][579]LogMaterialEditor: Saving and Compiling material Waves
+[2015.11.11-10.58.33:537][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Waves" FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Waves.uasset" SILENT=true
+[2015.11.11-10.58.33:559][579]LogSavePackage: Save=5.780324ms
+[2015.11.11-10.58.33:559][579]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Waves01F9362B42A6ADFC39C8BDAFC800EA63.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Waves.uasset'
+[2015.11.11-10.58.33:561][579]LogSavePackage: Total save time: 21.798756ms
+[2015.11.11-10.58.33:561][579]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Waves.uasset
+[2015.11.11-10.58.42:349][731]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Matte/Documents/GameDev/Unreal/Temporal_Ripples.png)
+[2015.11.11-10.58.42:439][731]LogTexture:Display: Building textures: Temporal_Ripples (BC5)
+[2015.11.11-10.59.00:487][395]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-10.59.00:567][395]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-10.59.00:576][395]LogMaterial: 0.000106 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-10.59.11:215][703]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-10.59.11:224][703]LogMaterial: 0.000037 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-10.59.11:225][703]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.11-10.59.23:133][ 52]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-10.59.23:142][ 52]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-10.59.23:170][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.11-10.59.38:835][339]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.11.11-10.59.38:835][339]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.11-10.59.38:835][339]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.11-10.59.52:369][513]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-10.59.52:377][513]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-10.59.52:404][513]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.11-11.00.06:056][906]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-11.00.06:104][906]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-11.00.06:123][906]LogMaterial: 0.000037 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-11.00.08:869][985]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-11.00.08:879][985]LogMaterial: 0.000034 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-11.00.08:902][985]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.11-11.00.16:624][212]LogMaterialEditor: Applying material Time
+[2015.11.11-11.00.17:634][212]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-11.00.17:676][212]LogMaterial: 0.000033 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-11.00.17:721][212]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-11.00.17:762][212]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-11.00.17:779][212]LogMaterial: 0.001078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-11.00.44:260][365]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.11.11-11.00.44:260][365]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 83 instructions
+[2015.11.11-11.00.44:260][365]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.11.11-11.00.44:260][365]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.11.11-11.03.15:338][968]LogMaterialEditor: Saving and Compiling material Time
+[2015.11.11-11.03.15:408][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Time" FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Time.uasset" SILENT=true
+[2015.11.11-11.03.15:426][968]LogSavePackage: Save=16.089920ms
+[2015.11.11-11.03.15:426][968]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Time57B34F1B478CFDBFA40289977D27EEF0.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Time.uasset'
+[2015.11.11-11.03.15:469][968]LogSavePackage: Total save time: 59.292473ms
+[2015.11.11-11.03.15:469][968]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Time.uasset
+[2015.11.11-11.03.20:177][151]LogEditorViewport: Clicking on Actor (LMB): Test_Port_Blueprint_C (Test_Port_Blueprint)
+[2015.11.11-11.03.32:436][564]LogMaterial:Warning: Material /Game/Geometry/Meshes/Time.Time needed to have new flag set bUsedWithSkeletalMesh !
+[2015.11.11-11.03.32:440][564]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-11.03.32:464][564]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-11.03.34:216][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test_Port_Blueprint" FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Test_Port_Blueprint.uasset" SILENT=true
+[2015.11.11-11.03.34:383][614]LogSavePackage: Save=148.512894ms
+[2015.11.11-11.03.34:383][614]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Test_Port_BlueprintF701BB6F4C0706EA1A39A68B389C9A76.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Test_Port_Blueprint.uasset'
+[2015.11.11-11.03.34:387][614]LogSavePackage: Total save time: 167.401489ms
+[2015.11.11-11.03.34:387][614]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Test_Port_Blueprint.uasset
+[2015.11.11-11.03.35:259][642]BlueprintLog: New page: Compile Test_Port_Blueprint
+[2015.11.11-11.03.35:459][642]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000ED5C26F880
+[2015.11.11-11.03.35:463][642]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000ED5CC80C20
+[2015.11.11-11.03.35:534][642]BlueprintEditorCompileResults: Info [1501.51] Compile of Test_Port_Blueprint successful! [in 274 ms]
+[2015.11.11-11.03.39:202][772]MapCheck: New page: Map Check
+[2015.11.11-11.03.39:316][772]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.11-11.03.39:324][772]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.11-11.03.39:474][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000ED4EF553A0
+[2015.11.11-11.03.39:478][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000ED5C30DDA0
+[2015.11.11-11.03.39:503][772]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.11-11.03.39:503][772]LogStats:          STAT_HLOD_BuildClusters - 88.272 ms
+[2015.11.11-11.03.39:513][772]LightingResults: New page: Lighting Build - Nov 11, 2015, 1:03:39 AM
+[2015.11.11-11.04.29:692][772]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.11-11.04.29:692][772]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.11-11.04.29:692][772]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.11-11.04.29:692][772]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.11-11.04.29:692][772]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.11-11.04.30:890][772]LogEditorBuildUtils: Build time 0:00:51
+[2015.11.11-11.04.31:651][773]LogSavePackage: Save=245.722351ms
+[2015.11.11-11.04.31:651][773]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/PuzzleExampleMap_Auto221AAB63B4E43D208D6F915B98F985AE9.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto2.umap'
+[2015.11.11-11.04.31:653][773]LogSavePackage: Total save time: 263.608694ms
+[2015.11.11-11.04.31:653][773]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto2.umap
+[2015.11.11-11.04.31:656][773]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.353
+[2015.11.11-11.04.31:656][773]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.353
+[2015.11.11-11.04.31:667][773]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/Temporal_Ripples] ([1] browsable assets)...
+[2015.11.11-11.04.31:679][773]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Geometry/Meshes/Temporal_Ripples.Temporal_Ripples]
+[2015.11.11-11.04.31:680][773]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Temporal_Ripples]
+[2015.11.11-11.04.31:696][773]LogSavePackage: Save=13.490137ms
+[2015.11.11-11.04.31:696][773]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Temporal_Ripples_Auto23894F7914B854AF53CCB119D1CD20804.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Geometry/Meshes/Temporal_Ripples_Auto2.uasset'
+[2015.11.11-11.04.31:697][773]LogSavePackage: Total save time: 14.993876ms
+[2015.11.11-11.04.31:697][773]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Geometry/Meshes/Temporal_Ripples_Auto2.uasset
+[2015.11.11-11.04.31:703][773]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Geometry/Meshes/Time] ([1] browsable assets)...
+[2015.11.11-11.04.31:703][773]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Time]
+[2015.11.11-11.04.31:736][773]LogSavePackage: Save=20.752968ms
+[2015.11.11-11.04.31:736][773]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Time_Auto2CFDC560847A1052CF0B9B591E9BB5068.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Geometry/Meshes/Time_Auto2.uasset'
+[2015.11.11-11.04.31:738][773]LogSavePackage: Total save time: 33.278711ms
+[2015.11.11-11.04.31:738][773]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Geometry/Meshes/Time_Auto2.uasset
+[2015.11.11-11.04.31:738][773]LogFileHelpers: Auto-saving content packages took 0.077
+[2015.11.11-11.04.35:581][778]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2015.11.11-11.04.38:378][868]Job is a success!
+[2015.11.11-11.04.38:809][869]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2015.11.11-11.04.38:861][869]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.11.11-11.04.38:866][869]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.11.11-11.04.38:867][869]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2015.11.11-11.04.38:871][869]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.11.11-11.04.38:889][869]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.11.11-11.04.38:938][869]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2015.11.11-11.04.38:976][869]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.11.11-11.04.39:005][869]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.11.11-11.04.39:117][869]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2015.11.11-11.04.39:135][869]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2015.11.11-11.04.39:137][869]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2015.11.11-11.04.39:478][869]Lightmass on GODOT: 4.16 sec total, 360 ms importing, 10 ms setup, 252 ms photons, 2.74 sec processing, 0 ms extra exporting [7/7 mappings]. Threads: 10.9 sec total, 3.55 sec processing.
+[2015.11.11-11.04.39:604][869]LogStaticLightingSystem: Illumination: 1:00 min (373 ms encoding lightmaps)
+[2015.11.11-11.04.39:604][869]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.4 MB streaming, 0.0 MB non-streaming), 6 textures
+[2015.11.11-11.04.39:604][869]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 3 textures
+[2015.11.11-11.04.40:618][870]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.11-11.04.40:618][870]MapCheck: New page: PuzzleExampleMap - Nov 11, 2015, 1:04:40 AM
+[2015.11.11-11.04.41:844][870]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 1,225.384ms to complete.
+[2015.11.11-11.04.41:961][872]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2015.11.11-11.04.57:397][623]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.11.11-11.06.05:512][145]BlueprintLog: New page: Compile Test_Port_Blueprint
+[2015.11.11-11.06.05:581][145]LogLinker: Can't find file '/Game/Geometry/Meshes/Temporal_Ripples'
+[2015.11.11-11.06.05:581][145]LogLinker: Can't find file for asset '/Game/Geometry/Meshes/Temporal_Ripples' while loading ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Time.uasset.
+[2015.11.11-11.06.05:581][145]LogLinker: Can't find file '/Game/Geometry/Meshes/Temporal_Ripples'
+[2015.11.11-11.06.05:581][145]LogLinker: Can't find file for asset '/Game/Geometry/Meshes/Temporal_Ripples' while loading ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Time.uasset.
+[2015.11.11-11.06.05:582][145]LogLinker: Can't find file '/Game/Geometry/Meshes/Time_Portal'
+[2015.11.11-11.06.05:582][145]LogLinker: Can't find file for asset '/Game/Geometry/Meshes/Time_Portal' while loading ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Test_Port_Blueprint.uasset.
+[2015.11.11-11.06.05:583][145]LogLinker: Can't find file '/Game/Geometry/Meshes/Time_Portal'
+[2015.11.11-11.06.05:584][145]LogLinker: Can't find file for asset '/Game/Geometry/Meshes/Time_Portal' while loading ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Test_Port_Blueprint.uasset.
+[2015.11.11-11.06.05:724][145]BlueprintEditorCompileResults: Info [1651.70] Compile of Test_Port_Blueprint successful! [in 212 ms]
+[2015.11.11-11.06.06:341][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test_Port_Blueprint" FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Test_Port_Blueprint.uasset" SILENT=true
+[2015.11.11-11.06.06:460][161]LogSavePackage: Save=106.947151ms
+[2015.11.11-11.06.06:460][161]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Test_Port_Blueprint9D123D6F4B36EC381A70D8BDAE0D4BC5.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Test_Port_Blueprint.uasset'
+[2015.11.11-11.06.06:463][161]LogSavePackage: Total save time: 119.593576ms
+[2015.11.11-11.06.06:463][161]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Test_Port_Blueprint.uasset
+[2015.11.11-11.06.22:905][921]LogEditorViewport: Clicking on Actor (LMB): BP_TractorBeam_C (BP_TractorBeam)
+[2015.11.11-11.06.35:384][519]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-11.06.35:384][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-11.06.35:384][519]PIE: New page: PIE session: PuzzleExampleMap (Nov 11, 2015, 1:06:35 AM)
+[2015.11.11-11.06.35:384][519]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2015.11.11-11.06.35:413][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028595s)
+[2015.11.11-11.06.35:414][519]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.11-11.06.35:415][519]LogPlayLevel: PIE: World Init took: (0.001923s)
+[2015.11.11-11.06.35:415][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.031101s)
+[2015.11.11-11.06.35:475][519]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-11.06.35:511][519]LogInit: FAudioDevice initialized.
+[2015.11.11-11.06.35:553][519]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.11-11.06.35:558][519]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.11.11-06.06.35
+[2015.11.11-11.06.35:558][519]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-11.06.35:558][519]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-11.06.35:559][519]LogWorld: Bringing up level for play took: 0.005541
+[2015.11.11-11.06.35:562][519]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=150.000 Y=-350.000 Z=130.000] for [PuzzleBlock_C]
+[2015.11.11-11.06.35:562][519]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=150.000 Y=-50.000 Z=130.000] for [PuzzleBlock_C]
+[2015.11.11-11.06.35:563][519]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=150.000 Y=250.000 Z=130.000] for [PuzzleBlock_C]
+[2015.11.11-11.06.35:564][519]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0.162
+[2015.11.11-11.06.35:564][519]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-11.06.45:259][ 75]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-11.06.45:314][ 75]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-11.06.45:363][ 75]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000ED388C2F20
+[2015.11.11-11.06.48:219][207]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-11.06.48:219][207]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-11.06.48:219][207]PIE: New page: PIE session: PuzzleExampleMap (Nov 11, 2015, 1:06:48 AM)
+[2015.11.11-11.06.48:219][207]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2015.11.11-11.06.48:265][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046002s)
+[2015.11.11-11.06.48:266][207]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.11-11.06.48:266][207]LogPlayLevel: PIE: World Init took: (0.001078s)
+[2015.11.11-11.06.48:267][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.047502s)
+[2015.11.11-11.06.48:323][207]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-11.06.48:427][207]LogInit: FAudioDevice initialized.
+[2015.11.11-11.06.48:465][207]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.11-11.06.48:470][207]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.11.11-06.06.48
+[2015.11.11-11.06.48:470][207]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-11.06.48:470][207]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-11.06.48:471][207]LogWorld: Bringing up level for play took: 0.005235
+[2015.11.11-11.06.48:473][207]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=150.000 Y=-350.000 Z=130.000] for [PuzzleBlock_C]
+[2015.11.11-11.06.48:474][207]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=150.000 Y=-50.000 Z=130.000] for [PuzzleBlock_C]
+[2015.11.11-11.06.48:475][207]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=150.000 Y=250.000 Z=130.000] for [PuzzleBlock_C]
+[2015.11.11-11.06.48:475][207]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.75
+[2015.11.11-11.06.48:476][207]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-11.07.04:217][139]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-11.07.04:267][139]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-11.07.04:347][140]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000ED5CDFBBA0
+[2015.11.11-11.07.07:996][239]LogEditorTransaction: Undo Clicking on Actors
+[2015.11.11-11.07.08:517][252]LogEditorTransaction: Undo Remove Components
+[2015.11.11-11.07.10:735][306]LogSavePackage: Save=256.068054ms
+[2015.11.11-11.07.10:735][306]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/PuzzleExampleMapF2AB8EC34E50E1640D6C7E874EC936BF.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.11.11-11.07.10:746][306]LogSavePackage: Total save time: 272.972304ms
+[2015.11.11-11.07.10:746][306]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap
+[2015.11.11-11.07.10:817][306]LogFileHelpers: Saving map 'PuzzleExampleMap' took 0.483
+[2015.11.11-11.07.10:969][306]LogSavePackage: Save=125.411415ms
+[2015.11.11-11.07.10:969][306]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/BP_TractorBeam35A70539483D2CE4B3FE57961953A3C6.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/PuzzleBP/Blueprints/BP_TractorBeam.uasset'
+[2015.11.11-11.07.10:975][306]LogSavePackage: Total save time: 142.977118ms
+[2015.11.11-11.07.10:975][306]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/PuzzleBP/Blueprints/BP_TractorBeam.uasset
+[2015.11.11-11.07.11:006][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test_Port_Blueprint" FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Test_Port_Blueprint.uasset" SILENT=true
+[2015.11.11-11.07.11:123][306]LogSavePackage: Save=108.277832ms
+[2015.11.11-11.07.11:123][306]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Test_Port_BlueprintAE4D3B5A4DBADD19D6F99BA9FDD573EB.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Test_Port_Blueprint.uasset'
+[2015.11.11-11.07.11:126][306]LogSavePackage: Total save time: 118.123811ms
+[2015.11.11-11.07.11:126][306]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Test_Port_Blueprint.uasset
+[2015.11.11-11.07.11:165][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Tractor_Emitter" FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Tractor_Emitter.uasset" SILENT=true
+[2015.11.11-11.07.11:180][306]LogSavePackage: Save=13.337250ms
+[2015.11.11-11.07.11:180][306]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Tractor_Emitter491E000F403D900A3889A7B1EB422010.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Tractor_Emitter.uasset'
+[2015.11.11-11.07.11:186][306]LogSavePackage: Total save time: 19.290987ms
+[2015.11.11-11.07.11:186][306]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Tractor_Emitter.uasset
+[2015.11.11-11.07.11:219][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/rampShader1" FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/rampShader1.uasset" SILENT=true
+[2015.11.11-11.07.11:236][306]LogSavePackage: Save=14.675010ms
+[2015.11.11-11.07.11:236][306]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/rampShader1DE52B04E4F7EACDF9C0724A220C03CE1.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/rampShader1.uasset'
+[2015.11.11-11.07.11:241][306]LogSavePackage: Total save time: 20.313773ms
+[2015.11.11-11.07.11:241][306]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/rampShader1.uasset
+[2015.11.11-11.07.11:269][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Time_Portal" FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Time_Portal.uasset" SILENT=true
+[2015.11.11-11.07.11:286][306]LogSavePackage: Save=15.181447ms
+[2015.11.11-11.07.11:286][306]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Time_Portal88AABF6A40DF83C0F56ECF8A3C7C3D25.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Time_Portal.uasset'
+[2015.11.11-11.07.11:291][306]LogSavePackage: Total save time: 20.695280ms
+[2015.11.11-11.07.11:292][306]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Time_Portal.uasset
+[2015.11.11-11.07.11:359][306]LogSavePackage: Save=40.891911ms
+[2015.11.11-11.07.11:360][306]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Temporal_Ripples4242D5A2418FB96591D3488C16F41ECA.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Temporal_Ripples.uasset'
+[2015.11.11-11.07.11:366][306]LogSavePackage: Total save time: 47.590617ms
+[2015.11.11-11.07.11:366][306]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Temporal_Ripples.uasset
+[2015.11.11-11.07.11:390][306]LogSavePackage: Save=4.241193ms
+[2015.11.11-11.07.11:390][306]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Time_Portal_PhysicsAsset33ACC5E743762FE55817129154EFE998.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Time_Portal_PhysicsAsset.uasset'
+[2015.11.11-11.07.11:394][306]LogSavePackage: Total save time: 10.154936ms
+[2015.11.11-11.07.11:394][306]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Time_Portal_PhysicsAsset.uasset
+[2015.11.11-11.07.11:415][306]LogSavePackage: Save=4.643583ms
+[2015.11.11-11.07.11:415][306]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Time_Portal_Skeleton0240396C47B02349A3898B9A20C7D28B.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Time_Portal_Skeleton.uasset'
+[2015.11.11-11.07.11:419][306]LogSavePackage: Total save time: 9.365022ms
+[2015.11.11-11.07.11:419][306]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Time_Portal_Skeleton.uasset
+[2015.11.11-11.07.11:434][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Time" FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Time.uasset" SILENT=true
+[2015.11.11-11.07.11:446][306]LogSavePackage: Save=6.074773ms
+[2015.11.11-11.07.11:446][306]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Time4E1AEA6B4B3B508F8B253194A6BD3A23.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Time.uasset'
+[2015.11.11-11.07.11:451][306]LogSavePackage: Total save time: 15.667710ms
+[2015.11.11-11.07.11:451][306]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Geometry/Meshes/Time.uasset
+[2015.11.11-11.07.12:696][347]BlueprintLog: New page: Compile Test_Port_Blueprint
+[2015.11.11-11.07.12:853][347]BlueprintEditorCompileResults: Info [1718.83] Compile of Test_Port_Blueprint successful! [in 157 ms]
+[2015.11.11-11.07.15:472][446]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-11.07.15:472][446]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-11.07.15:473][446]PIE: New page: PIE session: PuzzleExampleMap (Nov 11, 2015, 1:07:15 AM)
+[2015.11.11-11.07.15:473][446]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2015.11.11-11.07.15:505][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031800s)
+[2015.11.11-11.07.15:505][446]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.11-11.07.15:506][446]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2015.11.11-11.07.15:506][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.033229s)
+[2015.11.11-11.07.15:558][446]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-11.07.15:625][446]LogInit: FAudioDevice initialized.
+[2015.11.11-11.07.15:663][446]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.11-11.07.15:669][446]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.11.11-06.07.15
+[2015.11.11-11.07.15:669][446]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-11.07.15:669][446]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-11.07.15:670][446]LogWorld: Bringing up level for play took: 0.006020
+[2015.11.11-11.07.15:672][446]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=150.000 Y=-350.000 Z=130.000] for [PuzzleBlock_C]
+[2015.11.11-11.07.15:673][446]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=150.000 Y=-50.000 Z=130.000] for [PuzzleBlock_C]
+[2015.11.11-11.07.15:674][446]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=150.000 Y=250.000 Z=130.000] for [PuzzleBlock_C]
+[2015.11.11-11.07.15:674][446]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0.052
+[2015.11.11-11.07.15:674][446]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-11.07.28:220][180]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-11.07.28:292][180]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-11.07.28:336][180]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000ED5FDD0E00
+[2015.11.11-11.07.47:700][760]BlueprintLog: New page: Compile Test_Port_Blueprint
+[2015.11.11-11.07.47:859][760]BlueprintEditorCompileResults: Info [1753.84] Compile of Test_Port_Blueprint successful! [in 158 ms]
+[2015.11.11-11.07.48:551][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test_Port_Blueprint" FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Test_Port_Blueprint.uasset" SILENT=true
+[2015.11.11-11.07.48:669][779]LogSavePackage: Save=110.739944ms
+[2015.11.11-11.07.48:669][779]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Test_Port_BlueprintE589F1A64211C5830DE438A585BE2286.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Test_Port_Blueprint.uasset'
+[2015.11.11-11.07.48:672][779]LogSavePackage: Total save time: 119.332395ms
+[2015.11.11-11.07.48:672][779]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Test_Port_Blueprint.uasset
+[2015.11.11-11.07.50:853][856]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-11.07.50:853][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-11.07.50:853][856]PIE: New page: PIE session: PuzzleExampleMap (Nov 11, 2015, 1:07:50 AM)
+[2015.11.11-11.07.50:854][856]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2015.11.11-11.07.50:884][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030250s)
+[2015.11.11-11.07.50:885][856]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.11-11.07.50:885][856]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2015.11.11-11.07.50:885][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.031618s)
+[2015.11.11-11.07.50:945][856]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-11.07.50:952][856]LogInit: FAudioDevice initialized.
+[2015.11.11-11.07.50:989][856]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.11-11.07.50:994][856]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.11.11-06.07.50
+[2015.11.11-11.07.50:995][856]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-11.07.50:995][856]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-11.07.50:995][856]LogWorld: Bringing up level for play took: 0.005096
+[2015.11.11-11.07.50:998][856]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=150.000 Y=-350.000 Z=130.000] for [PuzzleBlock_C]
+[2015.11.11-11.07.50:998][856]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=150.000 Y=-50.000 Z=130.000] for [PuzzleBlock_C]
+[2015.11.11-11.07.50:999][856]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=150.000 Y=250.000 Z=130.000] for [PuzzleBlock_C]
+[2015.11.11-11.07.50:999][856]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0.726
+[2015.11.11-11.07.51:000][856]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-11.08.06:233][733]LogPackageName: SearchForPackageOnDisk took   0.364s to resolve Level3.umap.
+[2015.11.11-11.08.06:336][734]LogPackageName: SearchForPackageOnDisk took   0.070s to resolve Level3.umap.
+[2015.11.11-11.08.06:336][734]LogNet: Browse: /Game/PuzzleBP/Maps/Level3
+[2015.11.11-11.08.06:364][734]LogLoad: LoadMap: /Game/PuzzleBP/Maps/Level3
+[2015.11.11-11.08.06:436][734]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000ED3B27F060
+[2015.11.11-11.08.06:441][734]Cmd: MEM
+[2015.11.11-11.08.06:607][734]LogMemory: Platform Memory Stats for Windows
+[2015.11.11-11.08.06:607][734]LogMemory: Process Physical Memory: 909.73 MB used, 940.74 MB peak
+[2015.11.11-11.08.06:607][734]LogMemory: Process Virtual Memory: 848.71 MB used, 884.76 MB peak
+[2015.11.11-11.08.06:607][734]LogMemory: Physical Memory: 6904.62 MB used, 7888.79 MB total
+[2015.11.11-11.08.06:607][734]LogMemory: Virtual Memory: 1986.55 MB used, 134217728.00 MB total
+[2015.11.11-11.08.06:607][734]LogMemory: 
+[2015.11.11-11.08.06:607][734]Allocator Stats for TBB: (not implemented)
+[2015.11.11-11.08.07:607][734]LogAIModule: Creating AISystem for world Level3
+[2015.11.11-11.08.07:608][734]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.11-11.08.07:627][734]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_Level3.Level3 up for play (max tick rate 60) at 2015.11.11-06.08.07
+[2015.11.11-11.08.07:627][734]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_Level3.Level3:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-11.08.07:627][734]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_Level3.Level3:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-11.08.07:627][734]LogWorld: Bringing up level for play took: 0.005239
+[2015.11.11-11.08.07:628][734]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.11-11.08.09:218][822]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-11.08.09:287][822]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-11.08.09:334][822]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000ED4FDDC0E0
+[2015.11.11-11.08.13:449][991]LogSavePackage: Save=269.722748ms
+[2015.11.11-11.08.13:449][991]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/PuzzleExampleMap41AA3B4645F41BFFC997728B179C44DE.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.11.11-11.08.13:454][991]LogSavePackage: Total save time: 281.765066ms
+[2015.11.11-11.08.13:454][991]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap
+[2015.11.11-11.08.13:508][991]LogFileHelpers: Saving map 'PuzzleExampleMap' took 0.458
+[2015.11.11-11.12.34:130][ 32]LogWmfMedia:Error: Failed to create source object from URL for C:/Users/schafn2/Documents/UnrealGame/Project3/Content/Sound/ph.wav
+[2015.11.11-11.12.47:322][116]LogWmfMedia:Error: Failed to set topology in media session
+[2015.11.11-11.12.56:058][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/ph" FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/ph.uasset" SILENT=true
+[2015.11.11-11.12.56:075][405]LogSavePackage: Save=4.816642ms
+[2015.11.11-11.12.56:075][405]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/ph62975D8742921B606338258A0F6CBBEC.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/ph.uasset'
+[2015.11.11-11.12.56:078][405]LogSavePackage: Total save time: 18.742792ms
+[2015.11.11-11.12.56:078][405]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/ph.uasset
+[2015.11.11-11.13.06:928][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/ph" FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/ph.uasset" SILENT=true
+[2015.11.11-11.13.06:955][664]LogSavePackage: Save=18.254400ms
+[2015.11.11-11.13.06:955][664]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/ph638B01B44177933F654BC18F6422C2FA.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/ph.uasset'
+[2015.11.11-11.13.06:956][664]LogSavePackage: Total save time: 26.655391ms
+[2015.11.11-11.13.06:956][664]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/ph.uasset
+[2015.11.11-11.13.14:805][739]LogWmfMedia:Error: Failed to set topology in media session
+[2015.11.11-11.13.15:954][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/ph" FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/ph.uasset" SILENT=true
+[2015.11.11-11.13.15:965][779]LogSavePackage: Save=3.884457ms
+[2015.11.11-11.13.15:965][779]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/ph8A47EBDD44AF0261AF4BE9B39124F9B6.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/ph.uasset'
+[2015.11.11-11.13.15:968][779]LogSavePackage: Total save time: 12.697391ms
+[2015.11.11-11.13.15:968][779]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/ph.uasset
+[2015.11.11-11.13.38:880][473]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000ED60F29260
+[2015.11.11-11.13.41:338][473]LogAssetTools:Warning: Failed to delete '/Game/Sound/ph'. The asset is referenced by other content.
+[2015.11.11-11.13.42:754][473]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/ph16.wav)
+[2015.11.11-11.13.43:806][473]LogAudioDerivedData:Display: Building compressed audio format OGG wave ph16...
+[2015.11.11-11.13.44:006][473]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Sound/ph16.ph16.
+[2015.11.11-11.13.44:022][473]LogAudioDerivedData:Display: Building compressed audio format OGG wave roll_loop_16...
+[2015.11.11-11.13.44:069][473]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/roll loop 16.wav)
+[2015.11.11-11.13.44:119][473]LogAudioDerivedData:Display: Building compressed audio format OGG wave roll_loop_16...
+[2015.11.11-11.13.44:166][473]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Sound/roll_loop_16.roll_loop_16.
+[2015.11.11-11.13.44:220][473]LogWmfMedia:Error: Failed to create source object from URL for C:/Users/schafn2/Documents/UnrealGame/Project3/Content/Sound/roll loop.wav
+[2015.11.11-11.13.44:533][473]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/roll loop.wav)
+[2015.11.11-11.13.44:575][473]Error: Currently, only 16 bit WAV files are supported (roll_loop).
+[2015.11.11-11.13.45:941][473]LogAssetTools:Warning: Failed to import '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/roll loop.wav'. Failed to create asset '/Game/Sound/roll_loop'
+[2015.11.11-11.13.45:945][473]LogWmfMedia:Error: Failed to create source object from URL for C:/Users/schafn2/Documents/UnrealGame/Project3/Content/Sound/thud.wav
+[2015.11.11-11.13.46:330][473]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/thud.wav)
+[2015.11.11-11.13.46:371][473]Error: Currently, only 16 bit WAV files are supported (thud).
+[2015.11.11-11.13.47:735][473]LogAssetTools:Warning: Failed to import '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/thud.wav'. Failed to create asset '/Game/Sound/thud'
+[2015.11.11-11.13.56:316][559]LogAssetTools:Warning: Failed to delete '/Game/Sound/ph'. The asset is referenced by other content.
+[2015.11.11-11.13.58:554][559]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/ph16.wav)
+[2015.11.11-11.14.01:804][559]LogAudioDerivedData:Display: Building compressed audio format OGG wave ph16...
+[2015.11.11-11.14.01:836][559]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Sound/ph16.ph16.
+[2015.11.11-11.14.01:838][559]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/roll loop 16.wav)
+[2015.11.11-11.14.01:841][559]LogAudioDerivedData:Display: Building compressed audio format OGG wave roll_loop_16...
+[2015.11.11-11.14.01:887][559]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Sound/roll_loop_16.roll_loop_16.
+[2015.11.11-11.14.01:890][559]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/roll loop.wav)
+[2015.11.11-11.14.01:890][559]Error: Currently, only 16 bit WAV files are supported (roll_loop).
+[2015.11.11-11.14.03:494][559]LogAssetTools:Warning: Failed to import '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/roll loop.wav'. Failed to create asset '/Game/Sound/roll_loop'
+[2015.11.11-11.14.03:498][559]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/thud.wav)
+[2015.11.11-11.14.03:498][559]Error: Currently, only 16 bit WAV files are supported (thud).
+[2015.11.11-11.14.05:443][559]LogAssetTools:Warning: Failed to import '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/thud.wav'. Failed to create asset '/Game/Sound/thud'
+[2015.11.11-11.18.28:537][114]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.063
+[2015.11.11-11.18.28:605][114]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sound/ph] ([1] browsable assets)...
+[2015.11.11-11.18.28:605][114]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sound/ph]
+[2015.11.11-11.18.28:605][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/ph" FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Sound/ph_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2015.11.11-11.18.28:611][114]LogSavePackage: Save=3.323518ms
+[2015.11.11-11.18.28:612][114]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/ph_Auto364A5A8E842E3087240C90790213833CD.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Sound/ph_Auto3.uasset'
+[2015.11.11-11.18.28:614][114]LogSavePackage: Total save time: 6.540511ms
+[2015.11.11-11.18.28:614][114]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Sound/ph_Auto3.uasset
+[2015.11.11-11.18.28:621][114]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sound/ph16] ([1] browsable assets)...
+[2015.11.11-11.18.28:631][114]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Sound/ph16.ph16]
+[2015.11.11-11.18.28:631][114]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sound/ph16]
+[2015.11.11-11.18.28:631][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/ph16" FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Sound/ph16_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2015.11.11-11.18.28:660][114]LogSavePackage: Save=8.963696ms
+[2015.11.11-11.18.28:660][114]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/ph16_Auto3D77531DD43DFEEE9287096BDA3D93173.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Sound/ph16_Auto3.uasset'
+[2015.11.11-11.18.28:662][114]LogSavePackage: Total save time: 24.309352ms
+[2015.11.11-11.18.28:662][114]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Sound/ph16_Auto3.uasset
+[2015.11.11-11.18.28:667][114]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sound/roll_loop_16] ([1] browsable assets)...
+[2015.11.11-11.18.28:676][114]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Sound/roll_loop_16.roll_loop_16]
+[2015.11.11-11.18.28:676][114]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sound/roll_loop_16]
+[2015.11.11-11.18.28:695][114]LogSavePackage: Save=7.929941ms
+[2015.11.11-11.18.28:695][114]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/roll_loop_16_Auto3D20235A5488DB5134FC01D9ACD1036DE.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Sound/roll_loop_16_Auto3.uasset'
+[2015.11.11-11.18.28:725][114]LogSavePackage: Total save time: 46.957128ms
+[2015.11.11-11.18.28:725][114]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/Autosaves/Game/Sound/roll_loop_16_Auto3.uasset
+[2015.11.11-11.18.28:725][114]LogFileHelpers: Auto-saving content packages took 0.188
+[2015.11.11-11.21.18:711][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/ph" FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/ph.uasset" SILENT=true
+[2015.11.11-11.21.18:799][701]LogSavePackage: Save=16.384722ms
+[2015.11.11-11.21.18:799][701]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/ph1861043C438EB2179F0CC199C1B1396D.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/ph.uasset'
+[2015.11.11-11.21.18:804][701]LogSavePackage: Total save time: 22.084005ms
+[2015.11.11-11.21.18:805][701]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/ph.uasset
+[2015.11.11-11.21.18:817][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/ph16" FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/ph16.uasset" SILENT=true
+[2015.11.11-11.21.18:829][701]LogSavePackage: Save=4.558646ms
+[2015.11.11-11.21.18:829][701]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/ph16FCCEC14A40E5733DCFAD399A953D0E21.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/ph16.uasset'
+[2015.11.11-11.21.18:835][701]LogSavePackage: Total save time: 17.214984ms
+[2015.11.11-11.21.18:835][701]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/ph16.uasset
+[2015.11.11-11.21.18:845][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/roll_loop_16" FILE="../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/roll_loop_16.uasset" SILENT=true
+[2015.11.11-11.21.18:857][701]LogSavePackage: Save=3.985320ms
+[2015.11.11-11.21.18:857][701]LogSavePackage: Moving '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Saved/roll_loop_164B6A49C946437A9893BE8E86E8D8493A.tmp' to '../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/roll_loop_16.uasset'
+[2015.11.11-11.21.18:860][701]LogSavePackage: Total save time: 13.380781ms
+[2015.11.11-11.21.18:860][701]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Matte/Documents/GameDev/Unreal/Game3/Project3/Content/Sound/roll_loop_16.uasset
+[2015.11.11-11.21.19:486][702]Cmd: QUIT_EDITOR
+[2015.11.11-11.21.20:939][702]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.11-11.21.21:608][702]LogExit: Preparing to exit.
+[2015.11.11-11.21.23:210][702]LogExit: Editor shut down
+[2015.11.11-11.21.23:211][702]LogExit: Transaction tracking system shut down
+[2015.11.11-11.21.23:244][702]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000ED3A5971A0
+[2015.11.11-11.21.23:245][702]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000ED4E9125C0
+[2015.11.11-11.21.23:246][702]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000ED4F2E6480
+[2015.11.11-11.21.23:246][702]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000ED4ED3C400
+[2015.11.11-11.21.23:247][702]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000ED4ED3C220
+[2015.11.11-11.21.23:253][702]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000ED5C8D3060
+[2015.11.11-11.21.25:952][702]LogExit: Object subsystem successfully closed.
+[2015.11.11-11.21.26:535][702]LogD3D11RHI: Shutdown
+[2015.11.11-11.21.26:535][702]LogD3D11RHI: CleanupD3DDevice
+[2015.11.11-11.21.26:698][702]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.11-11.21.28:152][702]LogModuleManager: Shutting down and abandoning module MaterialEditor (199)
+[2015.11.11-11.21.28:152][702]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2015.11.11-11.21.28:152][702]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.11.11-11.21.28:152][702]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.11.11-11.21.28:152][702]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.11.11-11.21.28:152][702]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.11.11-11.21.28:152][702]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.11.11-11.21.28:230][702]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.11.11-11.21.28:230][702]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.11.11-11.21.28:284][702]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.11.11-11.21.28:318][702]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.11.11-11.21.28:351][702]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.11.11-11.21.28:392][702]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.11.11-11.21.28:392][702]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.11.11-11.21.28:392][702]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.11.11-11.21.28:392][702]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.11.11-11.21.28:392][702]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.11.11-11.21.28:392][702]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.11.11-11.21.28:415][702]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.11.11-11.21.28:415][702]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.11.11-11.21.28:415][702]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.11.11-11.21.28:415][702]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.11.11-11.21.28:467][702]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.11.11-11.21.28:480][702]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.11.11-11.21.28:497][702]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.11.11-11.21.28:497][702]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.11.11-11.21.28:510][702]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.11.11-11.21.28:510][702]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.11.11-11.21.29:512][702]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.11.11-11.21.29:512][702]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.11.11-11.21.29:512][702]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.11.11-11.21.29:512][702]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.11.11-11.21.29:551][702]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.11.11-11.21.29:551][702]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.11.11-11.21.29:560][702]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.11.11-11.21.29:560][702]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.11.11-11.21.29:567][702]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.11.11-11.21.29:578][702]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.11.11-11.21.29:578][702]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.11.11-11.21.29:578][702]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.11.11-11.21.29:590][702]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.11.11-11.21.29:590][702]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.11.11-11.21.29:590][702]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.11.11-11.21.29:602][702]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.11.11-11.21.29:602][702]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.11.11-11.21.29:607][702]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.11.11-11.21.29:607][702]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.11.11-11.21.29:632][702]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.11.11-11.21.29:632][702]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.11.11-11.21.29:643][702]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.11.11-11.21.29:666][702]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.11.11-11.21.29:670][702]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.11.11-11.21.29:678][702]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.11.11-11.21.29:678][702]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.11.11-11.21.29:703][702]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.11.11-11.21.29:713][702]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.11.11-11.21.29:731][702]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.11.11-11.21.29:832][702]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.11.11-11.21.29:832][702]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.11.11-11.21.29:851][702]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.11.11-11.21.29:851][702]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.11.11-11.21.29:874][702]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.11.11-11.21.29:874][702]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.11.11-11.21.29:874][702]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.11.11-11.21.29:908][702]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.11.11-11.21.29:908][702]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.11.11-11.21.29:935][702]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.11.11-11.21.29:935][702]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.11.11-11.21.29:935][702]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.11.11-11.21.29:949][702]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.11.11-11.21.29:949][702]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.11.11-11.21.29:949][702]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.11.11-11.21.29:954][702]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.11.11-11.21.29:954][702]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.11.11-11.21.29:954][702]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.11.11-11.21.29:964][702]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.11.11-11.21.29:964][702]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.11.11-11.21.29:964][702]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.11.11-11.21.30:066][702]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.11.11-11.21.30:081][702]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.11.11-11.21.30:081][702]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.11.11-11.21.30:081][702]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.11.11-11.21.30:081][702]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.11.11-11.21.30:081][702]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.11.11-11.21.30:081][702]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.11.11-11.21.30:081][702]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.11.11-11.21.30:203][702]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.11.11-11.21.30:213][702]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.11.11-11.21.30:213][702]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.11.11-11.21.30:213][702]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.11.11-11.21.30:227][702]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.11.11-11.21.30:227][702]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.11.11-11.21.30:227][702]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.11.11-11.21.30:227][702]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.11.11-11.21.30:236][702]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.11.11-11.21.30:236][702]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.11.11-11.21.30:247][702]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.11.11-11.21.30:258][702]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.11.11-11.21.30:258][702]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.11.11-11.21.30:280][702]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.11.11-11.21.30:292][702]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.11.11-11.21.30:302][702]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.11.11-11.21.30:315][702]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.11.11-11.21.30:315][702]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.11.11-11.21.30:324][702]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.11.11-11.21.30:328][702]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.11.11-11.21.30:332][702]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.11.11-11.21.30:338][702]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.11.11-11.21.30:346][702]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.11.11-11.21.30:346][702]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.11.11-11.21.30:347][702]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.11.11-11.21.30:350][702]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.11.11-11.21.30:461][702]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.11.11-11.21.30:462][702]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.11.11-11.21.30:483][702]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.11-11.21.30:584][702]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.11-11.21.30:584][702]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.11-11.21.30:606][702]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.11-11.21.30:623][702]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.11-11.21.30:623][702]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.11-11.21.30:645][702]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.11-11.21.30:645][702]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.11-11.21.30:645][702]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.11-11.21.30:645][702]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.11-11.21.30:667][702]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.11-11.21.30:667][702]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.11-11.21.30:668][702]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.11-11.21.30:668][702]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.11-11.21.30:668][702]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.11-11.21.30:718][702]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.11-11.21.30:775][702]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.11-11.21.30:819][702]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.11-11.21.30:819][702]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.11-11.21.30:819][702]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.11-11.21.30:823][702]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.11-11.21.30:823][702]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.11-11.21.30:823][702]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.11-11.21.30:823][702]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.11-11.21.30:823][702]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.11-11.21.30:823][702]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.11-11.21.30:823][702]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.11-11.21.30:823][702]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.11-11.21.30:849][702]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.11-11.21.30:856][702]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.11-11.21.30:858][702]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.11-11.21.30:899][702]LogDerivedDataCache: Shutdown
+[2015.11.11-11.21.30:899][702]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.11-11.21.31:000][702]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.11-11.21.31:101][702]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.11-11.21.31:216][702]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.11-11.21.31:216][702]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.11-11.21.31:335][702]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.11-11.21.31:378][702]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.11-11.21.31:378][702]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.11-11.21.31:378][702]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.11-11.21.31:378][702]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.11-11.21.31:378][702]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.11-11.21.31:421][702]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.11-11.21.31:421][702]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.11-11.21.31:545][702]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.11-11.21.31:545][702]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.11-11.21.31:573][702]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.11-11.21.31:629][702]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.11-11.21.31:629][702]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.11-11.21.31:629][702]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.11-11.21.31:629][702]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.11-11.21.31:679][702]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.11-11.21.31:721][702]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.11-11.21.31:761][702]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.11-11.21.31:770][702]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.11-11.21.31:778][702]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.11-11.21.31:787][702]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.11-11.21.31:822][702]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.11-11.21.31:822][702]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.11-11.21.31:831][702]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.11-11.21.31:838][702]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.11-11.21.31:849][702]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.11-11.21.31:898][702]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.11-11.21.31:898][702]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.11-11.21.31:898][702]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.11-11.21.31:898][702]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.11-11.21.31:898][702]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.11-11.21.33:901][702]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.11-11.21.33:913][702]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.11-11.21.33:913][702]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.11-11.21.33:913][702]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.11-11.21.33:913][702]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.11-11.21.33:913][702]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.11-11.21.33:974][702]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.11-11.21.33:979][702]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.11-11.21.33:979][702]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.11-11.21.33:987][702]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.11-11.21.33:987][702]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.11-11.21.33:987][702]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.11-11.21.33:987][702]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.11-11.21.34:015][702]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.11-11.21.34:034][702]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.11-11.21.34:047][702]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.11-11.21.34:060][702]LogExit: Exiting.
+[2015.11.11-11.21.34:086][702]Log file closed, 11/11/15 06:21:34
