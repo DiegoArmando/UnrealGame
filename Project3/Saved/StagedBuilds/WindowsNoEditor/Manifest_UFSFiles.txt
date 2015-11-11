@@ -789,8 +789,8 @@ Project3\Config\DefaultEditorPerProjectUserSettings.ini	2015-11-03T23:15:43.496Z
 Project3\Config\DefaultEngine.ini	2015-11-03T23:30:13.368Z
 Project3\Config\DefaultGame.ini	2015-11-03T23:15:43.572Z
 Project3\Config\DefaultInput.ini	2015-11-03T23:15:43.580Z
-Engine\GlobalShaderCache-PCD3D_SM4.bin	2015-11-11T19:24:17.003Z
-Engine\GlobalShaderCache-PCD3D_SM5.bin	2015-11-11T19:24:16.992Z
+Engine\GlobalShaderCache-PCD3D_SM4.bin	2015-11-11T21:35:53.942Z
+Engine\GlobalShaderCache-PCD3D_SM5.bin	2015-11-11T21:35:53.928Z
 Engine\Content\ArtTools\RenderToTexture\Enums\EFloatTypes.uasset	2015-11-11T19:10:43.670Z
 Engine\Content\ArtTools\RenderToTexture\Enums\RenderToTexture_Enum.uasset	2015-11-11T19:10:43.716Z
 Engine\Content\ArtTools\RenderToTexture\Enums\RenderToTexture_Flipbook_Enum.uasset	2015-11-11T19:10:43.720Z
@@ -1176,7 +1176,7 @@ Engine\Plugins\Runtime\LeapMotionController\Content\LM_PassthroughMaterial.uasse
 Engine\Plugins\Runtime\LeapMotionController\Content\LM_SampleDistortion.uasset	2015-11-11T19:10:29.782Z
 Engine\Plugins\Runtime\LeapMotionController\Content\LM_TestTexture.uasset	2015-11-11T19:11:36.329Z
 Engine\Plugins\Runtime\LeapMotionController\Content\LM_TorusMesh.uasset	2015-11-11T19:10:29.545Z
-Project3\AssetRegistry.bin	2015-11-11T19:24:25.191Z
+Project3\AssetRegistry.bin	2015-11-11T21:35:57.320Z
 Project3\CookedIniVersion.txt	2015-11-11T19:10:11.558Z
 Project3\Content\ball_material.uasset	2015-11-11T19:10:51.763Z
 Project3\Content\BP_MovingPlatform.uasset	2015-11-11T19:12:10.090Z
@@ -1211,9 +1211,9 @@ Project3\Content\PuzzleBP\Blueprints\PuzzleBlockGrid.uasset	2015-11-11T19:12:10.
 Project3\Content\PuzzleBP\Blueprints\PuzzleGameMode.uasset	2015-11-11T19:12:31.221Z
 Project3\Content\PuzzleBP\Blueprints\PuzzlePlayerController.uasset	2015-11-11T19:11:19.301Z
 Project3\Content\PuzzleBP\Maps\EndScreen.uasset	2015-11-11T19:12:16.884Z
-Project3\Content\PuzzleBP\Maps\Level1a.umap	2015-11-11T19:24:24.129Z
-Project3\Content\PuzzleBP\Maps\Level5.umap	2015-11-11T19:24:24.812Z
-Project3\Content\PuzzleBP\Maps\PuzzleExampleMap.umap	2015-11-11T19:24:18.013Z
+Project3\Content\PuzzleBP\Maps\Level1a.umap	2015-11-11T21:35:55.587Z
+Project3\Content\PuzzleBP\Maps\Level5.umap	2015-11-11T21:35:56.634Z
+Project3\Content\PuzzleBP\Maps\PuzzleExampleMap.umap	2015-11-11T21:35:54.757Z
 Project3\Content\PuzzleBP\Materials\BeamMaterialActive.uasset	2015-11-11T19:10:43.592Z
 Project3\Content\PuzzleBP\Materials\BeamMaterialActiveAway.uasset	2015-11-11T19:11:46.197Z
 Project3\Content\PuzzleBP\Materials\BeamMaterialInactive.uasset	2015-11-11T19:12:09.381Z
