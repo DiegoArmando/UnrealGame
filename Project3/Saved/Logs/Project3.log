@@ -1578,4 +1578,506 @@
 [2015.11.11-14.53.14:363][804]LogMaterial: 0.000188 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
 [2015.11.11-14.53.14:398][804]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
 [2015.11.11-14.53.18:321][876]LogMaterial: Missing cached shader map for material ball_material, compiling. 
-[2015.11.11-14.53.18:334][876]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instanc
+[2015.11.11-14.53.18:334][876]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-14.53.18:488][880]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.11.11-14.53.18:488][880]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.11-14.53.18:488][880]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.11-14.53.21:039][937]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 41 instructions
+[2015.11.11-14.53.21:039][937]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.11-14.53.21:039][937]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.11-14.53.33:869][170]LogMaterial: Missing cached shader map for material ball_material, compiling. 
+[2015.11.11-14.53.33:886][170]LogMaterial: 0.000204 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-14.53.37:703][241]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.11.11-14.53.37:704][241]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.11-14.53.37:704][241]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.11-14.53.43:213][361]LogMaterialEditor: Saving and Compiling material ball_material
+[2015.11.11-14.53.45:263][361]LogMaterial: Missing cached shader map for material ball_material, compiling. 
+[2015.11.11-14.53.45:313][361]LogMaterial: 0.000165 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-14.53.45:376][361]LogMaterial: Missing cached shader map for material ball_material, compiling. 
+[2015.11.11-14.53.45:431][361]LogMaterial: Missing cached shader map for material ball_material, compiling. 
+[2015.11.11-14.53.45:465][361]LogMaterial: 0.015100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-14.53.49:585][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ball_material" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/ball_material.uasset" SILENT=true
+[2015.11.11-14.53.49:612][361]LogSavePackage: Save=14.454964ms
+[2015.11.11-14.53.49:612][361]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/ball_material56F53495432FCD36C54FAC80085A921D.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/ball_material.uasset'
+[2015.11.11-14.53.49:616][361]LogSavePackage: Total save time: 28.953455ms
+[2015.11.11-14.53.49:616][361]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/ball_material.uasset
+[2015.11.11-14.53.49:621][361]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.11.11-14.53.49:622][361]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.11-14.53.49:622][361]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.11-17.20.17:314][399]LogHttp:Warning: Timeout processing Http request. 000000001FAFA200
+[2015.11.11-17.57.20:897][ 24]LogAIModule: Creating AISystem for world Level5
+[2015.11.11-17.57.21:019][ 24]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F4422A0
+[2015.11.11-17.57.21:021][ 24]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F441DA0
+[2015.11.11-17.57.21:023][ 24]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000401EA700
+[2015.11.11-17.57.21:037][ 24]Cmd: MAP LOAD FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level5.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.11-17.57.21:037][ 24]LightingResults: New page: Lighting Build
+[2015.11.11-17.57.21:087][ 24]LoadErrors: New page: Loading map: Level5.umap
+[2015.11.11-17.57.21:091][ 24]MapCheck: New page: Map Check
+[2015.11.11-17.57.21:091][ 24]LightingResults: New page: Lighting Build
+[2015.11.11-17.57.21:184][ 24]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AAC1B20
+[2015.11.11-17.57.21:502][ 24]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.11-17.57.21:638][ 24]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.11-17.57.21:863][ 24]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 225.318ms to complete.
+[2015.11.11-17.57.21:886][ 24]LogFileHelpers: Loading map 'Level5' took 0.853
+[2015.11.11-17.59.11:461][872]LogEditorTransaction: Undo Move Widget
+[2015.11.11-17.59.11:510][872]LogMaterial: Missing cached shader map for material ball_material, compiling. 
+[2015.11.11-17.59.11:529][872]LogMaterial: 0.000146 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-17.59.15:777][943]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.11.11-17.59.15:777][943]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.11-17.59.15:777][943]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.11-18.00.46:209][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Maps/EndScreen" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/EndScreen.uasset" SILENT=true
+[2015.11.11-18.00.46:251][784]LogSavePackage: Save=36.345325ms
+[2015.11.11-18.00.46:251][784]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/EndScreenBAEDC9CD4F784A7D37FD90A87EB93477.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/EndScreen.uasset'
+[2015.11.11-18.00.46:260][784]LogSavePackage: Total save time: 47.023486ms
+[2015.11.11-18.00.46:260][784]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/EndScreen.uasset
+[2015.11.11-18.00.52:062][894]BlueprintLog: New page: Compile EndScreen
+[2015.11.11-18.00.52:357][894]BlueprintEditorCompileResults: Info [7981.62] Compile of EndScreen successful! [in 294 ms]
+[2015.11.11-18.02.10:532][355]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.11.11-18.02.19:473][606]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Level5', cached variable property's owner is '/Game/PuzzleBP/Maps/Level5.SKEL_Level5_C'
+[2015.11.11-18.02.21:127][645]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Level5', cached variable property's owner is '/Game/PuzzleBP/Maps/Level5.SKEL_Level5_C'
+[2015.11.11-18.02.29:304][843]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Level5', cached variable property's owner is '/Game/PuzzleBP/Maps/Level5.SKEL_Level5_C'
+[2015.11.11-18.02.29:409][843]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Level5', cached variable property's owner is '/Game/PuzzleBP/Maps/Level5.SKEL_Level5_C'
+[2015.11.11-18.02.31:235][887]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Level5', cached variable property's owner is '/Game/PuzzleBP/Maps/Level5.SKEL_Level5_C'
+[2015.11.11-18.02.31:267][888]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Level5', cached variable property's owner is '/Game/PuzzleBP/Maps/Level5.SKEL_Level5_C'
+[2015.11.11-18.03.12:413][986]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Level5', cached variable property's owner is '/Game/PuzzleBP/Maps/Level5.SKEL_Level5_C'
+[2015.11.11-18.03.13:104][  8]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Level5', cached variable property's owner is '/Game/PuzzleBP/Maps/Level5.SKEL_Level5_C'
+[2015.11.11-18.03.13:929][ 34]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Level5', cached variable property's owner is '/Game/PuzzleBP/Maps/Level5.SKEL_Level5_C'
+[2015.11.11-18.03.31:420][549]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_261.EdGraphPin_31977''
+[2015.11.11-18.03.47:972][  2]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Level5', cached variable property's owner is '/Game/PuzzleBP/Maps/Level5.SKEL_Level5_C'
+[2015.11.11-18.03.49:816][ 49]BlueprintLog: New page: Compile Level5
+[2015.11.11-18.03.50:069][ 49]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Level5', cached variable property's owner is '/Game/PuzzleBP/Maps/Level5.SKEL_Level5_C'
+[2015.11.11-18.03.50:072][ 49]BlueprintEditorCompileResults: Info [8159.33] Compile of Level5 successful! [in 255 ms]
+[2015.11.11-18.03.50:116][ 49]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Level5', cached variable property's owner is '/Game/PuzzleBP/Maps/Level5.SKEL_Level5_C'
+[2015.11.11-18.03.54:127][138]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Maps/Level5" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level5.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.11-18.03.54:423][138]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Level5', cached variable property's owner is '/Game/PuzzleBP/Maps/Level5.SKEL_Level5_C'
+[2015.11.11-18.03.54:721][138]LogSavePackage: Save=458.225708ms
+[2015.11.11-18.03.54:721][138]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Level571831C804B44EEFEF3B343BB97B31AB8.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level5.umap'
+[2015.11.11-18.03.54:732][138]LogSavePackage: Total save time: 509.506937ms
+[2015.11.11-18.03.54:732][138]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level5.umap
+[2015.11.11-18.03.54:919][138]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Level5', cached variable property's owner is '/Game/PuzzleBP/Maps/Level5.SKEL_Level5_C'
+[2015.11.11-18.04.01:155][361]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2015.11.11-18.04.08:855][591]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.04.08:855][591]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-18.04.08:856][591]PIE: New page: PIE session: Level5 (Nov 11, 2015, 8:04:08 AM)
+[2015.11.11-18.04.08:856][591]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_Level5
+[2015.11.11-18.04.08:953][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097344s)
+[2015.11.11-18.04.08:956][591]LogAIModule: Creating AISystem for world Level5
+[2015.11.11-18.04.08:956][591]LogPlayLevel: PIE: World Init took: (0.002635s)
+[2015.11.11-18.04.08:956][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/Level5.Level5 to /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5 (0.100580s)
+[2015.11.11-18.04.09:072][591]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-18.04.09:098][591]LogInit: FAudioDevice initialized.
+[2015.11.11-18.04.09:147][591]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.11-18.04.09:160][591]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5 up for play (max tick rate 60) at 2015.11.11-13.04.09
+[2015.11.11-18.04.09:160][591]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-18.04.09:161][591]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-18.04.09:162][591]LogWorld: Bringing up level for play took: 0.013184
+[2015.11.11-18.04.09:167][591]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_Level5 0.546
+[2015.11.11-18.04.09:168][591]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.04.17:644][935]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.04.17:764][935]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.04.17:843][935]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004FAB1BC0
+[2015.11.11-18.04.34:175][272]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.04.34:175][272]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.11-18.04.34:212][272]LogPlayLevel: [PlayLevel] Compiling EndScreen before play...
+[2015.11.11-18.04.34:291][272]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Level5', cached variable property's owner is '/Game/PuzzleBP/Maps/Level5.SKEL_Level5_C'
+[2015.11.11-18.04.34:323][272]LogPlayLevel: PlayLevel: Blueprint regeneration took 148 ms (2 blueprints)
+[2015.11.11-18.04.34:327][272]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Level5', cached variable property's owner is '/Game/PuzzleBP/Maps/Level5.SKEL_Level5_C'
+[2015.11.11-18.04.34:328][272]LogPlayLevel: [PlayLevel] Compiling Level5 before play...
+[2015.11.11-18.04.34:440][272]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Level5', cached variable property's owner is '/Game/PuzzleBP/Maps/Level5.SKEL_Level5_C'
+[2015.11.11-18.04.34:442][272]LogPlayLevel: PlayLevel: Blueprint regeneration took 266 ms (2 blueprints)
+[2015.11.11-18.04.34:514][272]PIE: New page: PIE session: Level5 (Nov 11, 2015, 8:04:34 AM)
+[2015.11.11-18.04.34:514][272]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_Level5
+[2015.11.11-18.04.34:559][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044834s)
+[2015.11.11-18.04.34:560][272]LogAIModule: Creating AISystem for world Level5
+[2015.11.11-18.04.34:560][272]LogPlayLevel: PIE: World Init took: (0.001066s)
+[2015.11.11-18.04.34:560][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/Level5.Level5 to /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5 (0.046221s)
+[2015.11.11-18.04.34:633][272]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-18.04.34:649][272]LogInit: FAudioDevice initialized.
+[2015.11.11-18.04.34:691][272]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.11-18.04.34:700][272]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5 up for play (max tick rate 60) at 2015.11.11-13.04.34
+[2015.11.11-18.04.34:700][272]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-18.04.34:700][272]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-18.04.34:701][272]LogWorld: Bringing up level for play took: 0.008847
+[2015.11.11-18.04.34:705][272]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_Level5 0.082
+[2015.11.11-18.04.34:705][272]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.04.54:592][675]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.04.54:617][675]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Level5', cached variable property's owner is '/Game/PuzzleBP/Maps/Level5.SKEL_Level5_C'
+[2015.11.11-18.04.54:740][675]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.04.54:928][676]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F872480
+[2015.11.11-18.05.02:168][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.11.11-18.05.03:775][828]Cmd: TRANSACTION UNDO
+[2015.11.11-18.05.03:775][828]LogEditorTransaction: Undo Clicking on Actors
+[2015.11.11-18.05.03:896][828]LogMaterial: Missing cached shader map for material ball_material, compiling. 
+[2015.11.11-18.05.03:913][828]LogMaterial: 0.000189 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-18.05.06:099][862]Cmd: TRANSACTION UNDO
+[2015.11.11-18.05.06:099][862]LogEditorTransaction: Undo Resize Widget
+[2015.11.11-18.05.06:147][862]LogMaterial: Missing cached shader map for material ball_material, compiling. 
+[2015.11.11-18.05.06:162][862]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-18.05.08:996][928]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.11.11-18.05.08:997][928]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.11-18.05.08:997][928]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.11-18.05.09:197][933]Cmd: TRANSACTION UNDO
+[2015.11.11-18.05.09:197][933]LogEditorTransaction: Undo Move Actors
+[2015.11.11-18.05.09:228][933]LogMaterial: Missing cached shader map for material ball_material, compiling. 
+[2015.11.11-18.05.09:235][933]LogMaterial: 0.000127 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-18.05.10:104][942]Cmd: TRANSACTION UNDO
+[2015.11.11-18.05.10:105][942]LogEditorTransaction: Undo Move Actors
+[2015.11.11-18.05.10:188][942]LogMaterial: Missing cached shader map for material ball_material, compiling. 
+[2015.11.11-18.05.10:211][942]LogMaterial: 0.000709 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-18.05.10:889][950]Cmd: TRANSACTION UNDO
+[2015.11.11-18.05.10:889][950]LogEditorTransaction: Undo Move Actors
+[2015.11.11-18.05.10:933][950]LogMaterial: Missing cached shader map for material ball_material, compiling. 
+[2015.11.11-18.05.10:952][950]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-18.05.14:238][ 14]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.11.11-18.05.14:238][ 14]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.11-18.05.14:238][ 14]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.11-18.05.15:039][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Maps/Level5" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level5.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.11-18.05.15:726][ 34]LogSavePackage: Save=545.843445ms
+[2015.11.11-18.05.15:726][ 34]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Level5F66B8B57456B85EAE95060A6BC1867EA.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level5.umap'
+[2015.11.11-18.05.15:738][ 34]LogSavePackage: Total save time: 578.136962ms
+[2015.11.11-18.05.15:738][ 34]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level5.umap
+[2015.11.11-18.05.24:077][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Maps/EndScreen" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/EndScreen.uasset" SILENT=true
+[2015.11.11-18.05.24:124][197]LogSavePackage: Save=26.070602ms
+[2015.11.11-18.05.24:124][197]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/EndScreen8DD93AF847890D46583EF89B4F4E0911.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/EndScreen.uasset'
+[2015.11.11-18.05.24:129][197]LogSavePackage: Total save time: 49.432825ms
+[2015.11.11-18.05.24:129][197]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/EndScreen.uasset
+[2015.11.11-18.05.25:209][221]BlueprintLog: New page: Compile EndScreen
+[2015.11.11-18.05.25:438][221]BlueprintEditorCompileResults: Info [8254.69] Compile of EndScreen successful! [in 228 ms]
+[2015.11.11-18.09.01:450][983]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.09.01:450][983]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-18.09.01:451][983]PIE: New page: PIE session: Level5 (Nov 11, 2015, 8:09:01 AM)
+[2015.11.11-18.09.01:451][983]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_Level5
+[2015.11.11-18.09.01:534][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082511s)
+[2015.11.11-18.09.01:537][983]LogAIModule: Creating AISystem for world Level5
+[2015.11.11-18.09.01:537][983]LogPlayLevel: PIE: World Init took: (0.003032s)
+[2015.11.11-18.09.01:538][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/Level5.Level5 to /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5 (0.086618s)
+[2015.11.11-18.09.01:641][983]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000324C3100
+[2015.11.11-18.09.01:644][983]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004177B420
+[2015.11.11-18.09.01:658][983]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000044719080
+[2015.11.11-18.09.01:658][983]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-18.09.01:684][983]LogInit: FAudioDevice initialized.
+[2015.11.11-18.09.01:732][983]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.11-18.09.01:744][983]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5 up for play (max tick rate 60) at 2015.11.11-13.09.01
+[2015.11.11-18.09.01:744][983]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-18.09.01:744][983]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-18.09.01:746][983]LogWorld: Bringing up level for play took: 0.012601
+[2015.11.11-18.09.01:751][983]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_Level5 1.123
+[2015.11.11-18.09.01:751][983]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.09.38:510][928]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.09.38:639][928]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.09.38:732][928]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000263FB9C0
+[2015.11.11-18.09.40:801][998]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.09.40:801][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-18.09.40:801][998]PIE: New page: PIE session: Level5 (Nov 11, 2015, 8:09:40 AM)
+[2015.11.11-18.09.40:801][998]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_Level5
+[2015.11.11-18.09.40:875][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073870s)
+[2015.11.11-18.09.40:877][998]LogAIModule: Creating AISystem for world Level5
+[2015.11.11-18.09.40:877][998]LogPlayLevel: PIE: World Init took: (0.001800s)
+[2015.11.11-18.09.40:878][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/Level5.Level5 to /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5 (0.076128s)
+[2015.11.11-18.09.40:962][998]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-18.09.40:979][998]LogInit: FAudioDevice initialized.
+[2015.11.11-18.09.41:024][998]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.11-18.09.41:033][998]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5 up for play (max tick rate 60) at 2015.11.11-13.09.41
+[2015.11.11-18.09.41:033][998]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-18.09.41:033][998]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-18.09.41:034][998]LogWorld: Bringing up level for play took: 0.009472
+[2015.11.11-18.09.41:039][998]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_Level5 0.41
+[2015.11.11-18.09.41:039][998]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.10.13:832][795]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.10.13:973][795]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.10.14:133][796]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000359BA8E0
+[2015.11.11-18.10.36:336][531]LogEditorViewport: Clicking on Actor (LMB): BP_TractorBeam_C (BP_TractorBeam)
+[2015.11.11-18.10.39:727][651]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.10.39:727][651]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-18.10.39:727][651]PIE: New page: PIE session: Level5 (Nov 11, 2015, 8:10:39 AM)
+[2015.11.11-18.10.39:727][651]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_Level5
+[2015.11.11-18.10.39:797][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069552s)
+[2015.11.11-18.10.39:798][651]LogAIModule: Creating AISystem for world Level5
+[2015.11.11-18.10.39:798][651]LogPlayLevel: PIE: World Init took: (0.001319s)
+[2015.11.11-18.10.39:799][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/Level5.Level5 to /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5 (0.071284s)
+[2015.11.11-18.10.39:899][651]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-18.10.39:915][651]LogInit: FAudioDevice initialized.
+[2015.11.11-18.10.39:957][651]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.11-18.10.39:966][651]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5 up for play (max tick rate 60) at 2015.11.11-13.10.39
+[2015.11.11-18.10.39:966][651]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-18.10.39:966][651]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-18.10.39:967][651]LogWorld: Bringing up level for play took: 0.009197
+[2015.11.11-18.10.39:971][651]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_Level5 -0.658
+[2015.11.11-18.10.39:971][651]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.11.00:291][737]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.11.00:346][737]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.11.00:409][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000409D7E20
+[2015.11.11-18.11.16:077][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Maps/Level5" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level5.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.11-18.11.16:764][365]LogSavePackage: Save=532.400269ms
+[2015.11.11-18.11.16:764][365]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Level5330E68524D761B21EE2814B22C962FA6.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level5.umap'
+[2015.11.11-18.11.16:772][365]LogSavePackage: Total save time: 587.611165ms
+[2015.11.11-18.11.16:772][365]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level5.umap
+[2015.11.11-18.13.30:882][787]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/arberj/Downloads/Time_Portal.fbx)
+[2015.11.11-18.13.31:026][787]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.11-18.13.31:026][787]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.11.11-18.13.31:026][787]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.11.11-18.13.31:026][787]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.11.11-18.13.31:026][787]LogFbx: ItemName: Material, ItemCount : 1
+[2015.11.11-18.13.31:026][787]LogFbx: ItemName: Texture, ItemCount : 2
+[2015.11.11-18.13.31:026][787]LogFbx: ItemName: Video, ItemCount : 2
+[2015.11.11-18.13.31:026][787]LogFbx: ItemName: Model, ItemCount : 1
+[2015.11.11-18.13.31:026][787]LogFbx: ItemName: AnimationCurveNode, ItemCount : 3
+[2015.11.11-18.13.31:026][787]LogFbx: ItemName: AnimationCurve, ItemCount : 5
+[2015.11.11-18.13.31:047][787]LogFbx: Loading FBX Scene from ../../../../../../Users/arberj/Downloads/Time_Portal.fbx
+[2015.11.11-18.13.31:096][787]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.11-18.13.33:550][787]LogFbx: Loading FBX Scene from ../../../../../../Users/arberj/Downloads/Time_Portal.fbx
+[2015.11.11-18.13.33:591][787]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.11-18.13.33:609][787]LogFbx: =================================================
+[2015.11.11-18.13.33:609][787]LogFbx: Dumping Node START [pCylinder1] 
+[2015.11.11-18.13.33:609][787]LogFbx: 	Total Deformer Count 1241957120.
+[2015.11.11-18.13.33:628][787]LogFbx: 	Attribute () Type (4).
+[2015.11.11-18.13.33:628][787]LogFbx: 		[Node Attribute Child 1] pCylinder1 (Type Mesh).
+[2015.11.11-18.13.33:628][787]LogFbx: Dumping Node END [pCylinder1]
+[2015.11.11-18.13.33:628][787]LogFbx: =================================================
+[2015.11.11-18.13.33:628][787]LogFbx: Dumping Node START [pCylinder1] 
+[2015.11.11-18.13.33:628][787]LogFbx: 	Total Deformer Count 1241957120.
+[2015.11.11-18.13.33:628][787]LogFbx: 	Attribute () Type (4).
+[2015.11.11-18.13.33:628][787]LogFbx: 		[Node Attribute Child 1] pCylinder1 (Type Mesh).
+[2015.11.11-18.13.33:628][787]LogFbx: Dumping Node END [pCylinder1]
+[2015.11.11-18.13.33:688][787]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Materials/Waves'
+[2015.11.11-18.13.33:688][787]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Materials/Waves'
+[2015.11.11-18.13.33:694][787]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Materials/Temporal_Ripples'
+[2015.11.11-18.13.33:694][787]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Materials/Temporal_Ripples'
+[2015.11.11-18.13.33:694][787]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/PuzzleBP/Materials/Temporal_Ripples.Temporal_Ripples'
+[2015.11.11-18.13.33:699][787]LogStreaming:Warning: Failed to read file 'D:/Users/Alex/Documents/maya/projects/default/sourceimages/Temporal_Ripples.png' error.
+[2015.11.11-18.13.33:699][787]LogStreaming:Warning: Failed to read file '../../../../../../Users/arberj/Downloads/..\projects\default\sourceimages\Temporal_Ripples.png' error.
+[2015.11.11-18.13.33:727][787]LogTexture:Display: Building textures: Temporal_Ripples (AutoDXT)
+[2015.11.11-18.13.34:446][787]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Materials/save_01'
+[2015.11.11-18.13.34:447][787]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Materials/save_01'
+[2015.11.11-18.13.34:447][787]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/PuzzleBP/Materials/save_01.save_01'
+[2015.11.11-18.13.34:454][787]LogStreaming:Warning: Failed to read file 'D:/Users/Alex/Documents/maya/projects/default/sourceimages/Water Texture/save.01.tif' error.
+[2015.11.11-18.13.34:454][787]LogStreaming:Warning: Failed to read file '../../../../../../Users/arberj/Downloads/..\projects\default\sourceimages\Water Texture\save.01.tif' error.
+[2015.11.11-18.13.34:454][787]LogStreaming:Warning: Failed to read file '../../../../../../Users/arberj/Downloads/save.01.tif' error.
+[2015.11.11-18.13.34:454][787]LogFbxMaterialImport:Warning: Unable to find TEXTure file save.01.tif. Tried:
+ - D:/Users/Alex/Documents/maya/projects/default/sourceimages/Water Texture/save.01.tif
+ - ../../../../../../Users/arberj/Downloads/..\projects\default\sourceimages\Water Texture\save.01.tif
+ - ../../../../../../Users/arberj/Downloads/save.01.tif
+[2015.11.11-18.13.34:464][787]LogMaterial: Missing cached shader map for material Waves, compiling. 
+[2015.11.11-18.13.34:485][787]LogFbx: Triangulating skeletal mesh pCylinder1
+[2015.11.11-18.13.34:940][787]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2015.11.11-18.13.35:103][787]LogSkeletalMesh: Chunk 0: 779 rigid vertices, 0 soft vertices, 1 active bones
+[2015.11.11-18.13.35:110][787]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 1408 triangles
+[2015.11.11-18.13.35:137][787]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Materials/Time_Portal_PhysicsAsset'
+[2015.11.11-18.13.35:138][787]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Materials/Time_Portal_PhysicsAsset'
+[2015.11.11-18.13.35:138][787]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/PuzzleBP/Materials/Time_Portal_PhysicsAsset.Time_Portal_PhysicsAsset'
+[2015.11.11-18.13.35:255][787]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Materials/Time_Portal_Skeleton'
+[2015.11.11-18.13.35:256][787]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Materials/Time_Portal_Skeleton'
+[2015.11.11-18.13.35:256][787]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/PuzzleBP/Materials/Time_Portal_Skeleton.Time_Portal_Skeleton'
+[2015.11.11-18.13.35:331][787]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.11.11-18.13.35:331][787]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
+[2015.11.11-18.13.35:360][787]LogFactory: FactoryCreateBinary: SkeletalMesh with FbxFactory (0 0 ../../../../../../Users/arberj/Downloads/Tractor_Emitter.fbx)
+[2015.11.11-18.13.36:479][787]LogFbx: Loading FBX Scene from ../../../../../../Users/arberj/Downloads/Tractor_Emitter.fbx
+[2015.11.11-18.13.36:497][787]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.11-18.13.36:501][787]LogFbx: =================================================
+[2015.11.11-18.13.36:501][787]LogFbx: Dumping Node START [pCylinder1] 
+[2015.11.11-18.13.36:501][787]LogFbx: 	Total Deformer Count 971830208.
+[2015.11.11-18.13.36:501][787]LogFbx: 	Attribute () Type (4).
+[2015.11.11-18.13.36:501][787]LogFbx: 		[Node Attribute Child 1] pCylinder1 (Type Mesh).
+[2015.11.11-18.13.36:501][787]LogFbx: Dumping Node END [pCylinder1]
+[2015.11.11-18.13.36:501][787]LogFbx: =================================================
+[2015.11.11-18.13.36:501][787]LogFbx: Dumping Node START [pCylinder1] 
+[2015.11.11-18.13.36:501][787]LogFbx: 	Total Deformer Count 971830208.
+[2015.11.11-18.13.36:501][787]LogFbx: 	Attribute () Type (4).
+[2015.11.11-18.13.36:501][787]LogFbx: 		[Node Attribute Child 1] pCylinder1 (Type Mesh).
+[2015.11.11-18.13.36:502][787]LogFbx: Dumping Node END [pCylinder1]
+[2015.11.11-18.13.36:508][787]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Materials/rampShader1'
+[2015.11.11-18.13.36:508][787]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Materials/rampShader1'
+[2015.11.11-18.13.36:520][787]LogMaterial: Missing cached shader map for material rampShader1, compiling. 
+[2015.11.11-18.13.36:544][787]LogFbx: Triangulating skeletal mesh pCylinder1
+[2015.11.11-18.13.36:821][787]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2015.11.11-18.13.36:855][787]LogSkeletalMesh: Chunk 0: 839 rigid vertices, 0 soft vertices, 1 active bones
+[2015.11.11-18.13.36:857][787]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 1152 triangles
+[2015.11.11-18.13.36:859][787]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Materials/Tractor_Emitter_PhysicsAsset'
+[2015.11.11-18.13.36:859][787]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Materials/Tractor_Emitter_PhysicsAsset'
+[2015.11.11-18.13.36:860][787]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/PuzzleBP/Materials/Tractor_Emitter_PhysicsAsset.Tractor_Emitter_PhysicsAsset'
+[2015.11.11-18.13.36:865][787]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Materials/Tractor_Emitter_Skeleton'
+[2015.11.11-18.13.36:865][787]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Materials/Tractor_Emitter_Skeleton'
+[2015.11.11-18.13.36:865][787]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/PuzzleBP/Materials/Tractor_Emitter_Skeleton.Tractor_Emitter_Skeleton'
+[2015.11.11-18.13.36:871][787]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.11.11-18.13.36:871][787]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
+[2015.11.11-18.13.41:264][787]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/arberj/Downloads/Temporal_Ripples.png)
+[2015.11.11-18.13.42:761][787]LogTexture:Display: Building textures: Temporal_Ripples (BC5)
+[2015.11.11-18.13.43:386][788]LogMaterial:Warning: Material /Game/PuzzleBP/Materials/rampShader1.rampShader1 needed to have new flag set bUsedWithSkeletalMesh !
+[2015.11.11-18.13.43:423][788]LogMaterial: Missing cached shader map for material rampShader1, compiling. 
+[2015.11.11-18.13.43:481][788]LogMaterial: 0.000313 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-18.13.43:678][789]LogMaterial:Warning: Material /Game/PuzzleBP/Materials/Waves.Waves needed to have new flag set bUsedWithSkeletalMesh !
+[2015.11.11-18.13.43:696][789]LogMaterial: Missing cached shader map for material Waves, compiling. 
+[2015.11.11-18.13.43:698][789]LogMaterial:Warning: Failed to compile Material /Game/PuzzleBP/Materials/Waves.Waves for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-18.13.43:698][789]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Normal for /Game/PuzzleBP/Materials/Temporal_Ripples.Temporal_Ripples
+[2015.11.11-18.13.43:698][789]LogMaterial: 0.000233 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-18.15.17:193][685]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2015.11.11-18.15.21:054][755]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2015.11.11-18.16.42:072][585]LogMaterial:Warning: Material /Game/PuzzleBP/Materials/Emitter.Emitter needed to have new flag set bUsedWithSkeletalMesh !
+[2015.11.11-18.16.42:076][585]LogMaterial: Missing cached shader map for material Emitter, compiling. 
+[2015.11.11-18.16.42:117][585]LogMaterial: 0.000216 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-18.16.44:954][648]BlueprintLog: New page: Compile BP_TractorBeam
+[2015.11.11-18.16.45:920][648]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000041778C20
+[2015.11.11-18.16.46:057][648]BlueprintEditorCompileResults: Info [8935.30] Compile of BP_TractorBeam successful! [in 1,102 ms]
+[2015.11.11-18.16.47:217][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Blueprints/BP_TractorBeam" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Blueprints/BP_TractorBeam.uasset" SILENT=true
+[2015.11.11-18.16.47:451][670]LogSavePackage: Save=195.284805ms
+[2015.11.11-18.16.47:451][670]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/BP_TractorBeam882CC4EF46AA26BD8072C08D23F6AE34.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Blueprints/BP_TractorBeam.uasset'
+[2015.11.11-18.16.47:454][670]LogSavePackage: Total save time: 235.467091ms
+[2015.11.11-18.16.47:454][670]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Blueprints/BP_TractorBeam.uasset
+[2015.11.11-18.17.00:112][124]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.17.00:112][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-18.17.00:112][124]PIE: New page: PIE session: Level5 (Nov 11, 2015, 8:17:00 AM)
+[2015.11.11-18.17.00:112][124]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_Level5
+[2015.11.11-18.17.00:146][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033624s)
+[2015.11.11-18.17.00:149][124]LogAIModule: Creating AISystem for world Level5
+[2015.11.11-18.17.00:149][124]LogPlayLevel: PIE: World Init took: (0.002854s)
+[2015.11.11-18.17.00:149][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/Level5.Level5 to /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5 (0.036693s)
+[2015.11.11-18.17.00:194][124]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-18.17.00:200][124]LogInit: FAudioDevice initialized.
+[2015.11.11-18.17.00:232][124]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.11-18.17.00:237][124]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5 up for play (max tick rate 60) at 2015.11.11-13.17.00
+[2015.11.11-18.17.00:237][124]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-18.17.00:237][124]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_Level5.Level5:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-18.17.00:237][124]LogWorld: Bringing up level for play took: 0.004732
+[2015.11.11-18.17.00:239][124]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_Level5 -0.398
+[2015.11.11-18.17.00:240][124]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.17.49:839][464]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.17.49:927][464]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5' with GeneratedClass '/Game/PuzzleBP/Maps/Level5.Level5_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Level5.Level5:PersistentLevel.Level5'
+[2015.11.11-18.17.50:033][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AC60FE0
+[2015.11.11-18.18.01:464][831]LogEditorViewport: Clicking on Actor (LMB): Test_Port_Blueprint_C (Test_Port_Blueprint)
+[2015.11.11-18.18.20:281][218]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2015.11.11-18.18.32:865][544]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-18.18.33:148][544]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-18.18.33:168][544]LogMaterial: 0.000182 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-18.18.37:582][639]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.11.11-18.18.37:582][639]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.11-18.18.37:582][639]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.11-18.18.41:253][789]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-18.18.41:261][789]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-18.18.41:263][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.11.11-18.18.43:148][839]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.11.11-18.18.43:148][839]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.11-18.18.43:148][839]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.11-18.18.48:287][  0]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-18.18.48:294][  0]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-18.18.48:335][  0]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.11.11-18.18.49:894][ 36]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.11.11-18.18.49:894][ 36]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.11-18.18.49:894][ 36]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.11-18.18.51:421][ 71]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-18.18.51:439][ 71]LogMaterial: 0.000213 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-18.18.51:466][ 71]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.11.11-18.18.55:498][164]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-18.18.55:510][164]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-18.18.55:542][164]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.11.11-18.18.55:595][165]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.11.11-18.18.55:595][165]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.11-18.18.55:595][165]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.11-18.18.57:455][202]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 43 instructions
+[2015.11.11-18.18.57:455][202]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.11-18.18.57:455][202]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.11-18.19.05:572][360]LogMaterialEditor: Applying material Time
+[2015.11.11-18.19.07:705][360]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-18.19.07:771][360]LogMaterial: 0.000151 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-18.19.07:871][360]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-18.19.08:010][360]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-18.19.08:051][360]LogMaterial: 0.019983 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-18.19.13:797][465]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.11.11-18.19.13:797][465]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.11-18.19.13:797][465]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.11-18.19.16:010][509]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2015.11.11-18.19.20:145][584]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2015.11.11-18.20.52:382][498]LogMaterial:Warning: Material /Game/PuzzleBP/Materials/Time.Time needed to have new flag set bUsedWithSkeletalMesh !
+[2015.11.11-18.20.52:383][498]LogMaterial:Warning: Material /Engine/Transient.Time needed to have new flag set bUsedWithSkeletalMesh !
+[2015.11.11-18.20.52:395][498]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-18.20.52:441][498]LogMaterial: 0.000295 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-18.20.52:446][498]LogMaterial: Missing cached shader map for material Time, compiling. 
+[2015.11.11-18.20.52:546][498]LogMaterial: 0.000553 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-18.20.54:823][538]BlueprintLog: New page: Compile Test_Port_Blueprint
+[2015.11.11-18.20.55:379][538]BlueprintEditorCompileResults: Info [9184.61] Compile of Test_Port_Blueprint successful! [in 555 ms]
+[2015.11.11-18.20.57:111][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test_Port_Blueprint" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Test_Port_Blueprint.uasset" SILENT=true
+[2015.11.11-18.20.57:417][567]LogSavePackage: Save=178.281769ms
+[2015.11.11-18.20.57:417][567]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Test_Port_BlueprintDA1263884B43EB72FB368A933ADA4438.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Test_Port_Blueprint.uasset'
+[2015.11.11-18.20.57:421][567]LogSavePackage: Total save time: 235.885751ms
+[2015.11.11-18.20.57:421][567]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Test_Port_Blueprint.uasset
+[2015.11.11-18.21.10:870][875]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.11.11-18.21.10:871][875]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.11-18.21.10:871][875]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.11-18.22.14:335][243]LogSavePackage: Save=607.317261ms
+[2015.11.11-18.22.14:335][243]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Level5_Auto3A51D7A4E40BFAF9357A25A9725DBA388.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Maps/Level5_Auto3.umap'
+[2015.11.11-18.22.14:339][243]LogSavePackage: Total save time: 713.675644ms
+[2015.11.11-18.22.14:339][243]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Maps/Level5_Auto3.umap
+[2015.11.11-18.22.14:345][243]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/Level5' took 0.868
+[2015.11.11-18.22.14:346][243]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.868
+[2015.11.11-18.22.14:367][243]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PuzzleBP/Materials/Emitter] ([1] browsable assets)...
+[2015.11.11-18.22.14:430][243]OBJ SavePackage:     Rendered thumbnail for [Material /Game/PuzzleBP/Materials/Emitter.Emitter]
+[2015.11.11-18.22.14:430][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Materials/Emitter]
+[2015.11.11-18.22.14:492][243]LogSavePackage: Save=42.083073ms
+[2015.11.11-18.22.14:493][243]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Emitter_Auto3A280234C4E765A26BBE81CBE132D6E91.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/Emitter_Auto3.uasset'
+[2015.11.11-18.22.14:495][243]LogSavePackage: Total save time: 61.764050ms
+[2015.11.11-18.22.14:495][243]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/Emitter_Auto3.uasset
+[2015.11.11-18.22.14:506][243]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PuzzleBP/Materials/Time_Portal] ([1] browsable assets)...
+[2015.11.11-18.22.14:552][243]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/PuzzleBP/Materials/Time_Portal.Time_Portal]
+[2015.11.11-18.22.14:552][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Materials/Time_Portal]
+[2015.11.11-18.22.14:615][243]LogSavePackage: Save=46.634201ms
+[2015.11.11-18.22.14:615][243]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Time_Portal_Auto3C5325D8A44924B2257BDA58E9CE070D7.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/Time_Portal_Auto3.uasset'
+[2015.11.11-18.22.14:617][243]LogSavePackage: Total save time: 56.048594ms
+[2015.11.11-18.22.14:617][243]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/Time_Portal_Auto3.uasset
+[2015.11.11-18.22.14:628][243]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PuzzleBP/Materials/Waves] ([1] browsable assets)...
+[2015.11.11-18.22.14:676][243]OBJ SavePackage:     Rendered thumbnail for [Material /Game/PuzzleBP/Materials/Waves.Waves]
+[2015.11.11-18.22.14:676][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Materials/Waves]
+[2015.11.11-18.22.14:722][243]LogSavePackage: Save=40.825317ms
+[2015.11.11-18.22.14:722][243]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Waves_Auto3AEA4B92B47F0D5D21BD307A63CD96434.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/Waves_Auto3.uasset'
+[2015.11.11-18.22.14:726][243]LogSavePackage: Total save time: 45.091912ms
+[2015.11.11-18.22.14:726][243]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/Waves_Auto3.uasset
+[2015.11.11-18.22.14:741][243]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PuzzleBP/Materials/Temporal_Ripples] ([1] browsable assets)...
+[2015.11.11-18.22.14:774][243]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/PuzzleBP/Materials/Temporal_Ripples.Temporal_Ripples]
+[2015.11.11-18.22.14:774][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Materials/Temporal_Ripples]
+[2015.11.11-18.22.14:848][243]LogSavePackage: Save=63.574234ms
+[2015.11.11-18.22.14:848][243]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Temporal_Ripples_Auto3D333EC1243EC769A36D9FA900A562C6A.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/Temporal_Ripples_Auto3.uasset'
+[2015.11.11-18.22.14:853][243]LogSavePackage: Total save time: 69.241203ms
+[2015.11.11-18.22.14:854][243]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/Temporal_Ripples_Auto3.uasset
+[2015.11.11-18.22.14:866][243]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PuzzleBP/Materials/Time_Portal_PhysicsAsset] ([1] browsable assets)...
+[2015.11.11-18.22.14:866][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Materials/Time_Portal_PhysicsAsset]
+[2015.11.11-18.22.14:880][243]LogSavePackage: Save=9.423242ms
+[2015.11.11-18.22.14:880][243]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Time_Portal_PhysicsAsset_Auto3E89CD8014852D234F47FBEACE16DEB70.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/Time_Portal_PhysicsAsset_Auto3.uasset'
+[2015.11.11-18.22.14:882][243]LogSavePackage: Total save time: 12.293708ms
+[2015.11.11-18.22.14:882][243]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/Time_Portal_PhysicsAsset_Auto3.uasset
+[2015.11.11-18.22.14:892][243]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PuzzleBP/Materials/Time_Portal_Skeleton] ([1] browsable assets)...
+[2015.11.11-18.22.14:892][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Materials/Time_Portal_Skeleton]
+[2015.11.11-18.22.14:904][243]LogSavePackage: Save=8.362964ms
+[2015.11.11-18.22.14:904][243]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Time_Portal_Skeleton_Auto3F3D9DA1241C496CB9A5108810684944B.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/Time_Portal_Skeleton_Auto3.uasset'
+[2015.11.11-18.22.14:906][243]LogSavePackage: Total save time: 11.341371ms
+[2015.11.11-18.22.14:907][243]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/Time_Portal_Skeleton_Auto3.uasset
+[2015.11.11-18.22.14:916][243]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PuzzleBP/Materials/Tractor_Emitter] ([1] browsable assets)...
+[2015.11.11-18.22.14:954][243]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/PuzzleBP/Materials/Tractor_Emitter.Tractor_Emitter]
+[2015.11.11-18.22.14:954][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Materials/Tractor_Emitter]
+[2015.11.11-18.22.14:993][243]LogSavePackage: Save=33.007713ms
+[2015.11.11-18.22.14:993][243]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Tractor_Emitter_Auto337199EA444F8667F7727CFAD948C56D9.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/Tractor_Emitter_Auto3.uasset'
+[2015.11.11-18.22.14:995][243]LogSavePackage: Total save time: 35.782274ms
+[2015.11.11-18.22.14:995][243]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/Tractor_Emitter_Auto3.uasset
+[2015.11.11-18.22.15:005][243]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PuzzleBP/Materials/rampShader1] ([1] browsable assets)...
+[2015.11.11-18.22.15:043][243]OBJ SavePackage:     Rendered thumbnail for [Material /Game/PuzzleBP/Materials/rampShader1.rampShader1]
+[2015.11.11-18.22.15:043][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Materials/rampShader1]
+[2015.11.11-18.22.15:164][243]LogSavePackage: Save=99.059944ms
+[2015.11.11-18.22.15:164][243]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/rampShader1_Auto3A73DE7A749BCE712ABBDA98FA72127FF.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/rampShader1_Auto3.uasset'
+[2015.11.11-18.22.15:170][243]LogSavePackage: Total save time: 106.537450ms
+[2015.11.11-18.22.15:170][243]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/rampShader1_Auto3.uasset
+[2015.11.11-18.22.15:180][243]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PuzzleBP/Materials/Tractor_Emitter_PhysicsAsset] ([1] browsable assets)...
+[2015.11.11-18.22.15:180][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Materials/Tractor_Emitter_PhysicsAsset]
+[2015.11.11-18.22.15:201][243]LogSavePackage: Save=8.734202ms
+[2015.11.11-18.22.15:201][243]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Tractor_Emitter_PhysicsAsset_Auto398230B6241D326574F1462AF5782925A.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/Tractor_Emitter_PhysicsAsset_Auto3.uasset'
+[2015.11.11-18.22.15:203][243]LogSavePackage: Total save time: 17.912544ms
+[2015.11.11-18.22.15:203][243]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/Tractor_Emitter_PhysicsAsset_Auto3.uasset
+[2015.11.11-18.22.15:213][243]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PuzzleBP/Materials/Tractor_Emitter_Skeleton] ([1] browsable assets)...
+[2015.11.11-18.22.15:213][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Materials/Tractor_Emitter_Skeleton]
+[2015.11.11-18.22.15:224][243]LogSavePackage: Save=7.325688ms
+[2015.11.11-18.22.15:224][243]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Tractor_Emitter_Skeleton_Auto34668EE5B473FB2A69F5122947E5DD03E.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/Tractor_Emitter_Skeleton_Auto3.uasset'
+[2015.11.11-18.22.15:226][243]LogSavePackage: Total save time: 10.295246ms
+[2015.11.11-18.22.15:226][243]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/Tractor_Emitter_Skeleton_Auto3.uasset
+[2015.11.11-18.22.15:235][243]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PuzzleBP/Materials/Time] ([1] browsable assets)...
+[2015.11.11-18.22.15:269][243]OBJ SavePackage:     Rendered thumbnail for [Material /Game/PuzzleBP/Materials/Time.Time]
+[2015.11.11-18.22.15:269][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Materials/Time]
+[2015.11.11-18.22.15:325][243]LogSavePackage: Save=51.522240ms
+[2015.11.11-18.22.15:325][243]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Time_Auto3166A3F114B7FECB5A3017482092CCDA7.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Materials/Time_Auto3.uasset'
+[2015.11.11-18.22.15:327][243]LogSavePackage: Total save time: 54.583456ms
+[2015.11.11-18.22.15:328][243]LogSavePackage:Wa
