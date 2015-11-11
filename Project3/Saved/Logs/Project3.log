@@ -6349,4 +6349,28 @@
 [2015.11.11-09.34.01:804][553]PIE:Warning: Warning Invalid Simulate Options: Body (Up_Tractor_Beam_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
 [2015.11.11-09.34.01:804][553]PIE:Warning: Warning Invalid Simulate Options: Body (Up_Tractor_Beam_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
 [2015.11.11-09.34.01:811][553]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 2.169
-[2015.11.11-09.34.01:811][553]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLe
+[2015.11.11-09.34.01:811][553]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-09.34.29:360][310]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-09.34.29:502][310]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.11-09.34.29:637][310]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000071786D40
+[2015.11.11-09.34.50:544][707]LogSavePackage: Save=1605.376831ms
+[2015.11.11-09.34.50:544][707]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/PuzzleExampleMap_Auto2E66A8C804CCA3EF77AC066B45E4B5331.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto2.umap'
+[2015.11.11-09.34.50:548][707]LogSavePackage: Total save time: 1650.186345ms
+[2015.11.11-09.34.50:548][707]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto2.umap
+[2015.11.11-09.34.50:556][707]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 1.774
+[2015.11.11-09.34.50:556][707]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.774
+[2015.11.11-09.34.50:573][707]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Test_Port_Blueprint] ([1] browsable assets)...
+[2015.11.11-09.34.50:602][707]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Test_Port_Blueprint.Test_Port_Blueprint]
+[2015.11.11-09.34.50:602][707]OBJ SavePackage: Finished generating thumbnails for package [/Game/Test_Port_Blueprint]
+[2015.11.11-09.34.50:864][707]LogSavePackage: Save=227.469345ms
+[2015.11.11-09.34.50:865][707]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Test_Port_Blueprint_Auto2E5A5C25B4C5159C864D9B6A44661C399.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/Test_Port_Blueprint_Auto2.uasset'
+[2015.11.11-09.34.50:867][707]LogSavePackage: Total save time: 262.665216ms
+[2015.11.11-09.34.50:867][707]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/Test_Port_Blueprint_Auto2.uasset
+[2015.11.11-09.34.50:868][707]LogFileHelpers: Auto-saving content packages took 0.308
+[2015.11.11-09.53.51:714][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test_Port_Blueprint" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Test_Port_Blueprint.uasset" SILENT=true
+[2015.11.11-09.53.52:032][182]LogSavePackage: Save=174.661392ms
+[2015.11.11-09.53.52:032][182]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Test_Port_Blueprint836A7AF3498739622C9DE28F963A9AA9.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Test_Port_Blueprint.uasset'
+[2015.11.11-09.53.52:043][182]LogSavePackage: Total save time: 326.453201ms
+[2015.11.11-09.53.52:043][182]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Test_Port_Blueprint.uasset
+[2015.11.11-09.53.55:022][236]LogSavePackage: Save=698.802368ms
+[2015.11.11-09.53.55:022][236]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/PuzzleExampleMapC8D75E5D47B96
