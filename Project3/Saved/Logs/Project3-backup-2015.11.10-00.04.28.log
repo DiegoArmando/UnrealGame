@@ -1,0 +1,1024 @@
+﻿[2015.11.10-04.16.34:009][  0]Log file open, 11/09/15 23:16:34
+[2015.11.10-04.16.34:009][  0]LogInit:Display: Running engine for game: Project3
+[2015.11.10-04.16.34:009][  0]LogInit:Display: RandInit(-332776450) SRandInit(-332776449).
+[2015.11.10-04.16.34:009][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.11.10-04.16.34:010][  0]LogStats: Stats thread started at 0.123675
+[2015.11.10-04.16.34:010][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.10-04.16.34:010][  0]LogInit: API Version: 2672455
+[2015.11.10-04.16.34:010][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.10-04.16.34:010][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.10-04.16.34:010][  0]LogInit: Build Configuration: Development
+[2015.11.10-04.16.34:010][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.10-04.16.34:010][  0]LogInit: Command line: 
+[2015.11.10-04.16.34:010][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.10-04.16.34:010][  0]LogInit: Rocket: 1
+[2015.11.10-04.16.34:032][  0]LogInit: Using libcurl 7.41.0
+[2015.11.10-04.16.34:033][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.10-04.16.34:033][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.10-04.16.34:033][  0]LogInit:  - other features:
+[2015.11.10-04.16.34:033][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.10-04.16.34:033][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.10-04.16.34:033][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.10-04.16.34:033][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.10-04.16.34:033][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.10-04.16.34:033][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.10-04.16.34:033][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.10-04.16.34:033][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.10-04.16.34:033][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.10-04.16.34:033][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.10-04.16.34:066][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.10-04.16.34:098][  0]LogInit: Object subsystem initialized
+[2015.11.10-04.16.34:109][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.10-04.16.34:109][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.10-04.16.34:136][  0]LogInit: Computer: ARBERJ-PC
+[2015.11.10-04.16.34:136][  0]LogInit: User: arberj
+[2015.11.10-04.16.34:136][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.11.10-04.16.34:136][  0]LogInit: High frequency timer resolution =2.825703 MHz
+[2015.11.10-04.16.34:136][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2015.11.10-04.16.34:136][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.10-04.16.34:136][  0]LogMemory: Process Physical Memory: 54.74 MB used, 54.74 MB peak
+[2015.11.10-04.16.34:136][  0]LogMemory: Process Virtual Memory: 58.52 MB used, 58.52 MB peak
+[2015.11.10-04.16.34:136][  0]LogMemory: Physical Memory: 5201.71 MB used, 7888.80 MB total
+[2015.11.10-04.16.34:136][  0]LogMemory: Virtual Memory: 339.72 MB used, 8388608.00 MB total
+[2015.11.10-04.16.34:216][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.10-04.16.36:270][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.11.10-04.16.36:270][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.11.10-04.16.36:298][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA NVS 5200M (Feature Level 11_0)
+[2015.11.10-04.16.36:298][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 0 output[s]
+[2015.11.10-04.16.36:298][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.10-04.16.36:313][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.10-04.16.36:313][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2015.11.10-04.16.36:346][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.10-04.16.36:365][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/arberj/Documents/Project 3/Project3/Intermediate/Shaders/WorkingDirectory/3644/).
+[2015.11.10-04.16.36:365][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/arberj/Documents/Project 3/Project3/Intermediate/Shaders/tmp/5DA142E946C698048653DA95E7173AD6/'.
+[2015.11.10-04.16.36:365][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.10-04.16.39:239][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.10-04.16.39:248][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.10-04.16.39:256][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.10-04.16.39:265][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.10-04.16.39:274][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.10-04.16.39:280][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.10-04.16.39:286][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.10-04.16.39:291][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.10-04.16.39:297][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.10-04.16.39:303][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.10-04.16.39:309][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.10-04.16.39:316][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.10-04.16.39:317][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.10-04.16.39:337][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.10-04.16.39:342][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.10-04.16.39:348][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.10-04.16.39:354][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.10-04.16.39:354][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.10-04.16.39:496][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.10-04.16.41:438][  0]LogDerivedDataCache: Loaded boot cache 1.94s 41MB C:/Users/arberj/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.10-04.16.41:438][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/arberj/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.10-04.16.41:438][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/arberj/Documents/Project 3/Project3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.10-04.16.41:438][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.10-04.16.41:439][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/arberj/Documents/Project 3/Project3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.10-04.16.41:439][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.10-04.16.41:893][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.10-04.16.41:905][  0]LogDerivedDataCache: Using Local data cache path C:/Users/arberj/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.10-04.16.42:362][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.10-04.16.42:363][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.10-04.16.42:419][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.10-04.16.42:419][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.10-04.16.43:229][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.10-04.16.44:724][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.10-04.16.44:895][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2015.11.10-04.16.45:411][  0]SourceControl: Info Source control is disabled
+[2015.11.10-04.16.45:572][  0]SourceControl: Info Source control is disabled
+[2015.11.10-04.16.45:595][  0]SourceControl: Info Source control is disabled
+[2015.11.10-04.16.45:624][  0]SourceControl: Info Source control is disabled
+[2015.11.10-04.16.45:959][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.10-04.16.46:160][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.11.10-04.16.46:160][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.11.10-04.16.46:279][  0]LogEngine: Initializing Engine...
+[2015.11.10-04.16.46:286][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.10-04.16.46:287][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.10-04.16.46:579][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.10-04.16.46:587][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-04.16.46:609][  0]LogInit: FAudioDevice initialized.
+[2015.11.10-04.16.46:645][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/arberj/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.10-04.16.46:653][  0]LogInit: Texture streaming: Enabled
+[2015.11.10-04.16.46:664][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.10-04.16.46:664][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.10-04.16.46:664][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 15bf5e1443dad17f262fdca36d7425fc|df19e4b5cb6e4aa587bfa517cbe8205c|c3bf5bbd-5bb1-433f-b3a7-e6e7acfa0a68
+[2015.11.10-04.16.46:664][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.10-04.16.46:742][  0]LogInit: Transaction tracking system initialized
+[2015.11.10-04.16.46:802][  0]BlueprintLog: New page: Editor Load
+[2015.11.10-04.16.46:963][  0]LocalizationService: Info Localization service is disabled
+[2015.11.10-04.16.47:502][  0]LogConsoleResponse:Display: 
+[2015.11.10-04.16.47:788][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.10-04.16.47:896][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arberj/Documents/Project 3/Project3/Content/' took 0.01s
+[2015.11.10-04.16.47:896][  0]SourceControl: Info Source control is disabled
+[2015.11.10-04.16.47:896][  0]Cmd: MAP LOAD FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.10-04.16.47:897][  0]LightingResults: New page: Lighting Build
+[2015.11.10-04.16.47:902][  0]MapCheck: New page: Map Check
+[2015.11.10-04.16.47:902][  0]LightingResults: New page: Lighting Build
+[2015.11.10-04.16.47:932][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023FEA160
+[2015.11.10-04.16.48:696][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2015.11.10-04.16.48:703][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0016.16] Compile of PuzzleBlockGrid successful, but with 1 Warning(s) [in 20 ms]
+[2015.11.10-04.16.48:704][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0016.16] Compile of PuzzleBlockGrid successful, but with 2 Warning(s) [in 0 ms]
+[2015.11.10-04.16.48:704][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0016.16] Compile of PuzzleBlockGrid successful, but with 3 Warning(s) [in 0 ms]
+[2015.11.10-04.16.48:734][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2015.11.10-04.16.48:740][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0016.19] Compile of PuzzleBlockGrid successful, but with 1 Warning(s) [in 18 ms]
+[2015.11.10-04.16.48:740][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0016.19] Compile of PuzzleBlockGrid successful, but with 2 Warning(s) [in 0 ms]
+[2015.11.10-04.16.48:740][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] Warning [0016.19] Compile of PuzzleBlockGrid successful, but with 3 Warning(s) [in 0 ms]
+[2015.11.10-04.16.49:551][  0]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.10-04.16.49:562][  0]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.16.49:562][  0]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.16.49:562][  0]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.16.49:562][  0]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.16.49:563][  0]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.16.49:563][  0]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.16.49:564][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Spring_Edge_Blueprint_C_0.StaticMeshComponent0)
+[2015.11.10-04.16.49:568][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.10-04.16.49:569][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.10-04.16.49:667][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 97.775ms to complete.
+[2015.11.10-04.16.49:667][  0]LogFileHelpers: Loading map 'PuzzleExampleMap' took 1.770
+[2015.11.10-04.16.49:814][  0]LogCollectionManager: Loaded 0 collections in 0.004737 seconds
+[2015.11.10-04.16.49:862][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arberj/Documents/Project 3/Project3/Saved/Collections/' took 0.01s
+[2015.11.10-04.16.49:862][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arberj/Documents/Project 3/Project3/Content/Developers/arberj/Collections/' took 0.01s
+[2015.11.10-04.16.49:862][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arberj/Documents/Project 3/Project3/Content/Collections/' took 0.01s
+[2015.11.10-04.16.49:862][  0]LogContentBrowser: Native class hierarchy populated in 0.0163 seconds. Added 1867 classes and 333 folders.
+[2015.11.10-04.16.49:871][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2015.11.10-04.16.49:885][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.11.10-04.16.49:958][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.11.10-04.16.49:966][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2015.11.10-04.16.50:070][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.10-04.16.50:077][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.10-04.16.50:162][  0]LogLoad: Full Startup: 17.62 seconds (BP compile: 0.47 seconds)
+[2015.11.10-04.16.50:248][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.11.10-04.16.50:432][  1]LogRenderer: Reallocating scene render targets to support 828x388 (Frame:2).
+[2015.11.10-04.16.51:376][  8]LogAssetRegistry: Asset discovery search completed in 6.4901 seconds
+[2015.11.10-04.16.51:376][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.10-04.16.51:376][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2015.11.10-04.17.02:687][389]LogAIModule: Creating AISystem for world Level_1
+[2015.11.10-04.17.02:781][389]Cmd: MAP LOAD FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Blueprints/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.10-04.17.02:781][389]LightingResults: New page: Lighting Build
+[2015.11.10-04.17.02:831][389]LoadErrors: New page: Loading map: Level_1.umap
+[2015.11.10-04.17.02:833][389]MapCheck: New page: Map Check
+[2015.11.10-04.17.02:833][389]LightingResults: New page: Lighting Build
+[2015.11.10-04.17.02:883][389]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001488D120
+[2015.11.10-04.17.03:028][389]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.10-04.17.03:164][389]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.10-04.17.03:285][389]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 120.264ms to complete.
+[2015.11.10-04.17.03:285][389]LogFileHelpers: Loading map 'Level_1' took 0.506
+[2015.11.10-04.17.27:324][383]LightingResults: New page: Lighting Build
+[2015.11.10-04.17.27:325][383]MapCheck: New page: Map Check
+[2015.11.10-04.17.27:325][383]LightingResults: New page: Lighting Build
+[2015.11.10-04.17.27:365][383]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001488DC60
+[2015.11.10-04.17.27:369][383]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.10-04.17.27:501][383]LoadErrors: New page: New Map
+[2015.11.10-04.17.27:522][383]LogAIModule: Creating AISystem for world Level_1
+[2015.11.10-04.17.31:625][491]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.10-04.17.33:201][491]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 107 classes and 0 folders.
+[2015.11.10-04.17.34:224][491]LogActor:Warning: GameNetworkManager /Engine/Transient.World_3:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-04.18.28:334][488]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.10-04.18.28:445][488]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015BD44A0
+[2015.11.10-04.18.28:447][488]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000322A4540
+[2015.11.10-04.18.28:449][488]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003213ACA0
+[2015.11.10-04.18.28:471][488]Cmd: MAP LOAD FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.10-04.18.28:471][488]LightingResults: New page: Lighting Build
+[2015.11.10-04.18.28:525][488]LoadErrors: New page: Loading map: PuzzleExampleMap.umap
+[2015.11.10-04.18.28:525][488]MapCheck: New page: Map Check
+[2015.11.10-04.18.28:525][488]LightingResults: New page: Lighting Build
+[2015.11.10-04.18.28:613][488]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015A95F80
+[2015.11.10-04.18.28:627][488]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.18.28:627][488]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.18.28:629][488]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.18.28:629][488]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.18.28:630][488]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.18.28:630][488]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.18.28:630][488]LogPrimitiveComponent: Zero scaling not supported (/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Spring_Edge_Blueprint_C_0.StaticMeshComponent0)
+[2015.11.10-04.18.28:869][488]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.10-04.18.28:985][488]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.10-04.18.29:121][488]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 135.53ms to complete.
+[2015.11.10-04.18.29:123][488]LogFileHelpers: Loading map 'PuzzleExampleMap' took 0.655
+[2015.11.10-04.19.25:525][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.10-04.19.25:650][757]LogSavePackage: Save=24.098074ms
+[2015.11.10-04.19.25:650][757]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Level10E1DBC2C431E05E1E97CFDBA708C792C.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Level1.umap'
+[2015.11.10-04.19.25:657][757]LogSavePackage: Total save time: 34.753121ms
+[2015.11.10-04.19.25:657][757]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Level1.umap
+[2015.11.10-04.19.25:657][757]LogFileHelpers: Saving map 'Level1' took 0.286
+[2015.11.10-04.19.25:669][757]Cmd: MAP LOAD FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.10-04.19.25:669][757]LightingResults: New page: Lighting Build
+[2015.11.10-04.19.25:722][757]LoadErrors: New page: Loading map: Level1.umap
+[2015.11.10-04.19.25:724][757]MapCheck: New page: Map Check
+[2015.11.10-04.19.25:724][757]LightingResults: New page: Lighting Build
+[2015.11.10-04.19.25:813][757]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A112E80
+[2015.11.10-04.19.26:059][757]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.10-04.19.26:060][757]LogAIModule: Creating AISystem for world Level1
+[2015.11.10-04.19.26:175][757]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.10-04.19.26:309][757]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 132.806ms to complete.
+[2015.11.10-04.19.26:310][757]LogFileHelpers: Loading map 'Level1' took 0.644
+[2015.11.10-04.19.47:578][342]LogAIModule: Creating AISystem for world Level2
+[2015.11.10-04.19.47:679][342]Cmd: MAP LOAD FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.10-04.19.47:680][342]LightingResults: New page: Lighting Build
+[2015.11.10-04.19.47:729][342]LoadErrors: New page: Loading map: Level2.umap
+[2015.11.10-04.19.47:730][342]MapCheck: New page: Map Check
+[2015.11.10-04.19.47:730][342]LightingResults: New page: Lighting Build
+[2015.11.10-04.19.47:811][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032091DA0
+[2015.11.10-04.19.48:098][342]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.10-04.19.48:216][342]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.10-04.19.48:358][342]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 141.241ms to complete.
+[2015.11.10-04.19.48:359][342]LogFileHelpers: Loading map 'Level2' took 0.683
+[2015.11.10-04.19.50:367][392]LogAIModule: Creating AISystem for world Level3
+[2015.11.10-04.19.50:479][392]Cmd: MAP LOAD FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.10-04.19.50:479][392]LightingResults: New page: Lighting Build
+[2015.11.10-04.19.50:535][392]LoadErrors: New page: Loading map: Level3.umap
+[2015.11.10-04.19.50:536][392]MapCheck: New page: Map Check
+[2015.11.10-04.19.50:536][392]LightingResults: New page: Lighting Build
+[2015.11.10-04.19.50:618][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032091580
+[2015.11.10-04.19.50:977][392]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.10-04.19.51:099][392]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.10-04.19.51:238][392]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 138.497ms to complete.
+[2015.11.10-04.19.51:241][392]LogFileHelpers: Loading map 'Level3' took 0.766
+[2015.11.10-04.20.26:302][ 38]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.10-04.20.26:359][ 38]LightingResults: New page: Lighting Build
+[2015.11.10-04.20.26:410][ 38]LoadErrors: New page: Loading map: Template_Default.umap
+[2015.11.10-04.20.26:411][ 38]MapCheck: New page: Map Check
+[2015.11.10-04.20.26:411][ 38]LightingResults: New page: Lighting Build
+[2015.11.10-04.20.26:500][ 38]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012D43060
+[2015.11.10-04.20.26:579][ 38]LogAIModule: Creating AISystem for world Untitled_2
+[2015.11.10-04.20.26:902][ 38]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.10-04.20.26:929][ 38]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.10-04.20.27:055][ 38]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 125.658ms to complete.
+[2015.11.10-04.20.27:055][ 38]LogFileHelpers: Loading map 'Template_Default' took 0.759
+[2015.11.10-04.20.35:116][317]LogAIModule: Creating AISystem for world Level3
+[2015.11.10-04.20.35:236][317]Cmd: MAP LOAD FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.10-04.20.35:236][317]LightingResults: New page: Lighting Build
+[2015.11.10-04.20.35:286][317]LoadErrors: New page: Loading map: Level3.umap
+[2015.11.10-04.20.35:286][317]MapCheck: New page: Map Check
+[2015.11.10-04.20.35:287][317]LightingResults: New page: Lighting Build
+[2015.11.10-04.20.35:379][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012CDCA40
+[2015.11.10-04.20.35:774][317]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.10-04.20.35:871][317]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.10-04.20.35:987][317]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 116.097ms to complete.
+[2015.11.10-04.20.35:991][317]LogFileHelpers: Loading map 'Level3' took 0.757
+[2015.11.10-04.22.25:873][562]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
+[2015.11.10-04.22.53:299][882]Cmd: TRANSACTION UNDO
+[2015.11.10-04.22.53:299][882]LogEditorTransaction: Undo Scale Actors
+[2015.11.10-04.22.53:908][901]Cmd: TRANSACTION UNDO
+[2015.11.10-04.22.53:908][901]LogEditorTransaction: Undo Scale Actors
+[2015.11.10-04.22.54:535][924]Cmd: TRANSACTION UNDO
+[2015.11.10-04.22.54:535][924]LogEditorTransaction: Undo Scale Actors
+[2015.11.10-04.22.55:149][947]Cmd: TRANSACTION UNDO
+[2015.11.10-04.22.55:149][947]LogEditorTransaction: Undo Scale Actors
+[2015.11.10-04.22.56:473][997]Cmd: TRANSACTION UNDO
+[2015.11.10-04.22.56:473][997]LogEditorTransaction: Undo Move Actors
+[2015.11.10-04.23.02:645][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.11.10-04.23.05:520][380]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
+[2015.11.10-04.23.17:113][917]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.11.10-04.23.22:630][183]Cmd: TRANSACTION UNDO
+[2015.11.10-04.23.22:630][183]LogEditorTransaction: Undo Move Actors
+[2015.11.10-04.23.28:025][424]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
+[2015.11.10-04.23.30:917][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.11.10-04.23.33:844][698]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
+[2015.11.10-04.23.35:650][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.11.10-04.23.39:519][938]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
+[2015.11.10-04.23.42:176][ 43]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.11.10-04.23.45:094][182]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
+[2015.11.10-04.23.46:688][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.11.10-04.23.55:325][667]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
+[2015.11.10-04.23.57:247][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.11.10-04.24.01:518][934]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
+[2015.11.10-04.24.03:474][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.11.10-04.24.07:650][202]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
+[2015.11.10-04.24.09:530][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.11.10-04.24.13:853][500]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
+[2015.11.10-04.24.16:239][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.11.10-04.24.21:478][843]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
+[2015.11.10-04.24.23:988][956]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.11.10-04.24.26:207][ 62]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
+[2015.11.10-04.25.35:198][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Maps/Level3" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.10-04.25.35:730][894]LogSavePackage: Save=382.200470ms
+[2015.11.10-04.25.35:730][894]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Level3FA5F8DAC407F2AB0724B06B9C6912149.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level3.umap'
+[2015.11.10-04.25.35:741][894]LogSavePackage: Total save time: 440.218240ms
+[2015.11.10-04.25.35:741][894]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level3.umap
+[2015.11.10-04.25.36:531][921]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2015.11.10-04.25.39:956][ 72]Cmd: DELETE
+[2015.11.10-04.25.39:956][ 72]Cmd: ACTOR DELETE
+[2015.11.10-04.25.40:062][ 72]LogEditorActor: Deleted Actor: BP_Ball_C
+[2015.11.10-04.25.40:170][ 72]LogEditorActor: Deleted 1 Actors (0.114 secs)
+[2015.11.10-04.25.57:540][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.11.10-04.26.00:413][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.11.10-04.26.01:352][  7]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeMesh)
+[2015.11.10-04.26.15:695][715]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
+[2015.11.10-04.26.29:612][368]LogEditorViewport: Clicking on Actor (LMB): Rolling_Blueprint_C (Rolling_Blueprint)
+[2015.11.10-04.26.35:565][640]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera)
+[2015.11.10-04.27.08:221][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Maps/Level3" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.10-04.27.08:572][237]LogSavePackage: Save=259.778534ms
+[2015.11.10-04.27.08:572][237]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Level34C22664F4C19459D2A126B8A2BE90DC0.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level3.umap'
+[2015.11.10-04.27.08:577][237]LogSavePackage: Total save time: 283.204217ms
+[2015.11.10-04.27.08:577][237]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level3.umap
+[2015.11.10-04.27.20:707][590]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.10-04.27.24:868][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Maps/Level1" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.10-04.27.25:383][590]LogSavePackage: Save=407.351013ms
+[2015.11.10-04.27.25:383][590]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Level1DD8CB95A43515729611F06A2C8F63EFB.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level1.umap'
+[2015.11.10-04.27.25:387][590]LogSavePackage: Total save time: 414.113939ms
+[2015.11.10-04.27.25:387][590]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/Level1.umap
+[2015.11.10-04.27.25:388][590]LogFileHelpers: Saving map 'Level1' took 0.671
+[2015.11.10-04.27.25:391][590]Cmd: MAP LOAD FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.10-04.27.25:392][590]LightingResults: New page: Lighting Build
+[2015.11.10-04.27.25:434][590]LoadErrors: New page: Loading map: PuzzleExampleMap.umap
+[2015.11.10-04.27.25:458][590]MapCheck: New page: Map Check
+[2015.11.10-04.27.25:458][590]LightingResults: New page: Lighting Build
+[2015.11.10-04.27.25:539][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014BF2160
+[2015.11.10-04.27.33:129][590]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.27.33:129][590]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.27.33:129][590]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.27.33:130][590]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.27.33:130][590]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.27.33:130][590]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.27.33:130][590]LogPrimitiveComponent: Zero scaling not supported (/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Spring_Edge_Blueprint_C_0.StaticMeshComponent0)
+[2015.11.10-04.27.33:597][590]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.10-04.27.33:706][590]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.10-04.27.33:825][590]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 118.862ms to complete.
+[2015.11.10-04.27.33:827][590]LogFileHelpers: Loading map 'PuzzleExampleMap' took 8.438
+[2015.11.10-04.28.11:897][740]LogSavePackage: Save=745.273315ms
+[2015.11.10-04.28.11:897][740]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/PuzzleExampleMap2E50ED894AE5F865C4D696BDB9BD1EF5.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.11.10-04.28.11:901][740]LogSavePackage: Total save time: 781.000692ms
+[2015.11.10-04.28.11:901][740]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap
+[2015.11.10-04.34.17:668][ 18]BlueprintLog: New page: Compile Cylinder_Blueprint
+[2015.11.10-04.34.17:766][ 18]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.34.17:766][ 18]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.34.17:802][ 18]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.34.17:802][ 18]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.34.17:908][ 18]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.34.17:908][ 18]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.34.17:909][ 18]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.34.17:909][ 18]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.34.17:913][ 18]BlueprintEditorCompileResults: Info [1065.33] Compile of Cylinder_Blueprint successful! [in 244 ms]
+[2015.11.10-04.35.56:918][ 16]EditorErrors: New page: Actor attachment
+[2015.11.10-04.36.06:181][466]LogEditorViewport: Clicking on Actor (LMB): Up_Beam_Trigger_Blueprint_C (Up_Beam_Trigger_Blueprint)
+[2015.11.10-04.36.15:559][932]LogEditorViewport: Clicking on Actor (LMB): Up_Beam_Trigger_Blueprint_C (Up_Beam_Trigger_Blueprint)
+[2015.11.10-04.36.16:038][948]LogEditorViewport: Clicking on Actor (LMB): Up_Beam_Trigger_Blueprint_C (Up_Beam_Trigger_Blueprint)
+[2015.11.10-04.36.16:138][949]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Cube)
+[2015.11.10-04.41.50:674][428]LogSavePackage: Save=1177.984741ms
+[2015.11.10-04.41.50:674][428]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/PuzzleExampleMap_Auto17CB1E4FE470E3F1E747229945005786B.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto1.umap'
+[2015.11.10-04.41.50:679][428]LogSavePackage: Total save time: 1234.943304ms
+[2015.11.10-04.41.50:679][428]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto1.umap
+[2015.11.10-04.41.50:687][428]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 1.366
+[2015.11.10-04.41.50:687][428]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.366
+[2015.11.10-04.41.50:719][428]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cylinder_Blueprint] ([1] browsable assets)...
+[2015.11.10-04.41.50:746][428]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Cylinder_Blueprint.Cylinder_Blueprint]
+[2015.11.10-04.41.50:746][428]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cylinder_Blueprint]
+[2015.11.10-04.41.50:746][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_Blueprint" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/Cylinder_Blueprint_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.11.10-04.41.50:948][428]LogSavePackage: Save=185.271423ms
+[2015.11.10-04.41.50:948][428]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Cylinder_Blueprint_Auto1A5AA4F5B48607A7B6E5077B4382DDC34.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/Cylinder_Blueprint_Auto1.uasset'
+[2015.11.10-04.41.50:952][428]LogSavePackage: Total save time: 203.662239ms
+[2015.11.10-04.41.50:952][428]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Autosaves/Game/Cylinder_Blueprint_Auto1.uasset
+[2015.11.10-04.41.50:952][428]LogFileHelpers: Auto-saving content packages took 0.241
+[2015.11.10-04.42.02:277][485]LogSavePackage: Save=1094.027222ms
+[2015.11.10-04.42.02:277][485]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/PuzzleExampleMap8872D57B43D8F63892E55792854E5E0A.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.11.10-04.42.02:288][485]LogSavePackage: Total save time: 1114.207685ms
+[2015.11.10-04.42.02:288][485]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap
+[2015.11.10-04.43.14:617][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableSet_982 or K2Node_VariableSet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableSet_982
+[2015.11.10-04.43.14:617][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableSet_982.EdGraphPin_30561) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableSet_858.EdGraphPin_30256).  Import failed...
+[2015.11.10-04.43.14:617][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_982.EdGraphPin_30561''
+[2015.11.10-04.43.14:619][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_IfThenElse_217 or K2Node_IfThenElse /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_IfThenElse_217
+[2015.11.10-04.43.14:619][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_IfThenElse_217.EdGraphPin_30345) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableSet_858.EdGraphPin_30255).  Import failed...
+[2015.11.10-04.43.14:619][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_217.EdGraphPin_30345''
+[2015.11.10-04.43.14:620][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Literal /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_Literal_2231 or K2Node_Literal /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_Literal_2231
+[2015.11.10-04.43.14:620][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_Literal_2231.EdGraphPin_29512) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_5567.EdGraphPin_31591).  Import failed...
+[2015.11.10-04.43.14:621][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Literal_2231.EdGraphPin_29512''
+[2015.11.10-04.43.14:621][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_CallFunction_17738 or K2Node_CallFunction /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_17738
+[2015.11.10-04.43.14:621][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_CallFunction_17738.EdGraphPin_31718) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_5567.EdGraphPin_31590).  Import failed...
+[2015.11.10-04.43.14:621][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_17738.EdGraphPin_31718''
+[2015.11.10-04.43.14:621][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableSet_982 or K2Node_VariableSet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableSet_982
+[2015.11.10-04.43.14:621][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableSet_982.EdGraphPin_30562) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_5567.EdGraphPin_31589).  Import failed...
+[2015.11.10-04.43.14:622][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_982.EdGraphPin_30562''
+[2015.11.10-04.43.14:623][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Literal /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_Literal_2231 or K2Node_Literal /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_Literal_2231
+[2015.11.10-04.43.14:623][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_Literal_2231.EdGraphPin_29512) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_5557.EdGraphPin_31603).  Import failed...
+[2015.11.10-04.43.14:623][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Literal_2231.EdGraphPin_29512''
+[2015.11.10-04.43.14:623][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_CallFunction_6707 or K2Node_CallFunction /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_6707
+[2015.11.10-04.43.14:623][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_CallFunction_6707.EdGraphPin_31637) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_5557.EdGraphPin_31602).  Import failed...
+[2015.11.10-04.43.14:623][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_6707.EdGraphPin_31637''
+[2015.11.10-04.43.14:624][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableSet_988 or K2Node_VariableSet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableSet_988
+[2015.11.10-04.43.14:624][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableSet_988.EdGraphPin_30475) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_5557.EdGraphPin_31601).  Import failed...
+[2015.11.10-04.43.14:624][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_988.EdGraphPin_30475''
+[2015.11.10-04.43.14:625][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (Up_Tractor_Beam_Blueprint_C /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Up_Tractor_Beam_Blueprint_C_0) from referencer (K2Node_Literal /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_Literal_2231).  Import failed...
+[2015.11.10-04.43.14:625][622]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'Up_Tractor_Beam_Blueprint_C'/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Up_Tractor_Beam_Blueprint_C_0''
+[2015.11.10-04.43.14:625][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_1279 or K2Node_VariableGet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableGet_1279
+[2015.11.10-04.43.14:625][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_1279.EdGraphPin_31632) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_Literal_679.EdGraphPin_29503).  Import failed...
+[2015.11.10-04.43.14:625][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1279.EdGraphPin_31632''
+[2015.11.10-04.43.14:626][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (Cylinder_Blueprint_C /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Cylinder_Blueprint_C_0) from referencer (K2Node_Literal /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_Literal_679).  Import failed...
+[2015.11.10-04.43.14:626][622]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'Cylinder_Blueprint_C'/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Cylinder_Blueprint_C_0''
+[2015.11.10-04.43.14:627][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_1279 or K2Node_VariableGet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableGet_1279
+[2015.11.10-04.43.14:627][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_1279.EdGraphPin_31631) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_7611.EdGraphPin_31615).  Import failed...
+[2015.11.10-04.43.14:628][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1279.EdGraphPin_31631''
+[2015.11.10-04.43.14:628][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_IfThenElse_248 or K2Node_IfThenElse /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_IfThenElse_248
+[2015.11.10-04.43.14:628][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_IfThenElse_248.EdGraphPin_30491) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_7611.EdGraphPin_31613).  Import failed...
+[2015.11.10-04.43.14:628][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_248.EdGraphPin_30491''
+[2015.11.10-04.43.14:629][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_CallFunction_6707 or K2Node_CallFunction /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_6707
+[2015.11.10-04.43.14:629][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_CallFunction_6707.EdGraphPin_31639) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableGet_1279.EdGraphPin_31631).  Import failed...
+[2015.11.10-04.43.14:630][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_6707.EdGraphPin_31639''
+[2015.11.10-04.43.14:630][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_CallFunction_7004 or K2Node_CallFunction /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_7004
+[2015.11.10-04.43.14:630][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_CallFunction_7004.EdGraphPin_31657) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableGet_1279.EdGraphPin_31631).  Import failed...
+[2015.11.10-04.43.14:630][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7004.EdGraphPin_31657''
+[2015.11.10-04.43.14:631][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_IfThenElse_230 or K2Node_IfThenElse /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_IfThenElse_230
+[2015.11.10-04.43.14:632][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_IfThenElse_230.EdGraphPin_30378) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_IfThenElse_217.EdGraphPin_30344).  Import failed...
+[2015.11.10-04.43.14:632][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_230.EdGraphPin_30378''
+[2015.11.10-04.43.14:632][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_1322 or K2Node_VariableGet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableGet_1322
+[2015.11.10-04.43.14:632][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_1322.EdGraphPin_30354) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_IfThenElse_217.EdGraphPin_30343).  Import failed...
+[2015.11.10-04.43.14:632][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1322.EdGraphPin_30354''
+[2015.11.10-04.43.14:633][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputKey /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_InputKey_1867 or K2Node_InputKey /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_InputKey_1867
+[2015.11.10-04.43.14:633][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_InputKey_1867.EdGraphPin_30792) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_IfThenElse_217.EdGraphPin_30342).  Import failed...
+[2015.11.10-04.43.14:633][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputKey_1867.EdGraphPin_30792''
+[2015.11.10-04.43.14:636][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_CallFunction_17698 or K2Node_CallFunction /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_17698
+[2015.11.10-04.43.14:636][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_CallFunction_17698.EdGraphPin_31736) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_6707.EdGraphPin_31638).  Import failed...
+[2015.11.10-04.43.14:636][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_17698.EdGraphPin_31736''
+[2015.11.10-04.43.14:638][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_IfThenElse_247 or K2Node_IfThenElse /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_IfThenElse_247
+[2015.11.10-04.43.14:638][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_IfThenElse_247.EdGraphPin_30447) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_IfThenElse_230.EdGraphPin_30381).  Import failed...
+[2015.11.10-04.43.14:638][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_247.EdGraphPin_30447''
+[2015.11.10-04.43.14:638][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableSet_1670 or K2Node_VariableSet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableSet_1670
+[2015.11.10-04.43.14:638][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableSet_1670.EdGraphPin_30411) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_IfThenElse_230.EdGraphPin_30380).  Import failed...
+[2015.11.10-04.43.14:638][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_1670.EdGraphPin_30411''
+[2015.11.10-04.43.14:639][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_1486 or K2Node_VariableGet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableGet_1486
+[2015.11.10-04.43.14:639][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_1486.EdGraphPin_30390) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_IfThenElse_230.EdGraphPin_30379).  Import failed...
+[2015.11.10-04.43.14:639][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1486.EdGraphPin_30390''
+[2015.11.10-04.43.14:641][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_IfThenElse_247 or K2Node_IfThenElse /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_IfThenElse_247
+[2015.11.10-04.43.14:642][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_IfThenElse_247.EdGraphPin_30450) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableSet_983.EdGraphPin_30396).  Import failed...
+[2015.11.10-04.43.14:642][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_247.EdGraphPin_30450''
+[2015.11.10-04.43.14:643][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableSet_986 or K2Node_VariableSet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableSet_986
+[2015.11.10-04.43.14:643][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableSet_986.EdGraphPin_30426) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableSet_1670.EdGraphPin_30412).  Import failed...
+[2015.11.10-04.43.14:643][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_986.EdGraphPin_30426''
+[2015.11.10-04.43.14:645][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_CallFunction_17501 or K2Node_CallFunction /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_17501
+[2015.11.10-04.43.14:645][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_CallFunction_17501.EdGraphPin_31754) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableSet_986.EdGraphPin_30427).  Import failed...
+[2015.11.10-04.43.14:645][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_17501.EdGraphPin_31754''
+[2015.11.10-04.43.14:646][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_IfThenElse_247 or K2Node_IfThenElse /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_IfThenElse_247
+[2015.11.10-04.43.14:647][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_IfThenElse_247.EdGraphPin_30448) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableGet_1496.EdGraphPin_30441).  Import failed...
+[2015.11.10-04.43.14:647][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_247.EdGraphPin_30448''
+[2015.11.10-04.43.14:647][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableSet_985 or K2Node_VariableSet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableSet_985
+[2015.11.10-04.43.14:647][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableSet_985.EdGraphPin_30459) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_IfThenElse_247.EdGraphPin_30449).  Import failed...
+[2015.11.10-04.43.14:648][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_985.EdGraphPin_30459''
+[2015.11.10-04.43.14:649][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableSet_988 or K2Node_VariableSet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableSet_988
+[2015.11.10-04.43.14:650][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableSet_988.EdGraphPin_30474) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableSet_985.EdGraphPin_30460).  Import failed...
+[2015.11.10-04.43.14:650][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_988.EdGraphPin_30474''
+[2015.11.10-04.43.14:652][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_IfThenElse_109 or K2Node_IfThenElse /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_IfThenElse_109
+[2015.11.10-04.43.14:652][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_IfThenElse_109.EdGraphPin_30507) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_IfThenElse_248.EdGraphPin_30492).  Import failed...
+[2015.11.10-04.43.14:652][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_109.EdGraphPin_30507''
+[2015.11.10-04.43.14:652][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_1550 or K2Node_VariableGet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableGet_1550
+[2015.11.10-04.43.14:652][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_1550.EdGraphPin_30501) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_IfThenElse_248.EdGraphPin_30490).  Import failed...
+[2015.11.10-04.43.14:652][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1550.EdGraphPin_30501''
+[2015.11.10-04.43.14:653][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_CallFunction_9849 or K2Node_CallFunction /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_9849
+[2015.11.10-04.43.14:653][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_CallFunction_9849.EdGraphPin_31674) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_IfThenElse_248.EdGraphPin_30489).  Import failed...
+[2015.11.10-04.43.14:653][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_9849.EdGraphPin_31674''
+[2015.11.10-04.43.14:654][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_CallFunction_7004 or K2Node_CallFunction /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_7004
+[2015.11.10-04.43.14:655][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_CallFunction_7004.EdGraphPin_31655) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_IfThenElse_109.EdGraphPin_30509).  Import failed...
+[2015.11.10-04.43.14:655][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7004.EdGraphPin_31655''
+[2015.11.10-04.43.14:655][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_1552 or K2Node_VariableGet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableGet_1552
+[2015.11.10-04.43.14:655][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_1552.EdGraphPin_30519) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_IfThenElse_109.EdGraphPin_30508).  Import failed...
+[2015.11.10-04.43.14:655][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1552.EdGraphPin_30519''
+[2015.11.10-04.43.14:661][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_DynamicCast_1357 or K2Node_DynamicCast /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_DynamicCast_1357
+[2015.11.10-04.43.14:661][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_DynamicCast_1357.EdGraphPin_32303) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_9849.EdGraphPin_31673).  Import failed...
+[2015.11.10-04.43.14:661][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_1357.EdGraphPin_32303''
+[2015.11.10-04.43.14:662][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ActorBoundEvent /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_ActorBoundEvent_2357 or K2Node_ActorBoundEvent /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_ActorBoundEvent_2357
+[2015.11.10-04.43.14:662][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_ActorBoundEvent_2357.EdGraphPin_29474) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_DynamicCast_1357.EdGraphPin_32305).  Import failed...
+[2015.11.10-04.43.14:663][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ActorBoundEvent_2357.EdGraphPin_29474''
+[2015.11.10-04.43.14:663][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ActorBoundEvent /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_ActorBoundEvent_2357 or K2Node_ActorBoundEvent /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_ActorBoundEvent_2357
+[2015.11.10-04.43.14:663][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_ActorBoundEvent_2357.EdGraphPin_29473) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_DynamicCast_1357.EdGraphPin_32302).  Import failed...
+[2015.11.10-04.43.14:663][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ActorBoundEvent_2357.EdGraphPin_29473''
+[2015.11.10-04.43.14:664][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_6437 or K2Node_VariableGet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableGet_6437
+[2015.11.10-04.43.14:664][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_6437.EdGraphPin_31730) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_17738.EdGraphPin_31720).  Import failed...
+[2015.11.10-04.43.14:664][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_6437.EdGraphPin_31730''
+[2015.11.10-04.43.14:665][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_6437 or K2Node_VariableGet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableGet_6437
+[2015.11.10-04.43.14:665][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_6437.EdGraphPin_31731) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_Literal_2321.EdGraphPin_29539).  Import failed...
+[2015.11.10-04.43.14:665][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_6437.EdGraphPin_31731''
+[2015.11.10-04.43.14:665][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (Up_Beam_Trigger_Blueprint_C /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Up_Beam_Trigger_Blueprint) from referencer (K2Node_Literal /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_Literal_2321).  Import failed...
+[2015.11.10-04.43.14:665][622]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'Up_Beam_Trigger_Blueprint_C'/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Up_Beam_Trigger_Blueprint''
+[2015.11.10-04.43.14:667][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_6420 or K2Node_VariableGet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableGet_6420
+[2015.11.10-04.43.14:668][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_6420.EdGraphPin_31748) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_17698.EdGraphPin_31738).  Import failed...
+[2015.11.10-04.43.14:668][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_6420.EdGraphPin_31748''
+[2015.11.10-04.43.14:669][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_6420 or K2Node_VariableGet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableGet_6420
+[2015.11.10-04.43.14:669][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_6420.EdGraphPin_31749) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_Literal_2310.EdGraphPin_29536).  Import failed...
+[2015.11.10-04.43.14:669][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_6420.EdGraphPin_31749''
+[2015.11.10-04.43.14:669][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (Up_Beam_Trigger_Blueprint_C /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Up_Beam_Trigger_Blueprint) from referencer (K2Node_Literal /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_Literal_2310).  Import failed...
+[2015.11.10-04.43.14:669][622]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'Up_Beam_Trigger_Blueprint_C'/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Up_Beam_Trigger_Blueprint''
+[2015.11.10-04.43.14:671][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_6330 or K2Node_VariableGet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableGet_6330
+[2015.11.10-04.43.14:671][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_6330.EdGraphPin_31766) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_17501.EdGraphPin_31756).  Import failed...
+[2015.11.10-04.43.14:671][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_6330.EdGraphPin_31766''
+[2015.11.10-04.43.14:671][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_CallFunction_17386 or K2Node_CallFunction /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_17386
+[2015.11.10-04.43.14:671][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_CallFunction_17386.EdGraphPin_31772) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_17501.EdGraphPin_31755).  Import failed...
+[2015.11.10-04.43.14:671][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_17386.EdGraphPin_31772''
+[2015.11.10-04.43.14:672][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_6330 or K2Node_VariableGet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableGet_6330
+[2015.11.10-04.43.14:672][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_6330.EdGraphPin_31767) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_Literal_2264.EdGraphPin_29486).  Import failed...
+[2015.11.10-04.43.14:672][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_6330.EdGraphPin_31767''
+[2015.11.10-04.43.14:672][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (Up_Beam_Trigger_Blueprint_C /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Up_Beam_Trigger_Blueprint) from referencer (K2Node_Literal /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_Literal_2264).  Import failed...
+[2015.11.10-04.43.14:673][622]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'Up_Beam_Trigger_Blueprint_C'/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Up_Beam_Trigger_Blueprint''
+[2015.11.10-04.43.14:674][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_6275 or K2Node_VariableGet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableGet_6275
+[2015.11.10-04.43.14:674][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_6275.EdGraphPin_31784) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_CallFunction_17386.EdGraphPin_31774).  Import failed...
+[2015.11.10-04.43.14:675][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_6275.EdGraphPin_31784''
+[2015.11.10-04.43.14:676][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_6275 or K2Node_VariableGet /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_VariableGet_6275
+[2015.11.10-04.43.14:676][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap.EventGraph.K2Node_VariableGet_6275.EdGraphPin_31785) from referencer (EdGraphPin /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_Literal_2239.EdGraphPin_29489).  Import failed...
+[2015.11.10-04.43.14:676][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_6275.EdGraphPin_31785''
+[2015.11.10-04.43.14:676][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (Up_Beam_Trigger_Blueprint_C /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Up_Beam_Trigger_Blueprint) from referencer (K2Node_Literal /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_Literal_2239).  Import failed...
+[2015.11.10-04.43.14:676][622]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'Up_Beam_Trigger_Blueprint_C'/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Up_Beam_Trigger_Blueprint''
+[2015.11.10-04.43.14:680][622]LogProperty:Warning: Illegal TEXT reference to a private object in external package (Up_Beam_Trigger_Blueprint_C /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Up_Beam_Trigger_Blueprint) from referencer (K2Node_ActorBoundEvent /Game/Up_Beam_Trigger_Blueprint.Up_Beam_Trigger_Blueprint:EventGraph.K2Node_ActorBoundEvent_2357).  Import failed...
+[2015.11.10-04.43.14:680][622]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'Up_Beam_Trigger_Blueprint_C'/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Up_Beam_Trigger_Blueprint''
+[2015.11.10-04.43.14:680][622]LogBlueprint:Warning: [Up_Beam_Trigger_Blueprint] CreatePinForVariable: 'Up_Beam_On' variable not found. Base class was probably changed.
+[2015.11.10-04.43.14:680][622]LogBlueprint:Warning: [Up_Beam_Trigger_Blueprint] CreatePinForVariable: 'Up_Beam_On' variable not found. Base class was probably changed.
+[2015.11.10-04.43.14:684][622]LogBlueprint:Warning: [Up_Beam_Trigger_Blueprint] CreatePinForVariable: 'Up_Beam_On' variable not found. Base class was probably changed.
+[2015.11.10-04.43.14:685][622]LogBlueprint:Warning: [Up_Beam_Trigger_Blueprint] CreatePinForVariable: 'Up' variable not found. Base class was probably changed.
+[2015.11.10-04.43.14:685][622]LogBlueprint:Warning: [Up_Beam_Trigger_Blueprint] CreatePinForVariable: 'Up' variable not found. Base class was probably changed.
+[2015.11.10-04.43.14:686][622]LogBlueprint:Warning: [Up_Beam_Trigger_Blueprint] CreatePinForVariable: 'Up' variable not found. Base class was probably changed.
+[2015.11.10-04.43.14:686][622]LogBlueprint:Warning: [Up_Beam_Trigger_Blueprint] CreatePinForVariable: 'Up' variable not found. Base class was probably changed.
+[2015.11.10-04.43.14:686][622]LogBlueprint:Warning: [Up_Beam_Trigger_Blueprint] CreatePinForVariable: 'Up' variable not found. Base class was probably changed.
+[2015.11.10-04.43.14:686][622]LogBlueprint:Warning: [Up_Beam_Trigger_Blueprint] CreatePinForVariable: 'Down' variable not found. Base class was probably changed.
+[2015.11.10-04.43.14:686][622]LogBlueprint:Warning: [Up_Beam_Trigger_Blueprint] CreatePinForVariable: 'Down' variable not found. Base class was probably changed.
+[2015.11.10-04.43.14:686][622]LogBlueprint:Warning: [Up_Beam_Trigger_Blueprint] CreatePinForVariable: 'Down' variable not found. Base class was probably changed.
+[2015.11.10-04.43.14:687][622]LogBlueprint:Warning: [Up_Beam_Trigger_Blueprint] CreatePinForVariable: 'Down' variable not found. Base class was probably changed.
+[2015.11.10-04.43.14:687][622]LogBlueprint:Warning: [Up_Beam_Trigger_Blueprint] CreatePinForVariable: 'Down' variable not found. Base class was probably changed.
+[2015.11.10-04.43.14:687][622]LogBlueprint:Warning: [Up_Beam_Trigger_Blueprint] CreatePinForVariable: 'Up_Beam_On' variable not found. Base class was probably changed.
+[2015.11.10-04.43.14:687][622]LogBlueprint:Warning: [Up_Beam_Trigger_Blueprint] CreatePinForVariable: 'Up_Beam_On' variable not found. Base class was probably changed.
+[2015.11.10-04.43.14:688][622]LogBlueprint:Warning: [Up_Beam_Trigger_Blueprint] CreatePinForVariable: 'Down' variable not found. Base class was probably changed.
+[2015.11.10-04.43.14:689][622]LogBlueprint:Warning: [Up_Beam_Trigger_Blueprint] CreatePinForVariable: 'Up' variable not found. Base class was probably changed.
+[2015.11.10-04.43.14:689][622]LogBlueprint:Warning: [Up_Beam_Trigger_Blueprint] CreatePinForVariable: 'Up' variable not found. Base class was probably changed.
+[2015.11.10-04.43.14:689][622]LogBlueprint:Warning: [Up_Beam_Trigger_Blueprint] CreatePinForVariable: 'Up' variable not found. Base class was probably changed.
+[2015.11.10-04.44.10:889][414]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.44.12:090][441]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.44.17:596][581]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.44.17:689][581]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.44.19:232][628]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.44.19:316][628]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.44.22:487][707]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.44.22:626][707]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.44.24:032][738]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.44.24:213][738]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.44.25:330][765]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.44.27:832][840]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.44.27:914][840]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.44.29:574][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Up_Beam_Trigger_Blueprint" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Up_Beam_Trigger_Blueprint.uasset" SILENT=true
+[2015.11.10-04.44.29:894][878]LogSavePackage: Save=287.097412ms
+[2015.11.10-04.44.29:894][878]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Up_Beam_Trigger_Blueprint9659D32946F5B46A55481DA3724340F2.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Up_Beam_Trigger_Blueprint.uasset'
+[2015.11.10-04.44.29:899][878]LogSavePackage: Total save time: 322.074898ms
+[2015.11.10-04.44.29:899][878]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Up_Beam_Trigger_Blueprint.uasset
+[2015.11.10-04.44.30:845][899]BlueprintLog: New page: Compile Up_Beam_Trigger_Blueprint
+[2015.11.10-04.44.30:916][899]LogBlueprint:Warning: [compiler Up_Beam_Trigger_Blueprint] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.10-04.44.30:916][899]LogBlueprint:Warning: [compiler Up_Beam_Trigger_Blueprint] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.10-04.44.30:917][899]LogBlueprint:Warning: [compiler Up_Beam_Trigger_Blueprint] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.10-04.44.30:917][899]LogBlueprint:Warning: [compiler Up_Beam_Trigger_Blueprint] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.10-04.44.30:917][899]LogBlueprint:Warning: [compiler Up_Beam_Trigger_Blueprint] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.10-04.44.30:918][899]LogBlueprint:Warning: [compiler Up_Beam_Trigger_Blueprint] Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.10-04.44.30:923][899]LogUObjectGlobals:Warning: Guid is in use by BoxComponent /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Up_Beam_Trigger_Blueprint.CollisionComp and BoxComponent /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Up_Beam_Trigger_Blueprint_C_0.CollisionComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.10-04.44.30:923][899]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Up_Beam_Trigger_Blueprint.Sprite and BillboardComponent /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Up_Beam_Trigger_Blueprint_C_0.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.10-04.44.31:201][899]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A8C9620
+[2015.11.10-04.44.31:215][899]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.44.31:217][899]LogBlueprint:Warning: [compiler Up_Beam_Trigger_Blueprint] Warning [1678.62] Compile of Up_Beam_Trigger_Blueprint successful, but with 6 Warning(s) [in 371 ms]
+[2015.11.10-04.44.31:217][899]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.10-04.44.31:217][899]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.10-04.44.31:217][899]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.10-04.44.31:218][899]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.10-04.44.31:218][899]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.10-04.44.31:218][899]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.11.10-04.44.31:218][899]BlueprintEditorCompileResults:Warning: Warning [1678.62] Compile of Up_Beam_Trigger_Blueprint successful, but with 6 Warning(s) [in 371 ms]
+[2015.11.10-04.44.31:283][899]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.44.32:096][918]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.45.00:798][152]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.45.27:704][814]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2015.11.10-04.46.52:012][726]LogEditorTransaction: Undo Replace Pin Variable
+[2015.11.10-04.47.02:218][848]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.49.04:983][382]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Script/Engine.TriggerBase'
+[2015.11.10-04.49.11:247][515]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Script/Engine.TriggerBase'
+[2015.11.10-04.49.18:626][690]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Script/Engine.TriggerBase'
+[2015.11.10-04.49.25:637][857]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Script/Engine.TriggerBase'
+[2015.11.10-04.50.10:139][856]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.50.14:849][963]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.50.19:573][ 85]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.50.27:428][309]BlueprintLog: New page: Compile Up_Beam_Trigger_Blueprint
+[2015.11.10-04.50.27:481][309]LogUObjectGlobals:Warning: Guid is in use by BoxComponent /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Up_Beam_Trigger_Blueprint_C_0.CollisionComp and BoxComponent /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Up_Beam_Trigger_Blueprint_C_1.CollisionComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.10-04.50.27:481][309]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Up_Beam_Trigger_Blueprint_C_0.Sprite and BillboardComponent /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Up_Beam_Trigger_Blueprint_C_1.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.10-04.50.27:851][309]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.50.27:853][309]BlueprintEditorCompileResults: Info [2035.24] Compile of Up_Beam_Trigger_Blueprint successful! [in 425 ms]
+[2015.11.10-04.50.27:925][309]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.50.41:547][562]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Cube)
+[2015.11.10-04.50.47:722][720]Cmd: TRANSACTION UNDO
+[2015.11.10-04.50.47:722][720]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2015.11.10-04.50.48:358][731]Cmd: TRANSACTION UNDO
+[2015.11.10-04.50.48:358][731]LogEditorTransaction: Undo Clicking on Components
+[2015.11.10-04.50.49:148][753]Cmd: TRANSACTION UNDO
+[2015.11.10-04.50.49:148][753]LogEditorTransaction: Undo Rotate Components
+[2015.11.10-04.50.52:804][813]LogRenderer: Reallocating scene render targets to support 1004x456 (Frame:65197).
+[2015.11.10-04.51.53:563][328]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2015.11.10-04.51.56:626][430]LogEditorViewport: Clicking on Actor (LMB): Rolling_Blueprint_C (Rolling_Blueprint)
+[2015.11.10-04.52.01:941][589]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.52.01:941][589]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.10-04.52.01:949][589]LogPlayLevel: [PlayLevel] Compiling PuzzleExampleMap before play...
+[2015.11.10-04.52.02:237][589]LogPlayLevel: PlayLevel: Blueprint regeneration took 296 ms (1 blueprints)
+[2015.11.10-04.52.02:364][589]PIE: New page: PIE session: PuzzleExampleMap (Nov 9, 2015, 6:52:02 PM)
+[2015.11.10-04.52.02:364][589]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2015.11.10-04.52.02:469][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.104975s)
+[2015.11.10-04.52.02:470][589]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.10-04.52.02:471][589]LogPlayLevel: PIE: World Init took: (0.001683s)
+[2015.11.10-04.52.02:471][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.107100s)
+[2015.11.10-04.52.02:569][589]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-04.52.02:586][589]LogInit: FAudioDevice initialized.
+[2015.11.10-04.52.02:796][589]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.10-04.52.02:808][589]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.52.02:808][589]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.52.02:809][589]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.52.02:810][589]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.52.02:813][589]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.52.02:813][589]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.52.02:813][589]LogPrimitiveComponent: Zero scaling not supported (/Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Spring_Edge_Blueprint_C_0.StaticMeshComponent0)
+[2015.11.10-04.52.02:814][589]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.11.09-23.52.02
+[2015.11.10-04.52.02:814][589]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-04.52.02:862][589]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-04.52.02:864][589]LogWorld: Bringing up level for play took: 0.065327
+[2015.11.10-04.52.02:906][589]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.387
+[2015.11.10-04.52.02:906][589]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.52.11:308][921]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.52.11:366][921]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.52.11:556][921]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.52.11:703][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000345E1C60
+[2015.11.10-04.52.32:947][582]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.52.32:947][582]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.10-04.52.32:948][582]PIE: New page: PIE session: PuzzleExampleMap (Nov 9, 2015, 6:52:32 PM)
+[2015.11.10-04.52.32:948][582]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2015.11.10-04.52.33:071][582]LogPlayLevel: PIE: StaticDuplicateObject took: (0.123320s)
+[2015.11.10-04.52.33:072][582]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.10-04.52.33:076][582]LogPlayLevel: PIE: World Init took: (0.004889s)
+[2015.11.10-04.52.33:076][582]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.128752s)
+[2015.11.10-04.52.33:172][582]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-04.52.33:189][582]LogInit: FAudioDevice initialized.
+[2015.11.10-04.52.33:232][582]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.10-04.52.33:240][582]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.52.33:240][582]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.52.33:241][582]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.52.33:241][582]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.52.33:243][582]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.52.33:243][582]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.52.33:243][582]LogPrimitiveComponent: Zero scaling not supported (/Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Spring_Edge_Blueprint_C_0.StaticMeshComponent0)
+[2015.11.10-04.52.33:244][582]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.11.09-23.52.33
+[2015.11.10-04.52.33:244][582]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-04.52.33:245][582]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-04.52.33:246][582]LogWorld: Bringing up level for play took: 0.012325
+[2015.11.10-04.52.33:252][582]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.732
+[2015.11.10-04.52.33:253][582]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.52.36:805][762]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.52.36:842][762]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.52.36:928][762]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.52.37:066][762]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000043CEC4A0
+[2015.11.10-04.52.45:608][996]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.52.45:608][996]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.10-04.52.45:609][996]PIE: New page: PIE session: PuzzleExampleMap (Nov 9, 2015, 6:52:45 PM)
+[2015.11.10-04.52.45:609][996]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2015.11.10-04.52.45:745][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.136354s)
+[2015.11.10-04.52.45:747][996]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.10-04.52.45:748][996]LogPlayLevel: PIE: World Init took: (0.002173s)
+[2015.11.10-04.52.45:748][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.139052s)
+[2015.11.10-04.52.45:847][996]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-04.52.45:865][996]LogInit: FAudioDevice initialized.
+[2015.11.10-04.52.45:913][996]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.10-04.52.45:922][996]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.52.45:922][996]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.52.45:924][996]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.52.45:924][996]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.52.45:927][996]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.52.45:927][996]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.52.45:927][996]LogPrimitiveComponent: Zero scaling not supported (/Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Spring_Edge_Blueprint_C_0.StaticMeshComponent0)
+[2015.11.10-04.52.45:927][996]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.11.09-23.52.45
+[2015.11.10-04.52.45:928][996]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-04.52.45:928][996]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-04.52.45:929][996]LogWorld: Bringing up level for play took: 0.014754
+[2015.11.10-04.52.45:937][996]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0.584
+[2015.11.10-04.52.45:938][996]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.52.48:166][ 74]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.52.48:207][ 74]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.52.48:299][ 74]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.52.48:438][ 74]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003EB382C0
+[2015.11.10-04.52.57:875][285]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.53.22:044][977]BlueprintLog: New page: Compile Up_Beam_Trigger_Blueprint
+[2015.11.10-04.53.22:205][977]BlueprintEditorCompileResults: Info [2209.59] Compile of Up_Beam_Trigger_Blueprint successful! [in 160 ms]
+[2015.11.10-04.53.31:411][292]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.53.31:411][292]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.10-04.53.31:411][292]PIE: New page: PIE session: PuzzleExampleMap (Nov 9, 2015, 6:53:31 PM)
+[2015.11.10-04.53.31:411][292]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2015.11.10-04.53.31:483][292]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071110s)
+[2015.11.10-04.53.31:484][292]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.10-04.53.31:484][292]LogPlayLevel: PIE: World Init took: (0.001738s)
+[2015.11.10-04.53.31:485][292]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.073152s)
+[2015.11.10-04.53.31:565][292]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-04.53.31:574][292]LogInit: FAudioDevice initialized.
+[2015.11.10-04.53.31:609][292]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.10-04.53.31:614][292]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.53.31:614][292]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.53.31:615][292]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.53.31:615][292]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.53.31:617][292]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.53.31:617][292]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.53.31:617][292]LogPrimitiveComponent: Zero scaling not supported (/Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Spring_Edge_Blueprint_C_0.StaticMeshComponent0)
+[2015.11.10-04.53.31:617][292]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.11.09-23.53.31
+[2015.11.10-04.53.31:617][292]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-04.53.31:617][292]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-04.53.31:618][292]LogWorld: Bringing up level for play took: 0.008248
+[2015.11.10-04.53.31:623][292]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 1.1
+[2015.11.10-04.53.31:623][292]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.53.50:953][979]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.53.51:098][979]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.53.51:205][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004346CCC0
+[2015.11.10-04.54.25:255][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Up_Beam_Trigger_Blueprint" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Up_Beam_Trigger_Blueprint.uasset" SILENT=true
+[2015.11.10-04.54.25:526][813]LogSavePackage: Save=229.421844ms
+[2015.11.10-04.54.25:526][813]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Up_Beam_Trigger_Blueprint7260B405432DB998CF3CA19875F431B5.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Up_Beam_Trigger_Blueprint.uasset'
+[2015.11.10-04.54.25:531][813]LogSavePackage: Total save time: 273.254480ms
+[2015.11.10-04.54.25:531][813]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Up_Beam_Trigger_Blueprint.uasset
+[2015.11.10-04.54.26:959][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_Blueprint" FILE="../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Cylinder_Blueprint.uasset" SILENT=true
+[2015.11.10-04.54.27:161][842]LogSavePackage: Save=169.172058ms
+[2015.11.10-04.54.27:161][842]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/Cylinder_Blueprint5AF87D6B4ED0A4AF1CA36081581FF456.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Cylinder_Blueprint.uasset'
+[2015.11.10-04.54.27:170][842]LogSavePackage: Total save time: 203.518558ms
+[2015.11.10-04.54.27:170][842]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/Cylinder_Blueprint.uasset
+[2015.11.10-04.54.29:589][872]LogSavePackage: Save=961.649536ms
+[2015.11.10-04.54.29:589][872]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/PuzzleExampleMapAC74303E4C903FC1544F55A25D74BDF5.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.11.10-04.54.29:598][872]LogSavePackage: Total save time: 1000.521995ms
+[2015.11.10-04.54.29:598][872]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap
+[2015.11.10-04.55.04:362][942]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.55.10:167][106]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.55.33:546][980]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Up_Beam_Trigger_Blueprint', cached variable property's owner is '/Game/Up_Beam_Trigger_Blueprint.SKEL_Up_Beam_Trigger_Blueprint_C'
+[2015.11.10-04.55.38:425][ 90]BlueprintLog: New page: Compile Up_Beam_Trigger_Blueprint
+[2015.11.10-04.55.38:766][ 90]BlueprintEditorCompileResults: Info [2346.14] Compile of Up_Beam_Trigger_Blueprint successful! [in 340 ms]
+[2015.11.10-04.55.39:820][109]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.55.39:820][109]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.10-04.55.39:821][109]PIE: New page: PIE session: PuzzleExampleMap (Nov 9, 2015, 6:55:39 PM)
+[2015.11.10-04.55.39:821][109]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2015.11.10-04.55.39:968][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.147208s)
+[2015.11.10-04.55.39:970][109]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.10-04.55.39:970][109]LogPlayLevel: PIE: World Init took: (0.001967s)
+[2015.11.10-04.55.39:970][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.149721s)
+[2015.11.10-04.55.40:064][109]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-04.55.40:084][109]LogInit: FAudioDevice initialized.
+[2015.11.10-04.55.40:134][109]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.10-04.55.40:143][109]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.55.40:143][109]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.55.40:145][109]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.55.40:145][109]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.55.40:148][109]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.55.40:148][109]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.55.40:148][109]LogPrimitiveComponent: Zero scaling not supported (/Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Spring_Edge_Blueprint_C_0.StaticMeshComponent0)
+[2015.11.10-04.55.40:148][109]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.11.09-23.55.40
+[2015.11.10-04.55.40:148][109]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-04.55.40:149][109]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-04.55.40:150][109]LogWorld: Bringing up level for play took: 0.014627
+[2015.11.10-04.55.40:158][109]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0.369
+[2015.11.10-04.55.40:158][109]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.55.45:120][249]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.55.45:226][249]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.55.45:309][249]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047DF19E0
+[2015.11.10-04.56.03:775][738]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.56.03:775][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.10-04.56.03:775][738]PIE: New page: PIE session: PuzzleExampleMap (Nov 9, 2015, 6:56:03 PM)
+[2015.11.10-04.56.03:776][738]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2015.11.10-04.56.03:907][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.131357s)
+[2015.11.10-04.56.03:908][738]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.10-04.56.03:909][738]LogPlayLevel: PIE: World Init took: (0.001658s)
+[2015.11.10-04.56.03:909][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.133472s)
+[2015.11.10-04.56.04:000][738]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-04.56.04:015][738]LogInit: FAudioDevice initialized.
+[2015.11.10-04.56.04:070][738]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.10-04.56.04:079][738]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.56.04:079][738]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.56.04:080][738]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.56.04:080][738]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.56.04:083][738]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.56.04:083][738]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.56.04:083][738]LogPrimitiveComponent: Zero scaling not supported (/Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Spring_Edge_Blueprint_C_0.StaticMeshComponent0)
+[2015.11.10-04.56.04:083][738]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.11.09-23.56.04
+[2015.11.10-04.56.04:083][738]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-04.56.04:084][738]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-04.56.04:085][738]LogWorld: Bringing up level for play took: 0.013481
+[2015.11.10-04.56.04:093][738]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0.435
+[2015.11.10-04.56.04:093][738]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.56.25:717][329]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.56.25:853][329]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.56.25:972][329]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003D85FB00
+[2015.11.10-04.57.32:367][834]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.57.32:367][834]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.10-04.57.32:367][834]PIE: New page: PIE session: PuzzleExampleMap (Nov 9, 2015, 6:57:32 PM)
+[2015.11.10-04.57.32:368][834]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2015.11.10-04.57.32:483][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.115553s)
+[2015.11.10-04.57.32:485][834]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.10-04.57.32:485][834]LogPlayLevel: PIE: World Init took: (0.001737s)
+[2015.11.10-04.57.32:485][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.117803s)
+[2015.11.10-04.57.32:569][834]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-04.57.32:587][834]LogInit: FAudioDevice initialized.
+[2015.11.10-04.57.32:643][834]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.10-04.57.32:654][834]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.57.32:654][834]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.57.32:655][834]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.57.32:655][834]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.57.32:658][834]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.57.32:658][834]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.57.32:658][834]LogPrimitiveComponent: Zero scaling not supported (/Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Spring_Edge_Blueprint_C_0.StaticMeshComponent0)
+[2015.11.10-04.57.32:659][834]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.11.09-23.57.32
+[2015.11.10-04.57.32:659][834]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-04.57.32:660][834]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-04.57.32:661][834]LogWorld: Bringing up level for play took: 0.016083
+[2015.11.10-04.57.32:670][834]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.14
+[2015.11.10-04.57.32:671][834]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.57.37:842][954]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.57.37:951][954]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.57.38:020][954]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004514A520
+[2015.11.10-04.57.42:916][ 88]BlueprintLog: New page: Compile PuzzleExampleMap
+[2015.11.10-04.57.43:156][ 88]BlueprintEditorCompileResults: Info [2470.53] Compile of PuzzleExampleMap successful! [in 239 ms]
+[2015.11.10-04.57.44:888][116]LogSavePackage: Save=545.535400ms
+[2015.11.10-04.57.44:888][116]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/PuzzleExampleMapA9149ACB464290CB0AF21F9415656400.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.11.10-04.57.44:891][116]LogSavePackage: Total save time: 560.115483ms
+[2015.11.10-04.57.44:891][116]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap
+[2015.11.10-04.57.47:009][169]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.57.47:009][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.10-04.57.47:009][169]PIE: New page: PIE session: PuzzleExampleMap (Nov 9, 2015, 6:57:47 PM)
+[2015.11.10-04.57.47:009][169]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2015.11.10-04.57.47:072][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063221s)
+[2015.11.10-04.57.47:073][169]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.10-04.57.47:073][169]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2015.11.10-04.57.47:073][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.064498s)
+[2015.11.10-04.57.47:130][169]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-04.57.47:139][169]LogInit: FAudioDevice initialized.
+[2015.11.10-04.57.47:173][169]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.10-04.57.47:176][169]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.57.47:176][169]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.57.47:177][169]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.57.47:177][169]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.57.47:178][169]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.57.47:178][169]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-04.57.47:178][169]LogPrimitiveComponent: Zero scaling not supported (/Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Spring_Edge_Blueprint_C_0.StaticMeshComponent0)
+[2015.11.10-04.57.47:178][169]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.11.09-23.57.47
+[2015.11.10-04.57.47:178][169]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-04.57.47:178][169]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-04.57.47:179][169]LogWorld: Bringing up level for play took: 0.005905
+[2015.11.10-04.57.47:183][169]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.652
+[2015.11.10-04.57.47:183][169]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.59.05:213][697]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.59.05:365][697]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-04.59.05:467][697]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000043CF0720
+[2015.11.10-04.59.50:970][691]BlueprintLog: New page: Compile PuzzleExampleMap
+[2015.11.10-04.59.51:390][691]BlueprintEditorCompileResults: Info [2598.76] Compile of PuzzleExampleMap successful! [in 419 ms]
+[2015.11.10-05.00.35:297][581]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-05.00.35:297][581]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.10-05.00.35:315][581]LogPlayLevel: [PlayLevel] Compiling Up_Beam_Trigger_Blueprint before play...
+[2015.11.10-05.00.35:427][581]LogPlayLevel: PlayLevel: Blueprint regeneration took 129 ms (1 blueprints)
+[2015.11.10-05.00.35:494][581]PIE: New page: PIE session: PuzzleExampleMap (Nov 9, 2015, 7:00:35 PM)
+[2015.11.10-05.00.35:495][581]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2015.11.10-05.00.35:593][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.098237s)
+[2015.11.10-05.00.35:594][581]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.10-05.00.35:594][581]LogPlayLevel: PIE: World Init took: (0.001475s)
+[2015.11.10-05.00.35:595][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.100136s)
+[2015.11.10-05.00.35:670][581]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-05.00.35:681][581]LogInit: FAudioDevice initialized.
+[2015.11.10-05.00.35:722][581]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.10-05.00.35:727][581]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.00.35:727][581]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.00.35:728][581]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.00.35:728][581]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.00.35:730][581]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.00.35:730][581]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.00.35:730][581]LogPrimitiveComponent: Zero scaling not supported (/Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Spring_Edge_Blueprint_C_0.StaticMeshComponent0)
+[2015.11.10-05.00.35:730][581]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.11.10-00.00.35
+[2015.11.10-05.00.35:730][581]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-05.00.35:731][581]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-05.00.35:732][581]LogWorld: Bringing up level for play took: 0.009185
+[2015.11.10-05.00.35:737][581]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 1.201
+[2015.11.10-05.00.35:737][581]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-05.00.47:814][961]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-05.00.47:903][961]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-05.00.47:960][961]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000043D244A0
+[2015.11.10-05.01.36:148][868]LogEditorViewport: Clicking on Actor (LMB): Up_Tractor_Beam_Blueprint_C (Up_Tractor_Beam_Blueprint)
+[2015.11.10-05.01.55:254][302]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-05.01.55:254][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.10-05.01.55:255][302]PIE: New page: PIE session: PuzzleExampleMap (Nov 9, 2015, 7:01:55 PM)
+[2015.11.10-05.01.55:255][302]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2015.11.10-05.01.55:403][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.148149s)
+[2015.11.10-05.01.55:405][302]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.10-05.01.55:405][302]LogPlayLevel: PIE: World Init took: (0.002146s)
+[2015.11.10-05.01.55:406][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.150854s)
+[2015.11.10-05.01.55:516][302]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-05.01.55:538][302]LogInit: FAudioDevice initialized.
+[2015.11.10-05.01.55:591][302]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.10-05.01.55:601][302]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.01.55:601][302]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.01.55:603][302]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.01.55:603][302]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.01.55:607][302]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.01.55:607][302]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.01.55:607][302]LogPrimitiveComponent: Zero scaling not supported (/Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Spring_Edge_Blueprint_C_0.StaticMeshComponent0)
+[2015.11.10-05.01.55:607][302]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.11.10-00.01.55
+[2015.11.10-05.01.55:607][302]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-05.01.55:608][302]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-05.01.55:610][302]LogWorld: Bringing up level for play took: 0.016839
+[2015.11.10-05.01.55:619][302]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 1.08
+[2015.11.10-05.01.55:619][302]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-05.02.05:307][573]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-05.02.05:402][573]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-05.02.05:453][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004352E520
+[2015.11.10-05.02.06:676][605]LogEditorViewport: Clicking on Actor (LMB): Time_in_Secs_Blueprint_C (Time_in_Secs_Blueprint)
+[2015.11.10-05.02.07:517][626]Cmd: DELETE
+[2015.11.10-05.02.07:517][626]Cmd: ACTOR DELETE
+[2015.11.10-05.02.07:518][626]LogEditorActor: Deleted Actor: Time_in_Secs_Blueprint_C
+[2015.11.10-05.02.07:586][626]LogEditorActor: Deleted 1 Actors (0.068 secs)
+[2015.11.10-05.02.20:834][837]LogSavePackage: Save=956.201721ms
+[2015.11.10-05.02.20:835][837]LogSavePackage: Moving '../../../../../../Users/arberj/Documents/Project 3/Project3/Saved/PuzzleExampleMap8B98B90E49D66A3DD55D5289F1B894D6.tmp' to '../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.11.10-05.02.20:843][837]LogSavePackage: Total save time: 1000.139788ms
+[2015.11.10-05.02.20:843][837]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/arberj/Documents/Project 3/Project3/Content/PuzzleBP/Maps/PuzzleExampleMap.umap
+[2015.11.10-05.03.20:188][372]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-05.03.20:188][372]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.10-05.03.20:219][372]LogPlayLevel: [PlayLevel] Compiling PuzzleExampleMap before play...
+[2015.11.10-05.03.20:474][372]LogPlayLevel: PlayLevel: Blueprint regeneration took 286 ms (1 blueprints)
+[2015.11.10-05.03.20:570][372]PIE: New page: PIE session: PuzzleExampleMap (Nov 9, 2015, 7:03:20 PM)
+[2015.11.10-05.03.20:570][372]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2015.11.10-05.03.20:675][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.104642s)
+[2015.11.10-05.03.20:676][372]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.10-05.03.20:676][372]LogPlayLevel: PIE: World Init took: (0.001687s)
+[2015.11.10-05.03.20:677][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.106874s)
+[2015.11.10-05.03.20:758][372]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-05.03.20:775][372]LogInit: FAudioDevice initialized.
+[2015.11.10-05.03.20:820][372]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.10-05.03.20:828][372]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.03.20:828][372]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.03.20:829][372]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.03.20:829][372]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.03.20:831][372]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.03.20:831][372]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.03.20:831][372]LogPrimitiveComponent: Zero scaling not supported (/Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Spring_Edge_Blueprint_C_0.StaticMeshComponent0)
+[2015.11.10-05.03.20:831][372]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.11.10-00.03.20
+[2015.11.10-05.03.20:831][372]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-05.03.20:832][372]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-05.03.20:833][372]LogWorld: Bringing up level for play took: 0.011496
+[2015.11.10-05.03.20:839][372]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.298
+[2015.11.10-05.03.20:840][372]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-05.03.29:008][799]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-05.03.29:116][799]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-05.03.29:204][799]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B4991C0
+[2015.11.10-05.03.46:170][299]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PuzzleExampleMap', cached variable property's owner is '/Script/Engine.StaticMeshActor'
+[2015.11.10-05.03.47:850][338]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-05.03.47:850][338]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.10-05.03.47:876][338]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PuzzleExampleMap', cached variable property's owner is '/Script/Engine.StaticMeshActor'
+[2015.11.10-05.03.47:879][338]LogPlayLevel: [PlayLevel] Compiling PuzzleExampleMap before play...
+[2015.11.10-05.03.48:114][338]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PuzzleExampleMap', cached variable property's owner is '/Script/Engine.StaticMeshActor'
+[2015.11.10-05.03.48:119][338]LogPlayLevel: PlayLevel: Blueprint regeneration took 268 ms (1 blueprints)
+[2015.11.10-05.03.48:222][338]PIE: New page: PIE session: PuzzleExampleMap (Nov 9, 2015, 7:03:48 PM)
+[2015.11.10-05.03.48:222][338]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2015.11.10-05.03.48:349][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.126303s)
+[2015.11.10-05.03.48:350][338]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.11.10-05.03.48:351][338]LogPlayLevel: PIE: World Init took: (0.001998s)
+[2015.11.10-05.03.48:351][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.128836s)
+[2015.11.10-05.03.48:431][338]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-05.03.48:446][338]LogInit: FAudioDevice initialized.
+[2015.11.10-05.03.48:490][338]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.11.10-05.03.48:497][338]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.03.48:497][338]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint_C_0.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.03.48:498][338]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.03.48:498][338]PIE:Warning: Warning Invalid Simulate Options: Body (Cylinder_Blueprint2_71.StaticMeshComponent0 Cylinder) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.03.48:500][338]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.03.48:500][338]PIE:Warning: Warning Invalid Simulate Options: Body (Spring_Edge_Blueprint_C_0.StaticMeshComponent0 Cube) is set to simulate physics but Collision Enabled is incompatible
+[2015.11.10-05.03.48:500][338]LogPrimitiveComponent: Zero scaling not supported (/Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.Spring_Edge_Blueprint_C_0.StaticMeshComponent0)
+[2015.11.10-05.03.48:500][338]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.11.10-00.03.48
+[2015.11.10-05.03.48:500][338]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-05.03.48:501][338]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-05.03.48:502][338]LogWorld: Bringing up level for play took: 0.010943
+[2015.11.10-05.03.48:508][338]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0.034
+[2015.11.10-05.03.48:508][338]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2015.11.10-05.03.48:751][338]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PuzzleExampleMap', cached variable property's owner is '/Script/Engine.StaticMeshActor'
+[2015.11.10-05.03.57:964][602]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCylinder_Blueprint'
+	PuzzleExampleMap_C /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap_C_3
+	Function /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C:ExecuteUbergraph_PuzzleExampleMap:0771
+[2015.11.10-05.03.57:984][602]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCylinder_Blueprint' from node Set Physics Linear Velocity in graph 'EventGraph' in blueprint PuzzleExampleMap
+[2015.11.10-05.03.57:985][602]LogScript:Warning: Accessed None
+	PuzzleExampleMap_C /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap_C_3
+	Function /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C:ExecuteUbergraph_PuzzleExampleMap:0786
+[2015.11.10-05.03.57:985][602]PIE:Error: Error Accessed None from node Set Physics Linear Velocity in graph 'EventGraph' in blueprint PuzzleExampleMap
+[2015.11.10-05.04.01:211][723]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCylinder_Blueprint'
+	PuzzleExampleMap_C /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap_C_3
+	Function /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C:ExecuteUbergraph_PuzzleExampleMap:0771
+[2015.11.10-05.04.01:211][723]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCylinder_Blueprint' from node Set Physics Linear Velocity in graph 'EventGraph' in blueprint PuzzleExampleMap
+[2015.11.10-05.04.01:211][723]LogScript:Warning: Accessed None
+	PuzzleExampleMap_C /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap_C_3
+	Function /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C:ExecuteUbergraph_PuzzleExampleMap:0786
+[2015.11.10-05.04.01:212][723]PIE:Error: Error Accessed None from node Set Physics Linear Velocity in graph 'EventGraph' in blueprint PuzzleExampleMap
+[2015.11.10-05.04.12:315][131]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.11.10-05.04.13:640][131]LogCrashTracker: 
+
+
+[2015.11.10-05.04.13:694][131]LogCrashTracker: 
+
+
+[2015.11.10-05.04.13:694][131]LogWindows: === Critical error: ===
+Assertion failed: OldClass->ClassGeneratedBy == BlueprintObj [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Editor\UnrealEd\Private\Kismet2\Kismet2.cpp] [Line: 736] 
+Generated Class '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' has an invalid ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' while the expected is Blueprint '/Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+
+
+
+
+[2015.11.10-05.04.14:277][131]LogExit: Executing StaticShutdownAfterError
+[2015.11.10-05.04.14:290][131]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.10-05.04.14:290][131]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.10-05.04.14:291][131]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.10-05.04.14:291][131]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.10-05.04.14:292][131]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.10-05.04.14:292][131]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.10-05.04.14:292][131]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.10-05.04.14:293][131]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.10-05.04.14:293][131]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.10-05.04.14:293][131]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.10-05.04.14:294][131]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.11.10-05.04.14:294][131]Log file closed, 11/10/15 00:04:14
